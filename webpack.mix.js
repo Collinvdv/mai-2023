@@ -1,4 +1,5 @@
-let mix = require('laravel-mix');
+// webpack.mix.js
+let mix = require("laravel-mix");
 require('mix-tailwindcss');
 
-mix.sass('resources/css/app.scss', 'web/css').tailwind();
+mix.sass('resources/scss/app.scss', 'web/css').tailwind();
