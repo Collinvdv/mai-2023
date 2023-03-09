@@ -1,0 +1,22 @@
+dateModified: 1678354353
+email:
+  fromEmail: info@collinvandervorst.be
+  fromName: Mai
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
+    520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
+    b02c6922-dfa1-4396-abfe-a3692bc842b0: Common # Common
+system:
+  edition: solo
+  live: true
+  name: Mai
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

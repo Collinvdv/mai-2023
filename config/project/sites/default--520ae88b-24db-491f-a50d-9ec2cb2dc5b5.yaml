@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: Mai
+primary: true
+siteGroup: 3be7c2c3-8be2-4ae0-bcf1-e5987edd1214 # Mai
+sortOrder: 1
