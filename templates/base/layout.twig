@@ -9,6 +9,10 @@
         <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
         <link rel="apple-touch-icon" href="/assets/images/favicon.png">
         <link href="/css/app.css" rel="stylesheet">
+
+         {% if craft.app.config.env != "production" %}
+            <meta name="robots" content="noindex nofollow" />
+        {% endif %}
     </head>
 	<body>
 

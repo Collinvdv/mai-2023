@@ -1,0 +1,64 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 92e56108-7d63-4d93-b353-6bfed2351e0d # Main menu
+fieldLayouts:
+  b28ca7d2-0f5d-408b-9523-fc5e7b9d0dde:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: ''
+            type: craft\fieldlayoutelements\Heading
+            uid: 9c39a18b-3349-4063-9681-384fcb4219c5
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a86cd99-8d50-45e8-ae7f-09340885218e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Child links'
+            type: craft\fieldlayoutelements\Heading
+            uid: d20cd6c6-dfc9-4420-83c4-9103e671d4fd
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: b02ac359-d1ee-4107-a6cb-18305753f0ab # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fe86a77-af4f-4a4a-ab31-273c8a11e090
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: cfc6335f-6cc1-4b23-9c1e-0a57f7027938
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: linkBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Link
+sortOrder: 1
+topLevel: true

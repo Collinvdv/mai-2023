@@ -2,5 +2,21 @@
 {# :: Component #}
 {# ========================================================================== #}
 <header>
-    Header
+     {# Menu #}
+    <nav>
+        <ul class="flex">
+            {% for menuItem in header.commonMainMenu.level(1).all() %}
+                <li class="px-4">
+                    {# Normal link #}
+                    <div class="relative">
+                        <a href="{{menuItem.commonLink}}">
+                            {{ menuItem.commonLink.getText()}}
+                        </a>
+
+                        {# Link with parent #}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
 </header>

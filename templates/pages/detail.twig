@@ -1,11 +1,14 @@
 {# ========================================================================== #}
-{# :: Variables #}
+{# Inheritance #}
 {# ========================================================================== #}
-{% set introduction = data.commonDescription ?? "" %}
+{% extends "base/layout" %}
 
 {# ========================================================================== #}
-{# :: Component #}
+{# Content #}
 {# ========================================================================== #}
-<div class="text-medium-blue">
-    {{ introduction|nl2br }}
-</div>
+{% block content %}
+     {% cache globally using key "detail-#{entry.slug}" if not craft.app.config.general.devMode  %}
+        {# Dynamic blocks #}
+        {% include "/sections/_index.twig" %}
+    {% endcache %}
+{% endblock %}
