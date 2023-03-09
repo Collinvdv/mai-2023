@@ -1,0 +1,30 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set blogs = data.commonBlogs.all() %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+        {# Column 1 #}
+        <h2 class="row-span-1 col-span-1 pb-8">
+            {{ title }}
+        </h2>
+
+        <div class="grid gap-8 md:gap-12 md:grid-cols-2">
+            {% for blog in blogs %}
+                <div>
+                    {% include "/components/article-block.twig" with {
+                        link: blog.getUrl(),
+                        title: blog.commonTitle,
+                        description: blog.commonDescription,
+                        image: blog.commonImage.one().getUrl({ width: "720px", quality: 80 }),
+                        ctaText: "Read more"|t,
+                        icon: "glasses-alt"
+                    } %}
+                </div>
+            {% endfor %}
+        </div>
+</div>

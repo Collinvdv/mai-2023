@@ -1,0 +1,36 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set employees = data.commonEmployees ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto relative px-4">
+    {# Content #}
+    <div class="grid gap-y-12 lg:grid-cols-4 lg:gap-12">
+        <div class="flex items-center relative">
+            <h2>{{ title }}</h2>
+            {# Circle decorator #}
+            <div class="hidden md:block min-w-big-circle min-h-big-circle rounded-full border-2 border-medium-blue absolute bottom-0 right-0 translate-x-48 translate-y-24 -z-10">
+            </div>
+        </div>
+
+        <div class="col-span-3 gap-y-12 grid md:grid-cols-{{employees|length}} md:gap-12">
+            {% for employee in employees.all() %}
+                {% include "/components/article-thumbnail" with {
+                    title: employee.commonTitle,
+                    description: employee.commonSubtitle,
+                    image: employee.commonImage.one().getUrl({ width: "720px", quality: 80 }),
+                    video: employee.commonVideo,
+                    position: employee.commonVerticalPosition
+                } %}
+            {% endfor %}
+        </div>
+    </div>
+
+    {# Circle decorator #}
+    <div class="hidden md:block min-w-small-circle min-h-small-circle rounded-full border-2 border-orange absolute bottom-0 right-0 translate-x-48 translate-y-24 -z-10">
+    </div>
+</div>

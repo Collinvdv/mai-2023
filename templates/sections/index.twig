@@ -1,0 +1,14 @@
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+{# <div class="mb-40 mt-24">
+    {% include "/sections/header-article.twig" %}
+</div> #}
+
+{% for block in entry.commonBody.level(1).all() %}
+    <div class="mb-24 md:mb-32">
+        {% include "/sections/" ~ block.type.handle ~".twig" with { 
+            data : block
+        } %}
+    </div>
+{% endfor %}

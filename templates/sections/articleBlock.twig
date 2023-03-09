@@ -1,0 +1,80 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set introduction = data.commonIntroduction ?? "" %}
+{% set children = data.children() ?? "" %}
+
+{# In this insights #}
+{% set showSmallNavigation = false %}
+{% for child in children.all() %}
+    {% if child.type.handle == "textBlock" and child.isAnchor %}
+        {% set showSmallNavigation = true %}
+    {% endif %}
+{% endfor %}
+
+{% set smallNavigation %}
+    <div class="mb-16 md:mb-24">
+        <p class="uppercase font-normal text-lg mb-4 md:mb-10">
+            {{ 'In this insight'|t }}
+        </p>
+
+        <ul>
+            {% for child in children.all() %}
+                {% if child.type.handle == "textBlock" and child.isAnchor %}
+                    <li class="mb-4">
+                        <a class="flex" href="#{{child.commonTitle|lower|replace(" ","-")}}">
+                            <div class="w-4 bg-light-blue mt-4 mr-4" style="height: 3px">
+                            </div>
+
+                            <h4>
+                                {{ child.commonTitle }}
+                            </h4>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endset %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-8">
+    <div class="md:grid md:gap-x-40 md:grid-cols-6">
+        {# Content #}
+        <article class="col-span-4 pt-8">
+
+            {% if showSmallNavigation %}
+                <div class="md:hidden">
+                    {{ smallNavigation }}
+                </div>
+            {% endif %}
+            <p class="text-medium-blue text-xl">
+                {{ introduction }}
+            </p>
+
+            {% for child in children.all() %}
+                <div class="mt-8 md:mt-16">
+                     {% include "/sections/article/" ~ child.type.handle ~".twig" with { data : child } %}
+                </div>
+            {% endfor %}
+        </article>
+
+        {# Right column #}
+        <div class="mt-24 md:col-span-2 md:mt-0">
+            <div class="sticky top-0 pt-8">
+                <div class="md:overflow-y-scroll md:h-screen md:px-8 md:pb-8">
+                    {% if showSmallNavigation %}
+                        <div class="hidden md:block">
+                            {{ smallNavigation }}
+                        </div>
+                    {% endif %}
+
+                    {# Other insights #}
+                    {% include "/sections/article/otherInsights.twig" with { entry : entry } %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

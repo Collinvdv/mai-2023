@@ -1,11 +1,14 @@
 {# ========================================================================== #}
-{# Inheritance #}
+{# :: Variables #}
 {# ========================================================================== #}
-{% extends "base/layout" %}
+{% set title = data.commonTitle ?? "" %}
+{% set author = data.commonAuthor ?? "" %}
 
 {# ========================================================================== #}
-{# Content #}
+{# :: Component #}
 {# ========================================================================== #}
-{% block content %}
-    index
-{% endblock %}
+{% include "/components/blockquote.twig" with {
+        title : title,
+        author: author
+    }
+%}

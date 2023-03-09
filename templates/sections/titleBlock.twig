@@ -1,11 +1,14 @@
 {# ========================================================================== #}
-{# Inheritance #}
+{# :: Variables #}
 {# ========================================================================== #}
-{% extends "base/layout" %}
+{% set title = data.commonTitle ?? "" %}
+{% set textDirection = data.commonTextDirection ?? "" %}
 
 {# ========================================================================== #}
-{# Content #}
+{# :: Component #}
 {# ========================================================================== #}
-{% block content %}
-    index
-{% endblock %}
+<div class="container mx-auto px-4">
+    <h2 class="text-{{textDirection}} -mb-8">
+        {{ title }}
+    </h2>
+</div>

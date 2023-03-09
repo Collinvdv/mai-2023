@@ -1,0 +1,20 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set image = data.commonImage.one().getUrl({ width: "1200px", quality: 80 }) ?? "" %}
+{% set hasApplyButton = data.careerHasApplyButton ?? "" %}
+{% set video = data.commonVideo ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+    {% include "/components/split-header.twig" with {
+            title: title,
+            image: image,
+            hasApplyButton: hasApplyButton,
+            video: video
+        }
+    %}
+</div>

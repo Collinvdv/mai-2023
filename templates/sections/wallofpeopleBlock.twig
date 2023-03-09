@@ -1,0 +1,72 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set employees = data.commonEmployees ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto relative px-4">
+    {# Content #}
+    <div class="grid md:grid-cols-3">
+        <div class="pb-24 md:pb-32">
+            <h2 class="text-3xl leading-tight md:text-5xl">{{ title }}</h2>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-10">
+        {% for employee in employees.all() %}
+            {% switch loop.index % 4 %}
+                {% case 1 %}
+                    {% set customClass = "c-wall-of-people__column1" %}
+                {% case 2 %}
+                    {% set customClass = "c-wall-of-people__column2" %}
+                {% case 3 %}
+                    {% set customClass = "c-wall-of-people__column3" %}
+                {% case 0 %}
+                    {% set customClass = "c-wall-of-people__column4" %}
+            {% endswitch %}
+
+            <div>
+                <div class="{{customClass}}">
+                    {% include "/components/employee.twig" with {
+                        title: employee.commonTitle ,
+                        subtitle: employee.commonSubtitle,
+                        image: employee.commonImage,
+                        video: employee.commonVideo,
+                        linkedInUrl: employee.commonLinkedInUrl
+                    } %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .c-wall-of-people__column2 { 
+        transform: translateY(-50px);
+    }
+
+    .c-wall-of-people__column4 {
+        transform: translateY(-50px);
+    }
+
+    @media(min-width: 768px) {
+        .c-wall-of-people__column1 {
+            transform: translateY(0);
+        }
+
+        .c-wall-of-people__column2 {
+            transform: translateY(-75px);
+        }
+
+        .c-wall-of-people__column3 {
+            transform: translateY(-150px);
+        }
+
+        .c-wall-of-people__column4 {
+            transform: translateY(-110px);
+        }
+    }
+</style>

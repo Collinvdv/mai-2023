@@ -1,11 +1,18 @@
 {# ========================================================================== #}
-{# Inheritance #}
+{# :: Variables #}
 {# ========================================================================== #}
-{% extends "base/layout" %}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %}
 
 {# ========================================================================== #}
-{# Content #}
+{# :: Component #}
 {# ========================================================================== #}
-{% block content %}
-    index
-{% endblock %}
+<div id="{{title|lower|replace(" ","-")}}">
+    <h2 class="mb-7">
+        {{ title }}
+    </h2>
+
+    <div class="s-wysiwyg">
+        {{ description|nl2br }}
+    </div>
+</div>

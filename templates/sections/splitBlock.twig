@@ -1,0 +1,76 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set image = data.commonImage.one() ?? "" %}
+{% set imageFirst = data.splitImageFirst ?? "" %}
+{% set children = data.children() ?? "" %}
+
+{% set content %}
+    <div class="pt-8 md:py-16">
+        {% if title %}
+            <h2 class="mb-6">
+                {{ title }}
+            </h2>
+        {% endif %}
+
+        {% for child in children.all() %}
+            <div class="{% if loop.last == false %}mb-10{% endif %}">
+                {% if child.type == "textBlock" %}
+                    {% if child.commonTitle %}
+                        <h3 class="mb-2 text-medium-blue text-xl">
+                            {{ child.commonTitle }}
+                        </h3>
+                    {% endif %}
+
+                    {{ child.commonDescription | nl2br }}
+                {% endif %}
+
+                {% if child.type == "quoteBlock" %}
+                    {% include "/sections/article/quoteBlock.twig" with { data : child } %}
+                {% endif %}
+
+                {% if child.type == "introductionBlock" %}
+                    {% include "/sections/article/introductionBlock.twig" with { data : child } %}
+                {% endif %}
+
+            </div>
+        {% endfor %}
+    </div>
+{% endset %}
+
+{% set image %}
+    {% if image %}
+        <div class="w-full h-full bg-cover bg-no-repeat bg-center rounded-x-lg min-h-96" style="background-image: url('{{image.getUrl({ width: "1200px", quality: 80 })}}')">
+        </div>
+    {% endif %}
+{% endset %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+    <div class="grid lg:grid-cols-12">
+        {# Content #}
+        <div class="lg:col-span-7">
+            {% if imageFirst %}
+                {{ image }}
+            {% else %}
+                {{ content }}
+            {% endif %}
+        </div>
+
+        {# Divider #}
+        <div class="lg:col-span-1">
+        </div>
+
+        {# Image #}
+        <div class="{% if imageFirst == false %}order-first{%endif%} lg:order-last lg:col-span-4">
+            {% if imageFirst %}
+                {{ content }}
+            {% else %}
+                {{ image }}
+            {% endif %}
+        </div>
+    </div>
+</div>
