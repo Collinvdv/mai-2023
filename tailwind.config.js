@@ -19,4 +19,14 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  purge: {
+    options: {
+      safelist: [
+        "border-t-sub1",
+        "border-t-sub2",
+        "border-t-sub3",
+        "border-t-sub4",
+      ],
+    }
+  }
 }

@@ -1,0 +1,25 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set cards = data.commonCards ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+    <div class="grid gap-8 grid-cols-4">
+        <h2 class="">
+            {{ title|nl2br }}
+        </h2>
+
+        {% for card in cards.all() %}
+            <div>
+                {% include "/components/card.twig" with { 
+                    card : card
+                } %}
+            </div>
+        {% endfor %}
+    </div>
+
+</div>

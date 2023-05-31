@@ -1,0 +1,45 @@
+columnSuffix: cvohfsbi
+contentColumnType: string
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonColor
+instructions: null
+name: Color
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - horeca
+        -
+          - value
+          - sub1
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'logistiek & onderhoud'
+        -
+          - value
+          - sub4
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - organisatie
+        -
+          - value
+          - sub3
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

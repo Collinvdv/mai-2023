@@ -1,0 +1,39 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set card = card ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="border-2 border-grey border-t-4 border-t-{{ card.commonColor }} p-8">
+
+    {% if card.commonIcon.one() %}
+        <img src="{{ card.commonIcon.url }}" alt="{{ card.commonIcon.alt }}">
+    {% endif %}
+
+    {% if card.commonTitle %}
+        <h3 class="mb-2">
+            {{ card.commonTitle }}
+        </h3>
+    {% endif %}
+
+    {% if card.commonDescription %}
+        <div>
+            {{ card.commonDescription  }}
+        </div>
+    {% endif %}
+
+    {% if card.commonLinks|length > 0 %}
+        <ul>
+            {% for link in card.commonLinks.all() %}
+                <li>
+                    {% include "/components/link.twig" with { 
+                        href : link.page,
+                        text : link.page.getText()
+                    } %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>

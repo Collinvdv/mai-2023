@@ -1,24 +1,39 @@
-dateModified: 1678376511
+dateModified: 1685552328
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  icons:
+    hasUrls: true
+    name: Icons
+    settings:
+      path: /assets/icons
+    type: craft\fs\Local
+    url: /assets/icons
 meta:
   __names__:
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
+    2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
+    86dda1ef-f360-49f3-b7da-0333fab4a018: Cards # Cards
+    91da989b-aca3-4a36-a126-0f3223887bd4: Icon # Icon
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
+    356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
+    649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     5839e3e9-0286-4d81-9c50-3bd803c6ca62: Quote # Quote
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
+    77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
+    adc583d2-65c2-4163-99ea-8cb6887d5fb5: Color # Color
     b02ac359-d1ee-4107-a6cb-18305753f0ab: Links # Links
     b02c6922-dfa1-4396-abfe-a3692bc842b0: Common # Common
     de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
@@ -35,6 +50,7 @@ plugins:
   seomatic:
     edition: standard
     enabled: true
+    licenseKey: BRQMNXAZARKFKTHY80NYUSCY
     schemaVersion: 3.0.11
   typedlinkfield:
     edition: standard
