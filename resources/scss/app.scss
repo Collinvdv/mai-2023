@@ -1,3 +1,69 @@
 @tailwind base;
+
+@layer base {
+    html, body {
+        color: #272839;
+        font-family: 'Schibsted Grotesk', sans-serif;
+    }
+
+    h1 {
+        @apply font-semibold;
+        font-size: 28px;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    h2 {
+        @apply font-semibold;
+        font-size: 24px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+    }
+
+    h3 {
+        @apply font-semibold;
+
+        font-size: 20px;
+    }
+
+    h4 {
+        @apply font-semibold;
+
+        font-size: 19px;
+    }
+    
+    h5 {
+        @apply font-semibold;
+
+        font-size: 18px;
+    }
+
+    h6 {
+        @apply font-semibold;
+
+        font-size: 17px;
+    }
+
+    p {
+        @apply font-medium;
+
+        font-size: 16px;
+    }
+
+    small {
+        @apply font-medium;
+
+        font-size: 14px;
+    }
+
+    strong {
+        @apply font-bold;
+    }
+}
+
 @tailwind components;
 @tailwind utilities;
