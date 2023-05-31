@@ -1,4 +1,4 @@
-dateModified: 1685552328
+dateModified: 1685560866
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -8,9 +8,9 @@ fs:
     hasUrls: true
     name: Icons
     settings:
-      path: /assets/icons
+      path: $BASE_PATH
     type: craft\fs\Local
-    url: /assets/icons
+    url: $BASE_URL_PATH
 meta:
   __names__:
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default

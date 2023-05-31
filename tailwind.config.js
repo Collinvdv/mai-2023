@@ -16,7 +16,11 @@ module.exports = {
       "sub3" : "#CEC4F7",
       "sub4" : "#9D47A3",
     },
-    extend: {},
+    extend: {
+      borderWidth: {
+        '1': '1px',
+      },
+    },
   },
   plugins: [],
   purge: {
@@ -26,6 +30,14 @@ module.exports = {
         "border-t-sub2",
         "border-t-sub3",
         "border-t-sub4",
+        "border-b-sub1",
+        "border-b-sub2",
+        "border-b-sub3",
+        "border-b-sub4",
+        "fill-sub1",
+        "fill-sub2",
+        "fill-sub3",
+        "fill-sub4",
       ],
     }
   }

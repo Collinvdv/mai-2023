@@ -3,10 +3,16 @@
 {# ========================================================================== #}
 {% set href = link.page ?? "" %}
 {% set text = link.page.getText() ?? "" %}
+{% set color = color ?? "" %}
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a href="{{ href }}" class="underline">
-    {{ text }}
+<a href="{{ href }}" class="flex items-center">
+    <span class="mr-2 border-b-1 border-b-{{color}}">
+        {{ text }}
+    </span>
+    {% include "/components/icons/arrow-right.twig" with { 
+        color : "fill-" ~ color
+    } %}
 </a>

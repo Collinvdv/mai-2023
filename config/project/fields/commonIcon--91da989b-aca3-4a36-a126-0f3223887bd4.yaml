@@ -15,7 +15,7 @@ settings:
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: null
+  maxRelations: 1
   minRelations: null
   previewMode: full
   restrictFiles: false
@@ -35,7 +35,7 @@ settings:
         - class
         - craft\elements\conditions\assets\AssetCondition
   selectionLabel: null
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources: '*'
