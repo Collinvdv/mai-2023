@@ -1,3 +1,4 @@
+
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
@@ -6,7 +7,8 @@
 </div> #}
 
 {% for block in entry.commonBody.level(1).all() %}
-    <div class="mb-24 md:mb-32">
+    {% set backgroundGray = block.commonBackgroundGray ?? false %}
+    <div class="py-16 {% if backgroundGray%} bg-grey {% endif %}">
         {% include "/sections/" ~ block.type.handle ~".twig" with { 
             data : block
         } %}
