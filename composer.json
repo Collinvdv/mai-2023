@@ -5,6 +5,7 @@
     "nystudio107/craft-seomatic": "4.0.20",
     "sebastianlenz/linkfield": "2.1.5",
     "spicyweb/craft-neo": "3.7.0",
+    "verbb/field-manager": "3.0.6",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

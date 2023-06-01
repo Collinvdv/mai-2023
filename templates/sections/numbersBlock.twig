@@ -1,0 +1,50 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %} 
+{% set link = data.commonLink ?? "" %}
+{% set numbers = data.commonNumbers ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+    <div class="flex gap-16">
+        <h2 class="w-2/12">
+            {{ title|nl2br }}
+        </h2>
+
+        <div class="w-8/12">
+            {{ description }}
+            <div class="mt-8">
+                {% include "/components/link.twig" with { 
+                    href : link,
+                    text : link.getText(),
+                    color : "sub3",
+                } %}
+            </div>
+        </div>
+    </div>
+
+    {# Numbers #}
+    <div class="grid gap-8 lg:grid-cols-4 mt-20">
+        {% for number in numbers.all() %}
+            <div class="flex items-center">
+                {% if number.commonIcon.one() %}
+                    <img class="w-20 h-20 mr-4" src="{{ number.commonIcon.one().url }}" alt="{{ number.commonIcon.one().alt }}">
+                {% endif %}
+
+                <div class="flex flex-col ">
+                    <strong class="text-2xl">
+                        {{ number.commonTitle}}
+                    </strong>
+                    <span class="text-xl">
+                        {{ number.commonSubtitle}}
+                    </span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>

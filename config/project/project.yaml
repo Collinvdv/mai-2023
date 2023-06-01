@@ -1,4 +1,4 @@
-dateModified: 1685560866
+dateModified: 1685563207
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -21,6 +21,7 @@ meta:
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
+    85defccc-d047-4c0f-b17d-5a1c382cde52: Title # Title
     86dda1ef-f360-49f3-b7da-0333fab4a018: Cards # Cards
     91da989b-aca3-4a36-a126-0f3223887bd4: Icon # Icon
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
@@ -32,12 +33,22 @@ meta:
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     5839e3e9-0286-4d81-9c50-3bd803c6ca62: Quote # Quote
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
+    38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
+    aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
+    abcc9070-6cf5-479e-a757-26af8478cb2e: Numbers # Numbers
     adc583d2-65c2-4163-99ea-8cb6887d5fb5: Color # Color
     b02ac359-d1ee-4107-a6cb-18305753f0ab: Links # Links
     b02c6922-dfa1-4396-abfe-a3692bc842b0: Common # Common
     de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
+    e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
+    ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
+    f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
 plugins:
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   neo:
     edition: standard
     enabled: true

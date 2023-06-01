@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonNumbers
+instructions: null
+name: Numbers
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_commonnumbers}}'
+  maxBlocks: 0
+  minBlocks: 0
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
