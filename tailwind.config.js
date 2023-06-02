@@ -11,14 +11,20 @@ module.exports = {
       "black" : "#272839",
       "grey" : "#E9F3FD",
       "white" : "#FFFFFF",
-      "sub1" : "#FFA592",
-      "sub2" : "#171DA1",
-      "sub3" : "#CEC4F7",
-      "sub4" : "#9D47A3",
+      "rose" : "#FFA592", // rose
+      "blue" : "#171DA1", // blue
+      "lavendel" : "#CEC4F7", // lavendel
+      "violet" : "#9D47A3", // violet
     },
     extend: {
       borderWidth: {
         '1': '1px',
+      },
+      borderRadius: {
+        '15rem': '15rem',
+        '10rem': '10rem',
+        '5rem': '5rem',
+        '50%': '50%',
       },
     },
   },
@@ -26,18 +32,24 @@ module.exports = {
   purge: {
     options: {
       safelist: [
-        "border-t-sub1",
-        "border-t-sub2",
-        "border-t-sub3",
-        "border-t-sub4",
-        "border-b-sub1",
-        "border-b-sub2",
-        "border-b-sub3",
-        "border-b-sub4",
-        "fill-sub1",
-        "fill-sub2",
-        "fill-sub3",
-        "fill-sub4",
+        "border-t-rose",
+        "border-t-blue",
+        "border-t-lavendel",
+        "border-t-violet",
+        "border-b-rose",
+        "border-b-blue",
+        "border-b-lavendel",
+        "border-b-violet",
+        "fill-rose",
+        "fill-blue",
+        "fill-lavendel",
+        "fill-violet",
+        "fill-white",
+        "fill-black",
+        "bg-rose",
+        "bg-blue",
+        "bg-lavendel",
+        "bg-violet",
       ],
     }
   }

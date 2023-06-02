@@ -11,10 +11,10 @@ settings:
       __assoc__:
         -
           - label
-          - horeca
+          - rose
         -
           - value
-          - sub1
+          - rose
         -
           - default
           - ''
@@ -22,10 +22,10 @@ settings:
       __assoc__:
         -
           - label
-          - 'logistiek & onderhoud'
+          - violet
         -
           - value
-          - sub4
+          - violet
         -
           - default
           - ''
@@ -33,10 +33,21 @@ settings:
       __assoc__:
         -
           - label
-          - organisatie
+          - lavendel
         -
           - value
-          - sub3
+          - lavendel
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - blue
+        -
+          - value
+          - blue
         -
           - default
           - ''

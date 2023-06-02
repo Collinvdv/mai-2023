@@ -1,0 +1,40 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set card = card ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="bg-{{ card.commonColor }} {% if card.commonColor == 'blue' or card.commonColor == 'violet' %}text-white {%endif%} p-12">
+
+    {% if card.commonIcon.one() %}
+        <img class="w-12 h-12 mb-4" src="{{ card.commonIcon.one().url }}" alt="{{ card.commonIcon.one().alt }}">
+    {% endif %}
+
+    {% if card.commonTitle %}
+        <h3 class="mb-4">
+            {{ card.commonTitle }}
+        </h3>
+    {% endif %}
+
+    {% if card.commonDescription %}
+        <div class="mb-4">
+            {{ card.commonDescription  }}
+        </div>
+    {% endif %}
+
+    {% if card.commonLinks|length > 0 %}
+        <ul class="grid gap-4">
+            {% for link in card.commonLinks.all() %}
+                <li>
+                    {% include "/components/link.twig" with { 
+                        href : link.page,
+                        text : link.page.getText(),
+                        color : card.commonColor == 'blue' or card.commonColor == 'violet' ? 'white' : 'black',
+                    } %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
