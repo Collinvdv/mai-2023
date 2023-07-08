@@ -10,7 +10,7 @@
 {# ========================================================================== #}
 <a href="{{ href }}" class="flex items-center">
     <span class="mr-2 border-b-1 border-b-{{color}}">
-        {{ text }}
+        {{ text | raw }}
     </span>
     {% include "/components/icons/arrow-right.twig" with { 
         color : "fill-" ~ color

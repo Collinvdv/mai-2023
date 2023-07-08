@@ -1,0 +1,61 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %} 
+{% set links = data.commonLinks ?? "" %} 
+
+{% set evenementen = craft.entries.section('evenementen').all() %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="bg-primary py-12">
+    <div class="container mx-auto px-4 flex gap-60 ">
+        <div class=" w-full lg:w-6/12">
+            <h2 class="mb-6">
+                {{ title|nl2br }}
+            </h2>
+
+            <div class="mb-6">
+                {{ description|nl2br }}
+            </div>
+
+            {% if links|length > 0 %}
+                <ul class="flex gap-12">
+                    {% for link in links.all() %}
+                        <li>
+                            {% include "/components/link.twig" with { 
+                                href : link.page,
+                                text : link.page.getText(),
+                                color: "black"
+                            } %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+
+        <div class=" w-full lg:w-6/12">
+            <div class="bg-white p-8">
+                {% include "/components/icons/calendar.twig" %}
+                
+                <h3 class="mb-6 mt-4">
+                    Komende evenementen
+                </h3>
+
+                <ul class="grid gap-3">
+                    {% for evenement in evenementen %}
+                        <li>
+                            {% include "/components/link.twig" with { 
+                                href : evenement.getUrl(),
+                                text : "<strong>" ~ evenement.commonDate | date("d-m-Y")  ~ "</strong> " ~ evenement.commonTitle,
+                                color: "black"
+                            } %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

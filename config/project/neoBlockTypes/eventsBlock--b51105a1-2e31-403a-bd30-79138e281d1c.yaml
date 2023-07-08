@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  8ec1edb2-c496-40b2-bd08-1712088e9890:
+  5ea408ec-f0c5-4945-81e5-81da52d74bd8:
     tabs:
       -
         elementCondition: null
@@ -17,46 +17,52 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 316d6eca-156f-4e02-b165-7070b7a2a05b
+            uid: fe304dc1-513f-4431-9497-a1cc66773076
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 356fedab-a40b-492a-aeb5-a14c954d468a # Cards
+            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1b9718b5-7ac9-4595-8f0e-4bec18a2e2d3
+            uid: 9a77f6fc-1a28-4649-b64f-68e8355e7657
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b02ac359-d1ee-4107-a6cb-18305753f0ab # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ecd8874d-ff9b-409a-94e8-460abf366563
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7c8c2534-a381-4af5-918e-321a356324fa # Articles
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 46b17fe9-4668-4368-8d36-75300010b000
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 4c2e9207-ffcd-480c-9dba-9c4efa855d45
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7eb611e5-aca5-489b-a86b-f065a7f41488
-            userCondition: null
-            warning: null
-            width: 100
-        name: Settings
-        uid: 714e96a6-9fba-4c90-8397-5dd0e0bfbf69
+        uid: dd04dccc-75d1-4a21-84a0-990e892a1977
         userCondition: null
 group: null
 groupChildBlockTypes: true
-handle: cardsBlock
+handle: eventsBlock
 icon: null
 ignorePermissions: true
 maxBlocks: 0
@@ -65,6 +71,6 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: Cards
-sortOrder: 2
+name: Events
+sortOrder: 7
 topLevel: true

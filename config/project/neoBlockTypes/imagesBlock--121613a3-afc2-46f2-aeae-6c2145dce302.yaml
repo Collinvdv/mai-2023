@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: ''
+description: null
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  36f9d149-e4c1-4612-bcf4-ab85c112deed:
+  015b8f54-f512-44ce-8e8a-4c44f474a807:
     tabs:
       -
         elementCondition: null
