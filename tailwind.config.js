@@ -26,6 +26,9 @@ module.exports = {
         '5rem': '5rem',
         '50%': '50%',
       },
+      height: {
+        160: '30rem',
+      }
     },
   },
   plugins: [],

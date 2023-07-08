@@ -1,4 +1,4 @@
-dateModified: 1685625199
+dateModified: 1686296516
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -26,6 +26,7 @@ meta:
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
+    8c903cee-b722-4e34-b825-4c974efd8306: Quotes # Quotes
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
@@ -39,7 +40,7 @@ meta:
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
-    5839e3e9-0286-4d81-9c50-3bd803c6ca62: Quote # Quote
+    3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     121613a3-afc2-46f2-aeae-6c2145dce302: Images # Images
     38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
@@ -53,7 +54,9 @@ meta:
     bbdd6a96-72b4-4202-9064-22f8072dd476: Images # Images
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
     de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
+    e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
+    ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
 plugins:

@@ -51,6 +51,28 @@ settings:
         -
           - default
           - ''
+    -
+      __assoc__:
+        -
+          - label
+          - green
+        -
+          - value
+          - primary
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - black
+        -
+          - value
+          - black
+        -
+          - default
+          - '1'
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Dropdown

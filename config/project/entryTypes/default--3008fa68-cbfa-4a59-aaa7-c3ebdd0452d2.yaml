@@ -1,14 +1,35 @@
-childBlocks: null
-conditions: null
-description: ''
-enabled: true
-field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  5498ccdb-88eb-4079-a578-6903925934ac:
+  2afbe5db-877f-4257-ab79-83ed2d5b718d:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ecc0e066-d1b8-482d-9b3c-da66502d0989
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
@@ -17,7 +38,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 316d6eca-156f-4e02-b165-7070b7a2a05b
+            uid: e057dd88-fdda-4f95-a748-535c8f1572ef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f9c35266-6925-4ac5-b80c-3adc5631e970 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87b66443-8bb0-494f-805f-ec92a58aedbd
             userCondition: null
             warning: null
             width: 100
@@ -29,66 +62,30 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6e8d9208-f4c1-4c11-adad-c24d7e857784
+            uid: 5ac5e3c3-df5a-4cd1-ad91-a8f199a8cc32
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            fieldUid: 3fed10c6-640f-4012-aff1-a5a914e2e3ad # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c94d0be6-eae5-49f5-92f7-462c8b44625c
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: ed21da8b-8c14-467f-a3b1-acc785ca6cde # Numbers
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3124ba81-5871-4c63-a541-7b9991c3def4
+            uid: 3f90bbcd-0dd8-4620-83e7-461090e9ff5c
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: cadc3bc7-0379-413a-8816-c32f7d22aaea
+        uid: 019d1715-8631-4856-a8cd-6e86fd1c34ba
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 43905c72-789c-491c-a78b-a9d75d92f686
-            userCondition: null
-            warning: null
-            width: 100
-        name: Settings
-        uid: cae04a73-3aba-426c-88f3-aad30ab5c21c
-        userCondition: null
-group: null
-groupChildBlockTypes: true
-handle: numbersBlock
-icon: null
-ignorePermissions: true
-maxBlocks: 0
-maxChildBlocks: 0
-maxSiblingBlocks: 0
-minBlocks: 0
-minChildBlocks: 0
-minSiblingBlocks: 0
-name: Numbers
-sortOrder: 4
-topLevel: true
+handle: default
+hasTitleField: false
+name: Default
+section: e0199469-522e-4e9c-8fd4-33a017c3b94a # Quotes
+sortOrder: 1
+titleFormat: '{commonTitle}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

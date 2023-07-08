@@ -4,41 +4,59 @@ description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  56c5c841-b941-4d52-8b9e-74225aeed385:
+  0acb8baa-4bce-4608-a001-fe4ffe97b1e3:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            fieldUid: ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8 # Quotes
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 31769b53-a5e5-4609-9588-3d763da83c5d
+            uid: 38d57bfe-033a-49f7-8469-b7a8070e43d6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eadae114-7f3f-4734-b1b3-20d8b02d7a4a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7eb611e5-aca5-489b-a86b-f065a7f41488
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
+            fieldUid: adc583d2-65c2-4163-99ea-8cb6887d5fb5 # Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d22f788e-06c8-4cb4-8f79-f2ee0612506a
+            uid: 0717a778-9377-4446-83f7-95b8e4736436
             userCondition: null
             warning: null
             width: 100
-        name: General
-        uid: 3b6c58c9-469c-46d3-8351-956d34065ee7
+        name: Settings
+        uid: a3cc629c-39cd-4696-8aae-816a57248c4b
         userCondition: null
 group: null
 groupChildBlockTypes: true
-handle: quoteBlock
+handle: quotesBlock
 icon: null
 ignorePermissions: true
 maxBlocks: 0
@@ -47,6 +65,6 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: Quote
-sortOrder: 2
+name: Quotes
+sortOrder: 6
 topLevel: true
