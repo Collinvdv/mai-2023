@@ -1,0 +1,34 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set article = article ?? "" %}
+{% set color = color ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<a href="{{ article.getUrl() }}">
+    {# Image #}
+    {% if article.commonThumbmnailImage.one() %}
+        <div class="bg-cover w-full h-60 rounded-tr-10rem" style="background-image: url('{{ article.commonThumbmnailImage.one().url }}')">
+        </div>
+    {% endif %}
+    {# Content #}
+    <div class="p-8 border-1 border-grey border-t-4 border-t-{{color}}">
+        <h4 class="mb-4">
+            {{ article.commonTitle }} - {{ color }}
+        </h4>
+
+        <div>
+            {{ article.commonIntroduction }}
+        </div>
+
+        <div class="mt-4">
+            {% include "/components/link.twig" with { 
+                href : article.getUrl(),
+                text : "Lees meer",
+                color: color
+            } %}
+        </div>
+    </div>
+</a>

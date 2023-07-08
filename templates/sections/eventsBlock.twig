@@ -5,12 +5,15 @@
 {% set description = data.commonDescription ?? "" %} 
 {% set links = data.commonLinks ?? "" %} 
 
+{% set articles = data.commonArticles ?? "" %} 
 {% set evenementen = craft.entries.section('evenementen').all() %}
+
+{% import "/macros/color" as colorMacro %}
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="bg-primary py-12">
+<div class="bg-primary py-12 pb-60">
     <div class="container mx-auto px-4 flex gap-60 ">
         <div class=" w-full lg:w-6/12">
             <h2 class="mb-6">
@@ -39,7 +42,7 @@
         <div class=" w-full lg:w-6/12">
             <div class="bg-white p-8">
                 {% include "/components/icons/calendar.twig" %}
-                
+
                 <h3 class="mb-6 mt-4">
                     Komende evenementen
                 </h3>
@@ -57,5 +60,21 @@
                 </ul>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="-mt-40">
+    <div class="container mx-auto px-4 flex gap-60 ">
+        <ul class="flex gap-12">
+            {% for article in articles %}
+                <li class=" w-full lg:w-4/12">
+                    {% include "/components/article.twig" with { 
+                            article : article,
+                            color: colorMacro.color(loop.index)
+                        }
+                    %}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
