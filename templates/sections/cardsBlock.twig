@@ -4,13 +4,15 @@
 {% set title = data.commonTitle ?? "" %}
 {% set cards = data.commonCards ?? "" %}
 
+{% import "/macros/title" as titleMacro %}
+
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
 <div class="container mx-auto px-4">
     <div class="grid gap-8 lg:grid-cols-4">
         <h2 class="">
-            {{ title|nl2br }}
+            {{ titleMacro.decorative(title) }}
         </h2>
 
         {% for card in cards.all() %}

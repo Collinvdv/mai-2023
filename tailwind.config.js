@@ -53,6 +53,10 @@ module.exports = {
         "bg-blue",
         "bg-lavendel",
         "bg-violet",
+        "pl-4",
+        "pl-8",
+        "pl-12",
+        "pl-16",
       ],
     }
   }
