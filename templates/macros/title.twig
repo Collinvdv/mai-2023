@@ -4,7 +4,7 @@
 {% macro decorative(title) %}
     <!-- loop over split -->
     {% for line in title|split("\n") %}
-        <div class="pl-{{(loop.index - 1) * 8}}">
+        <div class="pl-{{(loop.index - 1) * 12}}">
             {{ line }} <br/>
         </div>
     {% endfor %}

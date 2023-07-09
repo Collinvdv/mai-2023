@@ -1,4 +1,4 @@
-dateModified: 1688838390
+dateModified: 1688905966
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -24,11 +24,14 @@ meta:
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
+    3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: Link # Link
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
     7c8c2534-a381-4af5-918e-321a356324fa: Articles # Articles
+    7ee58765-d756-46d9-be82-807891c1c3e6: Link # Link
     8c903cee-b722-4e34-b825-4c974efd8306: Quotes # Quotes
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
+    9b271a30-441e-4349-8015-e145efbaf982: Content # Content
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     45b31148-946f-4d7b-b38e-dd2631f5cd0c: Default # Default
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
@@ -38,6 +41,7 @@ meta:
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
     356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
+    441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
@@ -47,10 +51,13 @@ meta:
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
+    51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
     121613a3-afc2-46f2-aeae-6c2145dce302: Images # Images
     928188f5-5f18-49f8-8686-a8909488ee22: Homepage # Homepage
     38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
+    68886762-2ceb-4ba5-9770-7e610ea3057d: link # link
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
+    a5ed0481-924f-4d21-8870-09b85c31c135: Wysiwyg # Wysiwyg
     aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
     abcc9070-6cf5-479e-a757-26af8478cb2e: Numbers # Numbers
     adae52e8-4cf6-4f0e-ae1d-05059dbf611f: 'Background grey' # Background grey
@@ -62,11 +69,14 @@ meta:
     bbdd6a96-72b4-4202-9064-22f8072dd476: Images # Images
     c55ccb24-d933-47a8-bad8-09f6949a6012: 'Thumbmnail Image' # Thumbmnail Image
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
+    cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
+    d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
     d5723907-aba7-45b9-b3bd-bdabadaded21: Evenementen # Evenementen
     de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e1ef80ef-31d4-47a1-a64c-c9c653b24257: Introduction # Introduction
     e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
+    eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle

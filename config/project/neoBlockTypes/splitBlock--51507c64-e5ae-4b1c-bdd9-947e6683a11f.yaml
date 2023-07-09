@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  e400af3e-06b8-485b-a989-610df3ad4c55:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30d0faa0-055d-466f-aaf5-6f75fec0c2cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b271a30-441e-4349-8015-e145efbaf982 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 744a3b4d-fde8-43b7-8c2f-6d31aca1684d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 035bdca3-2f77-4b49-b9c0-7296757111e8
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: splitBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Split
+sortOrder: 8
+topLevel: true

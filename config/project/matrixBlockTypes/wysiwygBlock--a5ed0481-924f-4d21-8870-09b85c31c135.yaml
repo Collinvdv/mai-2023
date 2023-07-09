@@ -1,0 +1,54 @@
+field: 9b271a30-441e-4349-8015-e145efbaf982 # Content
+fieldLayouts:
+  ddcfd194-a61f-49c2-9eb7-f2d1404d063a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cbbe5a93-cae2-4865-b19d-2421361d2d58 # Wysiwyg
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c67e9d58-b108-47e8-86cb-da0097fbb667
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ed89b0bd-8905-48a4-bc74-08514e16f443
+        userCondition: null
+fields:
+  cbbe5a93-cae2-4865-b19d-2421361d2d58: # Wysiwyg
+    columnSuffix: ylzhumup
+    contentColumnType: text
+    fieldGroup: null
+    handle: wysiwygField
+    instructions: null
+    name: Wysiwyg
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: wysiwygBlock
+name: Wysiwyg
+sortOrder: 1
