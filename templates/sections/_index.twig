@@ -9,7 +9,8 @@
 {% for block in entry.commonBody.level(1).all() %}
     {# {{ block.type.handle }} #}
     {% set backgroundGray = block.commonBackgroundGray ?? false %}
-    <div class="py-16 {% if backgroundGray%} bg-grey {% endif %}">
+    {% set noSpacingTop = block.commonNoSpacingTop ?? false %}
+    <div class="{% if noSpacingTop %} pb-16 {% else %} py-16 {% endif %} {% if backgroundGray%} bg-grey {% endif %}">
         {% include "/sections/" ~ block.type.handle ~".twig" with { 
             data : block
         } %}

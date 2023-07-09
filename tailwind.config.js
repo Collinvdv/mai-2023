@@ -57,6 +57,7 @@ module.exports = {
         "pl-8",
         "pl-12",
         "pl-16",
+        "pb-16"
       ],
     }
   }

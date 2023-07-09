@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  4aedc979-9c4e-428b-8cef-3ac8bfacb86f:
+  f8100117-f622-426a-a5e3-d768e75881d2:
     tabs:
       -
         elementCondition: null
@@ -48,6 +48,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 0717a778-9377-4446-83f7-95b8e4736436
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c58657c-ae94-4b59-be29-c6d1b33f4a05
             userCondition: null
             warning: null
             width: 100

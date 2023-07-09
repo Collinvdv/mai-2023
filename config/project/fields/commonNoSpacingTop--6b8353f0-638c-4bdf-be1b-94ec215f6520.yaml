@@ -1,0 +1,14 @@
+columnSuffix: fgnmwfts
+contentColumnType: boolean
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonNoSpacingTop
+instructions: null
+name: 'No spacing top'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
