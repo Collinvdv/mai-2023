@@ -1,4 +1,4 @@
-dateModified: 1688908982
+dateModified: 1689782700
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -21,6 +21,8 @@ fs:
 meta:
   __names__:
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default
+    1a42c531-e28e-400c-bc5c-f8f24aabdc55: Footer # Footer
+    1a83051b-5fff-4173-99ff-a16698a69da9: Mail # Mail
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
@@ -32,7 +34,9 @@ meta:
     7ee58765-d756-46d9-be82-807891c1c3e6: Link # Link
     8c903cee-b722-4e34-b825-4c974efd8306: Quotes # Quotes
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
+    8f009697-7260-4f23-b273-bd8c5d7e6239: Column # Column
     9b271a30-441e-4349-8015-e145efbaf982: Content # Content
+    11aa3d74-6507-4456-9814-266b32e421a3: Phone # Phone
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     45b31148-946f-4d7b-b38e-dd2631f5cd0c: Default # Default
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
@@ -50,6 +54,7 @@ meta:
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
+    5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
     51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
@@ -77,6 +82,7 @@ meta:
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e1ef80ef-31d4-47a1-a64c-c9c653b24257: Introduction # Introduction
     e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
+    e96245eb-37d4-475a-98ca-82ebcd5f62bc: Address # Address
     eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers

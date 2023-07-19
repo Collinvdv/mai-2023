@@ -1,0 +1,12 @@
+columnSuffix: fmwrqryb
+contentColumnType: string
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonMail
+instructions: null
+name: Mail
+searchable: false
+settings:
+  placeholder: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

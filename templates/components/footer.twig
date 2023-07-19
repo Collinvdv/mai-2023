@@ -2,5 +2,38 @@
 {# :: Component #}
 {# ========================================================================== #}
 <footer>
+    {# Decorative #}
+    <div class="h-10 bg-repeat-x" style="background-image:url('/assets/shapes/pattern.svg')">
+    </div>
+
+    {# Main #}
+    <div class="bg-black py-12">
+        <div class="container mx-auto px-4 text-white" >
+            <div class="flex">
+                {# Company information #}
+                <div class="w-full lg:w-1/3">
+                    {# Images #}
+                    <img src="/assets/logos/inverted-logo.svg" alt="Logo" class="w-80 mb-4">
+
+                    {# Information #}
+                    <div class="text-base pt-12">
+                        <p class="font-normal">
+                            {{ footer.commonAddress }} <br/>
+                        </p>
+                        <a class="font-normal" href="tel:{{ footer.commonPhone }}">{{ footer.commonPhone }}</a> <br/>
+                        <a class="font-normal" href="mailto:{{ footer.commonMail }}">{{ footer.commonMail }}</a>
+                    </div>
+
+                </div>
+
+                {# Menu information #}
+                <div class="w-full lg:w-2/3">
+                    menu
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {# Secondary #}
     Footer
 </footer>

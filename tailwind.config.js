@@ -43,6 +43,7 @@ module.exports = {
         "border-b-blue",
         "border-b-lavendel",
         "border-b-violet",
+        "border-b-primary",
         "fill-rose",
         "fill-blue",
         "fill-lavendel",
