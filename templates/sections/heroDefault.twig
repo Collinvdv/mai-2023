@@ -12,6 +12,7 @@
 {% switch color %}
     {% case 'primary' %}
         {% set colorBackground = "bg-primary" %}
+        {% set buttonBackground = "white" %}
         {% 
             set colorLeft = {
                 pacman: "fill-white",
@@ -31,6 +32,7 @@
         %}
     {% case 'white' %}
         {% set colorBackground = "bg-white" %}
+        {% set buttonBackground = "primary" %}
         {% 
             set colorLeft = {
                 pacman: "fill-primary",
@@ -50,6 +52,7 @@
         %}
     {% case 'rose' %}
         {% set colorBackground = "bg-white" %}
+        {% set buttonBackground = "primary" %}
         {% 
             set colorLeft = {
                 pacman: "fill-white",
@@ -69,6 +72,7 @@
         %}
     {% case 'violet' %}
         {% set colorBackground = "bg-white" %}
+        {% set buttonBackground = "primary" %}
         {% 
             set colorLeft = {
                 pacman: "fill-white",
@@ -88,6 +92,7 @@
         %}
     {% case 'blue' %}
         {% set colorBackground = "bg-white" %}
+        {% set buttonBackground = "primary" %}
         {% 
             set colorLeft = {
                 pacman: "fill-white",
@@ -107,6 +112,7 @@
         %}
     {% default %}
         {% set colorBackground = "bg-primary" %}
+        {% set buttonBackground = "white" %}
         {% 
             set colorLeft = {
                 pacman: "fill-white",
@@ -153,6 +159,7 @@
                     {% include "/components/button.twig" with { 
                         href :link,
                         text : link.getText(),
+                        color: buttonBackground,
                     }
                         only
                     %}
