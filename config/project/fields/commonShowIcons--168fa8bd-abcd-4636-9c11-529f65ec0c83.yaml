@@ -1,0 +1,14 @@
+columnSuffix: bidatshz
+contentColumnType: boolean
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonShowIcons
+instructions: null
+name: 'Show icons'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

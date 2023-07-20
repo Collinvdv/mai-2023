@@ -1,38 +1,14 @@
 childBlocks: null
 conditions: null
-description: ''
+description: null
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  75fc3792-477d-4f5b-949e-47d533ba89c1:
+  67cde0e1-d9aa-4df2-8242-2af56fc9f20e:
     tabs:
       -
         elementCondition: null
         elements:
-          -
-            elementCondition: null
-            fieldUid: 91da989b-aca3-4a36-a126-0f3223887bd4 # Icon
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e023e5f7-e87f-4824-8cc2-6ba4035c7f46
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: b8fabbb6-11e1-4a0a-b9a6-baae1db3524a # Tags
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 1230988f-3a23-4ebf-a501-b8be184868f0
-            userCondition: null
-            warning: null
-            width: 100
           -
             elementCondition: null
             fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
@@ -69,20 +45,8 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 174b291e-740f-4a34-a49c-d7b3dd2a07b8 # Secondary link
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a58a89e6-b3b0-4401-a22a-f009b4c95e0e
-            userCondition: null
-            warning: null
-            width: 100
         name: General
-        uid: a0ca1beb-f641-4d74-8c9e-93f5379cb085
+        uid: f07ca06f-1a2f-476a-951c-69377c3cc368
         userCondition: null
       -
         elementCondition: null
@@ -99,24 +63,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 168fa8bd-abcd-4636-9c11-529f65ec0c83 # Show icons
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3abc7af8-4105-4f5c-9fa8-4f69438e60a9
-            userCondition: null
-            warning: null
-            width: 100
         name: Settings
-        uid: 201d6457-72c0-4e7c-b82f-a193ed2a6b4a
+        uid: 9a55f4dd-4a39-4cef-97e1-12c678bde1e6
         userCondition: null
 group: null
 groupChildBlockTypes: true
-handle: heroDefault
+handle: ctaBlock
 icon: null
 ignorePermissions: true
 maxBlocks: 0
@@ -125,6 +77,6 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: HeroDefault
-sortOrder: 9
+name: Cta
+sortOrder: 10
 topLevel: true
