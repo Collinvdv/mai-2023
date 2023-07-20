@@ -1,0 +1,31 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set customClasses = customClasses ?? "" %}
+
+{% set colors = colors ?? {
+    pacman: "fill-white",
+    circle: "fill-lavendel",
+    triangle:  "fill-rose",
+    stripes: "fill-blue",
+} %}
+
+{# ========================================================================== #}
+{# :: Template #}
+{# ========================================================================== #}
+<svg class="{{customClasses}}" viewBox="0 0 229 313" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_716_5525)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M178.425 176.47L89.1082 88.4394L177.139 -0.876953L-0.208015 0.408496L1.07743 177.756L178.425 176.47Z" class="{{colors.pacman}}"/>
+    <circle cx="53.5046" cy="193.88" r="81.3271" class="{{colors.circle}}"/>
+    <rect x="157.723" y="132.35" width="11.0067" height="153.863" transform="rotate(30 157.723 132.35)" class="{{colors.stripes}}"/>
+    <rect x="176.788" y="143.356" width="11.0067" height="153.863" transform="rotate(30 176.788 143.356)" class="{{colors.stripes}}"/>
+    <rect x="195.852" y="154.363" width="11.0067" height="153.863" transform="rotate(30 195.852 154.363)" class="{{colors.stripes}}"/>
+    <rect x="214.916" y="165.37" width="11.0067" height="153.863" transform="rotate(30 214.916 165.37)" class="{{colors.stripes}}"/>
+    <path d="M161.283 73.761L64.2055 25.8105L64.6762 122.653L161.283 73.761Z" class="{{colors.triangle}}"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_716_5525">
+    <rect width="229" height="313" fill="white"/>
+    </clipPath>
+    </defs>
+</svg>

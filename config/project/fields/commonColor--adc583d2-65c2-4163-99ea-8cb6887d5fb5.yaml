@@ -73,6 +73,17 @@ settings:
         -
           - default
           - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - white
+        -
+          - value
+          - white
+        -
+          - default
+          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Dropdown
