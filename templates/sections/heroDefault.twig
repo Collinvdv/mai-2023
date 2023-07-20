@@ -6,6 +6,7 @@
 {% set link = data.commonLink ?? "" %} 
 {% set secondaryLink = data.commonSecondaryLink ?? "" %} 
 {% set color = data.commonColor ?? "" %} 
+{% set tags = data.commonTags ?? "" %} 
 
 {% import "/macros/color" as colorMacro %}
 
@@ -144,7 +145,23 @@
         } %}
 
         {# Content #}
-        <div class="px-4 flex flex-col items-center w-8/12 text-center gap-8 mx-auto">
+        <div class="px-4 flex flex-col items-center w-8/12 text-center gap-6 mx-auto">
+            <div class="flex flex-col gap-1 items-center">
+                {% if data.commonIcon.one() %}
+                    <img class="w-12 h-12" src="{{ data.commonIcon.one().url }}" alt="{{ data.commonIcon.one().alt }}">
+                {% endif %}
+
+                {% if tags %}
+                    <div class="flex flex-row gap-2">
+                        {% for tag in tags %}
+                            <div class="text-xs uppercase font-bold bg-grey p-1 px-2">
+                                {{ tag }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+
             <h2>
                 {{ title }}
             </h2>
@@ -155,22 +172,27 @@
 
             {# Buttons #}
             <ul class="flex gap-8 items-center">
-                <li>
-                    {% include "/components/button.twig" with { 
-                        href :link,
-                        text : link.getText(),
-                        color: buttonBackground,
-                    }
-                        only
-                    %}
-                </li>
-                <li>
-                    {% include "/components/link.twig" with { 
-                        href : secondaryLink,
-                        text : secondaryLink.getText(),
-                        icon: "arrow-down"
-                    } only %}
-                </li>
+                {% if link and link.getText() %}
+                    <li>
+                        {% include "/components/button.twig" with { 
+                            href :link,
+                            text : link.getText(),
+                            color: buttonBackground,
+                        }
+                            only
+                        %}
+                    </li>
+                {% endif %}
+
+                {% if secondaryLink and secondaryLink.getText() %}
+                    <li>
+                        {% include "/components/link.twig" with { 
+                            href : secondaryLink,
+                            text : secondaryLink.getText(),
+                            icon: "arrow-down"
+                        } only %}
+                    </li>
+                {% endif %}
             </ul>
         </div>
 

@@ -1,0 +1,37 @@
+fieldLayouts:
+  ee858730-0941-4efb-a3fd-32dc1381b9e9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: f5df334a-fbd7-4c07-a2de-ff3c8ff974d1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ae629608-07ff-493d-b2fd-76761dd1e8b0
+        userCondition: null
+handle: commonTags
+name: tags

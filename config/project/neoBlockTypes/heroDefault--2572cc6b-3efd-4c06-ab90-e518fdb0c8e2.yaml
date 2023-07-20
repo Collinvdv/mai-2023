@@ -4,7 +4,7 @@ description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  96a334df-d6a6-48b0-adfe-1d0d764f2e71:
+  649148bf-6e8b-4fcf-83c7-755e086cca3d:
     tabs:
       -
         elementCondition: null
@@ -18,6 +18,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: e023e5f7-e87f-4824-8cc2-6ba4035c7f46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b8fabbb6-11e1-4a0a-b9a6-baae1db3524a # Tags
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1230988f-3a23-4ebf-a501-b8be184868f0
             userCondition: null
             warning: null
             width: 100

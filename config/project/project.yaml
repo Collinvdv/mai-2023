@@ -1,4 +1,4 @@
-dateModified: 1689845604
+dateModified: 1689853458
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -75,8 +75,10 @@ meta:
     adc583d2-65c2-4163-99ea-8cb6887d5fb5: Color # Color
     b02ac359-d1ee-4107-a6cb-18305753f0ab: Links # Links
     b02c6922-dfa1-4396-abfe-a3692bc842b0: Common # Common
+    b8fabbb6-11e1-4a0a-b9a6-baae1db3524a: Tags # Tags
     b34da8dd-bc1c-4a58-bec8-6905e3ef312b: Default # Default
     b51105a1-2e31-403a-bd30-79138e281d1c: Events # Events
+    b83928a4-434a-4d7f-adbc-cf32a3af65aa: tags # tags
     bbdd6a96-72b4-4202-9064-22f8072dd476: Images # Images
     c55ccb24-d933-47a8-bad8-09f6949a6012: 'Thumbmnail Image' # Thumbmnail Image
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
