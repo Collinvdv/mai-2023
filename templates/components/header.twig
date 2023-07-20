@@ -2,17 +2,33 @@
 {# :: Component #}
 {# ========================================================================== #}
 {# Announcement #}
-<div class="bg-black text-white text-center p-2">
-    <small>
-        Inschrijvingsdag 31 maart 2023.
+<div class="bg-black text-white text-center p-2 flex items-center justify-center">
+    <small class="mr-2 text-sm">
+        {{ header.commonTitle }}
     </small>
-    <a href="/pages.php?page=inschrijvingen" class="underline">
-        Meer info
-    </a>
+
+    {% include "/components/link.twig" with { 
+        href : header.commonLink,
+        text : header.commonLink.getText(),
+        color: "white",
+        isSmall: true
+    } %}
 </div>
 {# Secondary header  #}
+<div class="bg-primary py-2">
+    <div class="container mx-auto px-4">
+        <ul class="flex justify-end gap-6">
+            {% for link in header.commonSecondaryLinks.all() %}
+                <li>
+                    <a class="font-normal text-sm" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
 {# Main header #}
-<header class="container mx-auto flex justify-between py-4">
+<header class="container mx-auto flex justify-between p-4">
     {# Logo #}
     <a href="#">
         MAI
@@ -20,9 +36,9 @@
 
     {# Menu #}
     <nav>
-        <ul class="flex">
+        <ul class="flex gap-12">
             {% for menuItem in header.commonMainMenu.level(1).all() %}
-                <li class="px-4">
+                <li>
                     {# Normal link #}
                     <div class="relative">
                         {% if menuItem.commonLinks|length == 0 %}
