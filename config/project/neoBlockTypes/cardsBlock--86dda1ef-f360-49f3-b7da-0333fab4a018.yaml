@@ -66,7 +66,7 @@ fieldLayouts:
         name: Settings
         uid: 714e96a6-9fba-4c90-8397-5dd0e0bfbf69
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: cardsBlock
 icon: null
@@ -78,5 +78,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Cards
-sortOrder: 2
+sortOrder: 6
 topLevel: true

@@ -90,7 +90,7 @@ fieldLayouts:
         name: Settings
         uid: 5220f590-e70e-4ac7-b926-d6957c3c7fa6
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: eventsBlock
 icon: null
@@ -102,5 +102,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Events
-sortOrder: 7
+sortOrder: 11
 topLevel: true

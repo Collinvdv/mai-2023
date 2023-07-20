@@ -66,7 +66,7 @@ fieldLayouts:
         name: Settings
         uid: ec302706-6b7f-46b2-b275-39ff4f65bfd2
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: splitBlock
 icon: null
@@ -78,5 +78,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Split
-sortOrder: 8
+sortOrder: 12
 topLevel: true

@@ -54,7 +54,7 @@ fieldLayouts:
         name: Settings
         uid: 51cee545-ec7f-417d-8133-01bcdaacd46b
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: imagesBlock
 icon: null
@@ -66,5 +66,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Images
-sortOrder: 5
+sortOrder: 9
 topLevel: true

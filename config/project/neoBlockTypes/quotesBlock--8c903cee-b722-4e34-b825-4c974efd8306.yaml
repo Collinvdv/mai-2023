@@ -66,7 +66,7 @@ fieldLayouts:
         name: Settings
         uid: a3cc629c-39cd-4696-8aae-816a57248c4b
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: quotesBlock
 icon: null
@@ -78,5 +78,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Quotes
-sortOrder: 6
+sortOrder: 10
 topLevel: true

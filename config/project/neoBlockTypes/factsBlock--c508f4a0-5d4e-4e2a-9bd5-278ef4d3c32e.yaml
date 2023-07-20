@@ -66,7 +66,7 @@ fieldLayouts:
         name: Settings
         uid: 89047565-7b52-4b48-9018-8901815700b7
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: factsBlock
 icon: null
@@ -78,5 +78,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Facts
-sortOrder: 3
+sortOrder: 7
 topLevel: true

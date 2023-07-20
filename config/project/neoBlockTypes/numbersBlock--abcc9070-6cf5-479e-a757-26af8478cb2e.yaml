@@ -90,7 +90,7 @@ fieldLayouts:
         name: Settings
         uid: cae04a73-3aba-426c-88f3-aad30ab5c21c
         userCondition: null
-group: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: numbersBlock
 icon: null
@@ -102,5 +102,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Numbers
-sortOrder: 4
+sortOrder: 8
 topLevel: true

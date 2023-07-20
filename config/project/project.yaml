@@ -1,4 +1,4 @@
-dateModified: 1689853972
+dateModified: 1689855530
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -49,18 +49,21 @@ meta:
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
     168fa8bd-abcd-4636-9c11-529f65ec0c83: 'Show icons' # Show icons
     174b291e-740f-4a34-a49c-d7b3dd2a07b8: 'Secondary link' # Secondary link
+    238fe600-4471-43e3-865f-f2c7e82ec2ba: Hero # Hero
     356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
     441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
+    696b4fe9-5225-4cc6-8855-b52d7e464051: HeroSplit # HeroSplit
     989b16ac-ff20-4898-bc5b-8bf0c254878c: Events # Events
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
+    06936d40-6287-4cf0-9565-4ea06bbc5f23: Body # Body
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
     51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
