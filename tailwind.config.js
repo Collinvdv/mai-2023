@@ -50,6 +50,7 @@ module.exports = {
         "fill-violet",
         "fill-white",
         "fill-black",
+        "fill-primary",
         "bg-rose",
         "bg-blue",
         "bg-lavendel",
