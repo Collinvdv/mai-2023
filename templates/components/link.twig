@@ -9,11 +9,13 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a href="{{ href }}" class="flex items-center transition ease-in-out transform cursor-pointer md:hover:translate-x-4 py-1">
+<a href="{{ href }}" class="c-link flex items-center py-1 cursor-pointer">
     <span class="mr-2 border-b-1 border-b-{{color}} {% if isSmall %} text-sm {% endif %}">
         {{ text | raw }}
     </span>
-    {% include "/components/icons/arrow-right.twig" with { 
-        color : "fill-" ~ color
-    } %}
+    <div class="c-link__icon transition ease-in-out transform">
+        {% include "/components/icons/arrow-right.twig" with { 
+            color : "fill-" ~ color
+        } %}
+    </div>
 </a>

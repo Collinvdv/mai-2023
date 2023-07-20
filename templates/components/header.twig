@@ -28,10 +28,12 @@
 </div>
 
 {# Main header #}
-<header class="container mx-auto flex justify-between p-4">
+<header class="container mx-auto flex justify-between items-center p-4 py-6">
     {# Logo #}
     <a href="#">
-        MAI
+        {% include "/components/logos/logo.twig" with {
+            customClass: 'w-80'
+        } %}
     </a>
 
     {# Menu #}
