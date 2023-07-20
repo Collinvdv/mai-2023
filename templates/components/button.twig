@@ -4,19 +4,13 @@
 {% set href = href ?? "" %}
 {% set text = text ?? "" %}
 {% set isSmall = isSmall ?? false %}
-{% set color = color ?? "black" %}
-{% set icon = icon ?? "arrow-right" %}
+{% set color = color ?? "white" %}
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a href="{{ href }}" class="c-link flex items-center py-1 cursor-pointer">
-    <span class="mr-2 border-b-1 border-b-{{color}} {% if isSmall %} text-sm {% endif %}">
+<a href="{{ href }}" class="py-3 px-6 cursor-pointer bg-{{color}} inline-block">
+    <span class=" {% if isSmall %} text-sm {% endif %}">
         {{ text | raw }}
     </span>
-    <div class="c-link__icon transition ease-in-out transform">
-        {% include "/components/icons/" ~  icon ~".twig" with { 
-            color : "fill-" ~ color
-        } %}
-    </div>
 </a>

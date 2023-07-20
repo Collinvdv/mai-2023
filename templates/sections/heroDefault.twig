@@ -1,0 +1,41 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %} 
+{% set link = data.commonLink ?? "" %} 
+{% set secondaryLink = data.commonSecondaryLink ?? "" %} 
+
+{% import "/macros/color" as colorMacro %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="bg-primary py-20">
+    <div class="container mx-auto px-4 flex flex-col items-center w-8/12 text-center gap-8">
+        <h2>
+            {{ title }}
+        </h2>
+
+        <div>
+            {{ description|nl2br }}
+        </div>
+
+        {# Buttons #}
+        <ul class="flex gap-8 items-center">
+            <li>
+                {% include "/components/button.twig" with { 
+                    href :link,
+                    text : link.getText(),
+                } %}
+            </li>
+            <li>
+                {% include "/components/link.twig" with { 
+                    href : secondaryLink,
+                    text : secondaryLink.getText(),
+                    icon: "arrow-down"
+                } %}
+            </li>
+        </ul>
+    </div>
+</div>

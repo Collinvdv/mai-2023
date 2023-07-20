@@ -1,0 +1,106 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  96a334df-d6a6-48b0-adfe-1d0d764f2e71:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 91da989b-aca3-4a36-a126-0f3223887bd4 # Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e023e5f7-e87f-4824-8cc2-6ba4035c7f46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52abc214-f616-4087-9aa2-46ef6f1e4a95
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b3308ab9-f246-4ead-934e-53458169a321
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d929f90f-9cd9-487e-ab49-9d33c15242ee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 174b291e-740f-4a34-a49c-d7b3dd2a07b8 # Secondary link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a58a89e6-b3b0-4401-a22a-f009b4c95e0e
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: a0ca1beb-f641-4d74-8c9e-93f5379cb085
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: adc583d2-65c2-4163-99ea-8cb6887d5fb5 # Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 784ab6d7-4b95-4eb2-b207-f7f027b85965
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 201d6457-72c0-4e7c-b82f-a193ed2a6b4a
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: heroDefault
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: HeroDefault
+sortOrder: 9
+topLevel: true

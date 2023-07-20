@@ -1,4 +1,4 @@
-dateModified: 1689840311
+dateModified: 1689843060
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -46,6 +46,7 @@ meta:
     86dda1ef-f360-49f3-b7da-0333fab4a018: Cards # Cards
     91da989b-aca3-4a36-a126-0f3223887bd4: Icon # Icon
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
+    174b291e-740f-4a34-a49c-d7b3dd2a07b8: 'Secondary link' # Secondary link
     356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
     441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
@@ -55,6 +56,7 @@ meta:
     989b16ac-ff20-4898-bc5b-8bf0c254878c: Events # Events
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
+    2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
