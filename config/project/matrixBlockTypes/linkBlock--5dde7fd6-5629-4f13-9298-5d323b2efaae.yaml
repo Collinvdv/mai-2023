@@ -1,0 +1,89 @@
+field: 79f2f6d9-11d4-45d2-87f2-a1e7079ede77 # Secondary Links
+fieldLayouts:
+  02c21b34-edfb-48b6-9d41-374a6efbfe2a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a3cd6bc3-592b-4058-8f6d-8cb76699417c # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d3fc3256-08f9-4f47-b1d4-6ad0b2a56bb7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 23b1aed0-0dee-467d-b6be-5b04732d1284
+        userCondition: null
+fields:
+  a3cd6bc3-592b-4058-8f6d-8cb76699417c: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: page
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: linkBlock
+name: Link
+sortOrder: 1

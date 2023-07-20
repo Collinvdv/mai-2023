@@ -19,6 +19,54 @@ fieldLayouts:
         name: General
         uid: c34d2f44-47a7-462c-83a2-60f9a382ff4c
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 79f2f6d9-11d4-45d2-87f2-a1e7079ede77 # Secondary Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 202a1d03-3d87-4765-8578-147d16d92cb7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Secondary
+        uid: 1db319d6-c1f4-4e53-93c9-63fe91f19cdf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36a5f352-5b9c-45a7-a961-80962f063b7e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7f247e4-6364-4ff8-badf-8807e720c72b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Announcement
+        uid: 0c392034-c946-44f2-8413-180b5549b5e6
+        userCondition: null
 handle: header
 name: Header
 sortOrder: 1

@@ -58,8 +58,26 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Columns
+        name: 'Main navigation'
         uid: 1fb8a716-c7c8-469f-aac0-62f9aacb99c1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 79f2f6d9-11d4-45d2-87f2-a1e7079ede77 # Secondary Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec6e1ef0-9de8-4b01-bf85-ec463de99d74
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Secondary navigation'
+        uid: b271e3a2-36dd-4dfa-ab16-b47025e7a6e4
         userCondition: null
 handle: footer
 name: Footer
