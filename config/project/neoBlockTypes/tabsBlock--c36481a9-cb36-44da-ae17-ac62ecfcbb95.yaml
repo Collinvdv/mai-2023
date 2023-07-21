@@ -1,0 +1,70 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  32b6cb94-337c-4bc8-be6a-b4df4cc10fd3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3f7ef950-8dc3-4a77-b807-2dbb0168bcf1 # Tabs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8366f908-1215-494a-8fca-8cec876dfb84
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9096e068-997f-408a-994a-ebb500df2a3b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd4b8ca7-dd57-4312-b5f2-d75842680953
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1b5d65d-d46d-4a07-b292-e1a09b3862ad
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: c36691ee-e0b7-40ad-8d19-db28fd30364e
+        userCondition: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
+groupChildBlockTypes: true
+handle: tabsBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Tabs
+sortOrder: 14
+topLevel: true

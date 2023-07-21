@@ -1,4 +1,4 @@
-dateModified: 1689855530
+dateModified: 1689921530
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -28,10 +28,12 @@ meta:
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
     3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: Link # Link
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
+    3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
     5dde7fd6-5629-4f13-9298-5d323b2efaae: Link # Link
     6b8353f0-638c-4bdf-be1b-94ec215f6520: 'No spacing top' # No spacing top
     7c8c2534-a381-4af5-918e-321a356324fa: Articles # Articles
+    07c3457b-b52b-4825-82ad-7c77be131f59: Default # Default
     7ee58765-d756-46d9-be82-807891c1c3e6: Link # Link
     8c903cee-b722-4e34-b825-4c974efd8306: Quotes # Quotes
     8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
@@ -85,8 +87,10 @@ meta:
     b51105a1-2e31-403a-bd30-79138e281d1c: Events # Events
     b83928a4-434a-4d7f-adbc-cf32a3af65aa: tags # tags
     bbdd6a96-72b4-4202-9064-22f8072dd476: Images # Images
+    bc4fe5f1-a266-4485-a8a2-7e3356d1b1cd: Tab # Tab
     c55ccb24-d933-47a8-bad8-09f6949a6012: 'Thumbmnail Image' # Thumbmnail Image
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
+    c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
     cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
     d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
     d5723907-aba7-45b9-b3bd-bdabadaded21: Evenementen # Evenementen

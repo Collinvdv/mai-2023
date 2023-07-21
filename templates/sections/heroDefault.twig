@@ -136,7 +136,7 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="{{colorBackground}} py-20 relative">
+<div class="{{colorBackground}} py-20 relative overflow-hidden">
     <div class="container mx-auto">
         {# Shape left #}
         {% include "/components/shapes/left.twig" with {
@@ -172,7 +172,7 @@
 
             {# Buttons #}
             <ul class="flex gap-8 items-center">
-                {% if link and link.getText() %}
+                {% if link.getUrl() %}
                     <li>
                         {% include "/components/button.twig" with { 
                             href :link,
@@ -184,7 +184,7 @@
                     </li>
                 {% endif %}
 
-                {% if secondaryLink and secondaryLink.getText() %}
+                {% if secondaryLink.getUrl() %}
                     <li>
                         {% include "/components/link.twig" with { 
                             href : secondaryLink,
