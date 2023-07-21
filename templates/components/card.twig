@@ -25,7 +25,7 @@
     {% endif %}
 
     {% if card.commonLinks|length > 0 %}
-        <ul class="grid gap-4">
+        <ul class="grid gap-3 mt-4">
             {% for link in card.commonLinks.all() %}
                 <li>
                     {% include "/components/link.twig" with { 

@@ -6,24 +6,24 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="container mx-auto px-4 ">
+<div class="container mx-auto px-4 " x-data="tabs()">
     {# Tabs #}
     {% if tabs %}
         <nav class="mb-8">
             <ol role="list" class="flex justify-center">
                 {% for tab in tabs %}
-                    <li class="bg-grey flex items-center cursor-pointer">
+                    <li class="flex items-center cursor-pointer" @click="activeTab = {{loop.index}}" :class="activeTab === {{ loop.index }} ? 'bg-black text-white' : 'bg-grey'">
                         <!-- Completed Step -->
                         <span class="p-2 px-4 text-lg">{{loop.index}}. {{ tab.commonTitle }}</span>
 
                         <!-- Arrow separator for lg screens and up -->
-                        <svg class="w-6 relative z-20" viewBox="0 0 22 40" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" class="fill-grey"/>
+                        <svg class="w-6 relative z-20 " viewBox="0 0 22 40" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px;">
+                            <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" :class="activeTab === {{ loop.index }} ? 'fill-black' : 'fill-grey'"/>
                         </svg>
                         <div class="flex -ml-6 {% if loop|length == loop.index  %} bg-white {% endif %}">
                             <div class="w-2 h-max bg-white" style="height: auto"></div>
-                            <svg class="w-6" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px;">
-                                <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" class="fill-white"/>
+                            <svg class="w-6" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px;" :class="getClass({{loop.index}}, {{tabs|length}})">
+                                <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" class="fill-white" />
                             </svg>
                         </div>
                     </li>
@@ -35,7 +35,7 @@
     {# Content #}
     {% if tabs %}
         {% for tab in tabs %}
-            <div class="flex gap-16">
+            <div class="flex gap-16" :class="{ 'active': activeTab === {{loop.index}} }" x-show.transition.in.opacity.duration.600="activeTab === {{loop.index}}">
                 {% if tab.commonImage.one() %}
                     <div class="bg-cover w-full lg:w-4/12 rounded-tl-10rem" style="background-image: url('{{ tab.commonImage.one().url }}')">
                     </div>
@@ -54,3 +54,26 @@
         {% endfor %}
     {% endif %}
 </div>
+
+<script>
+  function tabs() {
+    return {
+      activeTab: 1,
+      getClass(id, length) {
+
+
+        if (id == length) {
+          return "bg-white";
+        }
+        
+    
+        if (id == this.activeTab - 1) {
+                    console.log("id", id);
+          return "bg-black";
+        }
+
+        return "bg-grey";
+      }
+    }
+  }
+</script>
