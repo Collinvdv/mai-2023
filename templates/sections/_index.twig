@@ -10,7 +10,8 @@
     {# {{ block.type.handle }} #}
     {% set backgroundGray = block.commonBackgroundGray ?? false %}
     {% set noSpacingTop = block.commonNoSpacingTop ?? false %}
-    <div class="{% if noSpacingTop %} pb-16 {% else %} py-16 {% endif %} {% if backgroundGray%} bg-grey {% endif %}" data-row="{{block.type.handle}}">
+    {% set noSpacingBottom = block.commonNoSpacingBottom ?? false %}
+    <div class="{% if noSpacingTop %} pt-0 {% else %} pt-16 {% endif %} {% if noSpacingBottom %} pb-0 {% else %} pb-16 {% endif %} {% if backgroundGray%} bg-grey {% endif %}" data-row="{{block.type.handle}}">
         {% include "/sections/" ~ block.type.handle ~".twig" with { 
             data : block
         } %}

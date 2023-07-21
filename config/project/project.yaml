@@ -1,4 +1,4 @@
-dateModified: 1689921530
+dateModified: 1689927194
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -20,6 +20,7 @@ fs:
     url: $BASE_URL_PATH
 meta:
   __names__:
+    0a6ae889-cd44-4836-90c7-7eb4a7137ec5: 'No spacing bottom' # No spacing bottom
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default
     1a42c531-e28e-400c-bc5c-f8f24aabdc55: Footer # Footer
     1a83051b-5fff-4173-99ff-a16698a69da9: Mail # Mail
