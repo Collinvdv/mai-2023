@@ -24,8 +24,14 @@
 
     <div class="flex flex-col gap-2">
         {% for vak in vakken %}
-            <div class="{% if loop.first == false %} border-t-2 border-t-grey pt-2 {% endif %}">
-                {{ vak.title }}
+            <div class="flex justify-between {% if loop.first == false %} border-t-2 border-t-grey pt-2 {% endif %}">
+                <span>
+                    {{ vak.commonTitle }}
+                </span>
+
+                <span>
+                     {{ vak.commonSubtitle }}
+                </span>
             </div>
         {% endfor %}
     </div>

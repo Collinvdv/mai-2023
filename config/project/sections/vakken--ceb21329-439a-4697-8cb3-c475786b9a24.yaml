@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: vakken
+name: Vakken
+propagationMethod: all
+siteSettings:
+  520ae88b-24db-491f-a50d-9ec2cb2dc5b5: # Mai
+    enabledByDefault: true
+    hasUrls: true
+    template: vakken/_entry
+    uriFormat: 'vakken/{slug}'
+type: channel

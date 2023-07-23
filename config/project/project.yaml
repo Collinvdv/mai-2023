@@ -1,4 +1,4 @@
-dateModified: 1689928470
+dateModified: 1690128069
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -28,6 +28,7 @@ meta:
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
+    3a5d43ec-b64e-4797-83a5-cdbb7c79ceb0: hours # hours
     3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: Link # Link
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
@@ -58,6 +59,7 @@ meta:
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
     441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
     456fe963-8095-43f7-9ac7-004950cdb04c: Title # Title
+    476a6690-2335-460e-86cd-296e06c0a0cd: Default # Default
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
@@ -76,6 +78,8 @@ meta:
     51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
     121613a3-afc2-46f2-aeae-6c2145dce302: Images # Images
     928188f5-5f18-49f8-8686-a8909488ee22: Homepage # Homepage
+    6496731e-59f6-4c71-84a8-fc1ebf0bf15b: title # title
+    7683426a-5be3-44a1-9d69-0a33d91639f6: image # image
     38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
     68886762-2ceb-4ba5-9770-7e610ea3057d: link # link
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
@@ -97,6 +101,7 @@ meta:
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
     c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
     cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
+    ceb21329-439a-4697-8cb3-c475786b9a24: Vakken # Vakken
     d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
     d60168ef-0707-4f4f-9905-178cd9490e6c: vakken # vakken
     d5723907-aba7-45b9-b3bd-bdabadaded21: Evenementen # Evenementen
@@ -104,6 +109,7 @@ meta:
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e1ef80ef-31d4-47a1-a64c-c9c653b24257: Introduction # Introduction
     e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
+    e845a24d-cbc6-4874-b009-b9ee49321c49: vak # vak
     e96245eb-37d4-475a-98ca-82ebcd5f62bc: Address # Address
     eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes

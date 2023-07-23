@@ -1,0 +1,82 @@
+field: 6004ca02-7a95-431c-9468-b71527f5a77a # Vakken
+fieldLayouts:
+  a79c3c7f-c813-4619-8e17-f1a4ddae01d0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6496731e-59f6-4c71-84a8-fc1ebf0bf15b # title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4462a241-a0ab-483a-835e-9c9c9e94b4fa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3a5d43ec-b64e-4797-83a5-cdbb7c79ceb0 # hours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4572687d-bef5-4638-b48a-f63bea3aa484
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1742e6bd-1060-4e4a-88a5-3d98b7cfc3e3
+        userCondition: null
+fields:
+  3a5d43ec-b64e-4797-83a5-cdbb7c79ceb0: # hours
+    columnSuffix: cmtlpcgd
+    contentColumnType: text
+    fieldGroup: null
+    handle: hoursField
+    instructions: null
+    name: hours
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6496731e-59f6-4c71-84a8-fc1ebf0bf15b: # title
+    columnSuffix: qvrlqvyh
+    contentColumnType: string
+    fieldGroup: null
+    handle: titleField
+    instructions: null
+    name: title
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionLabel: null
+      showSiteMenu: true
+      source: 'taggroup:d60168ef-0707-4f4f-9905-178cd9490e6c' # vakken
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Tags
+handle: vakBlock
+name: vak
+sortOrder: 1

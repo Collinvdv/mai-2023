@@ -60,15 +60,27 @@ fields:
       maintainHierarchy: false
       maxRelations: null
       minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
       selectionLabel: null
       showSiteMenu: true
-      source: 'taggroup:d60168ef-0707-4f4f-9905-178cd9490e6c' # vakken
+      sources:
+        - 'section:ceb21329-439a-4697-8cb3-c475786b9a24' # Vakken
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
-    type: craft\fields\Tags
+    type: craft\fields\Entries
   456fe963-8095-43f7-9ac7-004950cdb04c: # Title
     columnSuffix: wkvskckq
     contentColumnType: text
