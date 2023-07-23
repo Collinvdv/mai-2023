@@ -39,6 +39,45 @@
                 transform: translateX(8px);
 
             }
+
+            {# wysiwyg #}
+            .s-wysiwyg ul {
+                list-style: none; 
+                margin-left: 0.5em;
+                margin-top: 0.75em;
+            }
+
+            .s-wysiwyg ul li {
+                margin-bottom: 0.5em;
+            }
+            .s-wysiwyg ul li::before {
+                content: "\2022";
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-right: 0.25em;
+                color: #272839;
+            }
+
+            .s-wysiwyg.t-rose ul li::before {
+                color: #FFA592;
+            }
+
+            .s-wysiwyg.t-primary ul li::before {
+                color: #ACEAD5;
+            }
+
+            .s-wysiwyg.t-blue ul li::before {
+                color: #171DA1;
+            }
+
+            .s-wysiwyg.t-lavendel ul li::before {
+                color: #CEC4F7;
+            }
+
+            .s-wysiwyg.t-violet ul li::before {
+                color: #9D47A3;
+            }
         </style>
 	</body>
 </html>
