@@ -1,0 +1,33 @@
+
+
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.titleField ?? "" %}
+{% set hours = data.hoursField ?? "" %}
+{% set vakken = data.vakkenField ?? "" %}
+{% set color = color ?? "dark" %}
+
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="flex flex-col w-6/12">
+    <div class="flex justify-between  pb-2 mb-2 border-b-2 border-b-{{color}}">
+        <span class="font-bold mr-24">
+            {{ title }}
+        </span>
+        <span class="font-bold">
+            {{ hours }}
+        </span>
+    </div>
+
+    <div class="flex flex-col gap-2">
+        {% for vak in vakken %}
+            <div class="{% if loop.first == false %} border-t-2 border-t-grey pt-2 {% endif %}">
+                {{ vak.title }}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+

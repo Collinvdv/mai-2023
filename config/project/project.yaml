@@ -1,4 +1,4 @@
-dateModified: 1689927194
+dateModified: 1689928470
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -22,6 +22,7 @@ meta:
   __names__:
     0a6ae889-cd44-4836-90c7-7eb4a7137ec5: 'No spacing bottom' # No spacing bottom
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default
+    0d3e4baf-1dfc-4231-b10d-9547b2b862af: Vakken # Vakken
     1a42c531-e28e-400c-bc5c-f8f24aabdc55: Footer # Footer
     1a83051b-5fff-4173-99ff-a16698a69da9: Mail # Mail
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
@@ -56,6 +57,7 @@ meta:
     356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
     441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
+    456fe963-8095-43f7-9ac7-004950cdb04c: Title # Title
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
@@ -63,9 +65,11 @@ meta:
     989b16ac-ff20-4898-bc5b-8bf0c254878c: Events # Events
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
+    2195a092-edf3-42ca-a72f-31f388846451: LessenTabel # LessenTabel
     2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
+    6004ca02-7a95-431c-9468-b71527f5a77a: Vakken # Vakken
     06936d40-6287-4cf0-9565-4ea06bbc5f23: Body # Body
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
@@ -94,6 +98,7 @@ meta:
     c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
     cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
     d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
+    d60168ef-0707-4f4f-9905-178cd9490e6c: vakken # vakken
     d5723907-aba7-45b9-b3bd-bdabadaded21: Evenementen # Evenementen
     de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
@@ -106,6 +111,7 @@ meta:
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
     f650ff39-b930-480c-95f1-c651efdaacd6: Default # Default
     fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac: Article # Article
+    ff440e52-0b0a-443c-9e55-f189c7170f0c: Hours # Hours
 plugins:
   field-manager:
     edition: standard

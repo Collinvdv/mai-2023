@@ -2,16 +2,18 @@
 {# :: Variables #}
 {# ========================================================================== #}
 {% set content = content ?? null %}
+{% set color = color ?? null %}
 
 {# ========================================================================== #}
 {# :: Content #}
 {# ========================================================================== #}
 {% if content is not null %}
-    <div class="grid gap-6">
+    <div class="grid gap-8">
     {% for block in content.all() %}
         <div>
             {% include "/components/content/" ~ block.type.handle ~".twig" with { 
-                data : block
+                data : block,
+                color : color
             } %}
         </div>
     {% endfor %}

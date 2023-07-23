@@ -3,6 +3,7 @@
 {# ========================================================================== #}
 {% set title = data.commonTitle ?? "" %}
 {% set content = data.commonContent ?? "" %}
+{% set color = data.commonColor ?? "" %}
 
 {% import "/macros/title" as titleMacro %}
 
@@ -19,7 +20,8 @@
 
         <div class="w-full lg:w-7/12">
             {% include "/components/content/index.twig" with { 
-                content :content    
+                content : content,
+                color: color
             } only %}
         </div>
     </div>
