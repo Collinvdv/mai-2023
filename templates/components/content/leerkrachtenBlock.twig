@@ -1,0 +1,20 @@
+
+
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set leerkrachten = data.leerkrachtenField ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="grid gap-8 lg:grid-cols-3">
+    {% for leerkracht in leerkrachten %}
+        <div>
+            {% include "/components/leerkracht.twig" with { 
+                leerkracht : leerkracht
+            } %}
+        </div>
+    {% endfor %}
+</div>
+

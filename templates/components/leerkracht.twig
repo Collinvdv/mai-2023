@@ -1,0 +1,29 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set leerkracht = leerkracht ?? "" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="h-full">
+
+    {% if leerkracht.commonImage.one() %}
+        <div class="bg-cover w-full h-96 rounded-tr-10rem" style="background-image: url('{{ leerkracht.commonImage.one().url }}')">
+        </div>
+    {% endif %}
+
+    <div class="border-1 border-grey p-6" style="box-shadow: 0px 6px 40px 0px rgba(210, 204, 204, 0.30);">
+        {% if leerkracht.commonTitle %}
+            <h4 class="mb-4">
+                {{ leerkracht.commonTitle }}
+            </h4>
+        {% endif %}
+
+        {% if leerkracht.commonDescription %}
+            <div>
+                {{ leerkracht.commonDescription  }}
+            </div>
+        {% endif %}
+    </div>
+</div>

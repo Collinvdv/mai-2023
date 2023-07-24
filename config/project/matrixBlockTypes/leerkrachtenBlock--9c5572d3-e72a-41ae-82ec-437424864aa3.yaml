@@ -1,0 +1,62 @@
+field: 9b271a30-441e-4349-8015-e145efbaf982 # Content
+fieldLayouts:
+  b59366ec-ec4c-4b8c-a01e-7030a6371c11:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 856b199c-bf0a-411e-8602-8d7987c7261d # Leerkrachten
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d192b513-1728-419e-a9c2-02c676ce5855
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 37d29d65-730f-4c80-951c-b75d823a0f79
+        userCondition: null
+fields:
+  856b199c-bf0a-411e-8602-8d7987c7261d: # Leerkrachten
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: leerkrachtenField
+    instructions: null
+    name: Leerkrachten
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      sources:
+        - 'section:28023629-b0b2-49a4-be67-febf5922699b' # Leerkracht
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: leerkrachtenBlock
+name: Leerkrachten
+sortOrder: 5

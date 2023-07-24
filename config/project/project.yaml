@@ -1,4 +1,4 @@
-dateModified: 1690128069
+dateModified: 1690210577
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -43,6 +43,7 @@ meta:
     8db3fc5a-318e-4c7d-98ab-73b3392beef2: Cta # Cta
     8f009697-7260-4f23-b273-bd8c5d7e6239: Column # Column
     9b271a30-441e-4349-8015-e145efbaf982: Content # Content
+    9c5572d3-e72a-41ae-82ec-437424864aa3: Leerkrachten # Leerkrachten
     11aa3d74-6507-4456-9814-266b32e421a3: Phone # Phone
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     45b31148-946f-4d7b-b38e-dd2631f5cd0c: Default # Default
@@ -64,6 +65,7 @@ meta:
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
     696b4fe9-5225-4cc6-8855-b52d7e464051: HeroSplit # HeroSplit
+    856b199c-bf0a-411e-8602-8d7987c7261d: Leerkrachten # Leerkrachten
     989b16ac-ff20-4898-bc5b-8bf0c254878c: Events # Events
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
@@ -80,11 +82,13 @@ meta:
     928188f5-5f18-49f8-8686-a8909488ee22: Homepage # Homepage
     6496731e-59f6-4c71-84a8-fc1ebf0bf15b: title # title
     7683426a-5be3-44a1-9d69-0a33d91639f6: image # image
+    28023629-b0b2-49a4-be67-febf5922699b: Leerkracht # Leerkracht
     38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
     68886762-2ceb-4ba5-9770-7e610ea3057d: link # link
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
     a3cd6bc3-592b-4058-8f6d-8cb76699417c: Link # Link
     a5ed0481-924f-4d21-8870-09b85c31c135: Wysiwyg # Wysiwyg
+    a964af9c-e274-426b-86c7-57b05ab2443c: Default # Default
     aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
     abcc9070-6cf5-479e-a757-26af8478cb2e: Numbers # Numbers
     adae52e8-4cf6-4f0e-ae1d-05059dbf611f: 'Background grey' # Background grey

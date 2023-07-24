@@ -1,15 +1,15 @@
 defaultPlacement: end
 enableVersioning: true
-handle: pages
-name: Pages
+handle: leerkracht
+name: Leerkracht
 propagationMethod: all
 siteSettings:
   520ae88b-24db-491f-a50d-9ec2cb2dc5b5: # Mai
     enabledByDefault: true
     hasUrls: true
-    template: pages/detail.twig
-    uriFormat: '{slug}'
+    template: leerkracht/_entry
+    uriFormat: 'leerkracht/{slug}'
 structure:
-  maxLevels: 3
-  uid: df3f3b31-00ac-4850-bb86-cfdc3d691e67
+  maxLevels: null
+  uid: 1dc92c5f-6862-404c-a350-b8a72da624f7
 type: structure
