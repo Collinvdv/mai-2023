@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  30623ffa-7e0b-45b9-a7e8-fcf026b9b07a:
+  1e3abacf-e714-48f3-82ac-274316b39b14:
     tabs:
       -
         elementCondition: null
@@ -78,5 +78,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Tabs
-sortOrder: 14
+sortOrder: 15
 topLevel: true

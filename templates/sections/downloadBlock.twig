@@ -1,0 +1,47 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %} 
+{% set link = data.commonLink ?? "" %} 
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4 ">
+    <div class="flex justify-between overflow-hidden gap-12 border-1 border-grey">
+
+        {# Content #}
+        <div class="px-16 py-16 flex flex-col gap-4">
+            <h3>
+                {{ title }}
+            </h3>
+
+            <div>
+                {{ description|nl2br }}
+            </div>
+
+            {# Buttons #}
+            <ul class="flex gap-8 items-center">
+                {% if link and link.getText() %}
+                    <li>
+                        {% include "/components/button.twig" with { 
+                            href :link,
+                            text : link.getText(),
+                            color: "primary"
+                        }
+                            only
+                        %}
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+
+        {# Shape right #}
+        <div class="relative w-2/12">
+            {% include "/components/shapes/right-2.twig" with {
+                customClasses: "absolute -right-1 -bottom-1 pt-8",
+            } %}
+        </div>
+    </div>
+</div>
