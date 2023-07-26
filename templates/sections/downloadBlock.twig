@@ -28,7 +28,9 @@
                         {% include "/components/button.twig" with { 
                             href :link,
                             text : link.getText(),
-                            color: "primary"
+                            type: link.getType(),
+                            color: "primary",
+                            icon: "download"
                         }
                             only
                         %}

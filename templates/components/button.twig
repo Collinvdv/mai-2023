@@ -5,13 +5,22 @@
 {% set text = text ?? "" %}
 {% set isSmall = isSmall ?? false %}
 {% set color = color ?? "white" %}
+{% set icon = icon ?? "" %}
+{% set type= type ?? "entry" %}
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a href="{{ href }}" class="relative py-3 px-6 cursor-pointer bg-{{color}} inline-block group">
+<a href="{{ href }}" class="relative py-3 px-6 cursor-pointer bg-{{color}} group flex items-center" {% if type == "asset" %} download {% endif %}>
     <span class=" {% if isSmall %} text-sm {% endif %} relative z-30">
         {{ text | raw }}
+
+        {{ type }}
     </span>
+    {% if icon %}
+        {% include "/components/icons/" ~  icon ~".twig" with { 
+            customClasses: "pl-2 w-8 h-8"
+        } %}
+    {% endif %}
     <div class="absolute inset-0 h-full w-full scale-0transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
 </a>
