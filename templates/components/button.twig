@@ -14,8 +14,6 @@
 <a href="{{ href }}" class="relative py-3 px-6 cursor-pointer bg-{{color}} group flex items-center" {% if type == "asset" %} download {% endif %}>
     <span class=" {% if isSmall %} text-sm {% endif %} relative z-30">
         {{ text | raw }}
-
-        {{ type }}
     </span>
     {% if icon %}
         {% include "/components/icons/" ~  icon ~".twig" with { 
