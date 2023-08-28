@@ -1,0 +1,60 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = data.commonTitle ?? "" %}
+{% set description = data.commonDescription ?? "" %} 
+{% set link = data.commonLink ?? "" %} 
+{% set secondaryLink = data.commonSecondaryLink ?? "" %} 
+
+{% import "/macros/title" as titleMacro %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="-mt-16 -mb-60 pb-20 relative overflow-hidden">
+    <div class="container mx-auto">
+        <div class="flex">
+            {# Image #}
+            <div class="w-7/12 bg-cover rounded-tr-15rem relative overflow-hidden" style="background-image: url('{{data.commonImage.one().url }}')">
+                {% include "/components/shapes/left.twig" with {
+                    customClasses: "absolute -left-16 -top-2 w-6/12 pb-24",
+                    colors: {
+                        pacman: "fill-primary",
+                        circle: "fill-blue",
+                        triangle:  "fill-rose",
+                        stripes: "fill-lavendel",
+                    }
+                } %}
+            </div>
+            
+            {# Content #}
+            <div class="w-5/12 pt-20 pb-32">
+                <div class="flex flex-col w-8/12 gap-8 mx-auto">
+                    <h1>
+                        {{ titleMacro.decorative(title) }}
+                    </h1>
+
+                    <div>
+                        {{ description|nl2br }}
+                    </div>
+
+                    {# Button #}
+                    <div class="flex gap-8" >
+                        {% include "/components/button.twig" with { 
+                            href : data.commonLink,
+                            text : data.commonLink.getText(),
+                            color: "primary"
+                        } %}
+
+                        {% include "/components/link.twig" with { 
+                            href : data.commonSecondaryLink,
+                            text : data.commonSecondaryLink.getText(),
+                            color: "primary"
+                        } %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

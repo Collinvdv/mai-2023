@@ -1,10 +1,10 @@
 childBlocks: null
 conditions: null
-description: null
+description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  402f05a9-25a3-4f16-85cb-66d88bd8040e:
+  f0ed090a-78fc-4133-a692-5c3ab8d3e7a0:
     tabs:
       -
         elementCondition: null
@@ -17,58 +17,64 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d802c650-5c94-4aa8-81fb-c7646982b56d
+            uid: d279bdd7-fb4d-4209-82b4-d8ccc46e9e23
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: 8835a683-5c79-4e24-b4a7-6c9e3a0b1e60
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 949d688e-2898-4ac8-99eb-bbd022f973a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 261db691-f0c2-40da-ae5f-425351644ca6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6dc5a1cd-6856-42e6-847a-e34d4b068322
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 174b291e-740f-4a34-a49c-d7b3dd2a07b8 # Secondary link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b876074e-d08e-4e20-b681-f77713a26315
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: 9ee2ca9f-a3fa-4ba2-bbb0-a9f3572c96ac
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 43905c72-789c-491c-a78b-a9d75d92f686
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 0a6ae889-cd44-4836-90c7-7eb4a7137ec5 # No spacing bottom
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7face562-5101-4347-8b36-7909ce2a9e43
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: ec3cff63-93d9-4e5a-af37-1be92a9bbbf3
-            userCondition: null
-            warning: null
-            width: 100
-        name: Settings
-        uid: 51cee545-ec7f-417d-8133-01bcdaacd46b
-        userCondition: null
-group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
+group: 238fe600-4471-43e3-865f-f2c7e82ec2ba # Hero
 groupChildBlockTypes: true
-handle: imagesBlock
+handle: heroHomepage
 icon: null
 ignorePermissions: true
 maxBlocks: 0
@@ -77,6 +83,6 @@ maxSiblingBlocks: 0
 minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
-name: Images
-sortOrder: 10
+name: HeroHomepage
+sortOrder: 3
 topLevel: true

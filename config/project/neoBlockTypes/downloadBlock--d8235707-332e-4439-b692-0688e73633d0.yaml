@@ -1,6 +1,6 @@
 childBlocks: null
 conditions: null
-description: ''
+description: null
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
@@ -90,5 +90,5 @@ minBlocks: 0
 minChildBlocks: 0
 minSiblingBlocks: 0
 name: Download
-sortOrder: 14
+sortOrder: 15
 topLevel: true
