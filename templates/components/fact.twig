@@ -6,7 +6,7 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="bg-{{ card.commonColor }} {% if card.commonColor == 'blue' or card.commonColor == 'violet' %}text-white {%endif%} p-12">
+<div class="bg-{{ card.commonColor }} {% if card.commonColor == 'blue' or card.commonColor == 'violet' %}text-white {%endif%} p-8 lg:p-12">
 
     {% if card.commonIcon.one() %}
         <img class="w-12 h-12 mb-4" src="{{ card.commonIcon.one().url }}" alt="{{ card.commonIcon.one().alt }}">

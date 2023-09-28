@@ -15,7 +15,7 @@
 {# :: Component #}
 {# ========================================================================== #}
 <div class="bg-primary py-16 {% if articles|length > 0 %}pb-60{% endif %}">
-    <div class="container mx-auto px-4 flex flex-wrap gap-12 lg:gap-60 ">
+    <div class="container mx-auto px-4 flex flex-wrap gap-12 lg:gap-60 lg:flex-nowrap ">
         <div class=" w-full lg:w-6/12">
             <h2 class="mb-6">
                 {{ titleMacro.decorative(title) }}
@@ -67,7 +67,7 @@
 {% if articles|length > 0 %}
     <div class="-mt-40">
         <div class="container mx-auto px-4 flex gap-60 ">
-            <ul class="flex flex-wrap gap-12">
+            <ul class="flex flex-wrap gap-12 lg:flex-nowrap">
                 {% for article in articles %}
                     <li class=" w-full lg:w-4/12 transition ease-in-out transform cursor-pointer md:hover:translate-y-4">
                         {% include "/components/article.twig" with { 

@@ -16,7 +16,7 @@
 </div>
 
 {# Secondary header  #}
-<div class="bg-primary py-2">
+<div class="bg-primary py-2 hidden lg:block">
     <div class="container mx-auto px-4">
         <ul class="flex justify-end gap-6">
             {% for link in header.commonSecondaryLinks.all() %}
@@ -33,12 +33,13 @@
     {# Logo #}
     <a href="/">
         {% include "/components/logos/logo.twig" with {
-            customClass: 'w-80'
+            customClass: 'w-56 lg:w-80'
         } %}
     </a>
 
     {# Menu #}
     <nav>
+        {# desktop menu #}
         <ul class="hidden lg:flex gap-12">
             {% for menuItem in header.commonMainMenu.level(1).all() %}
                 <li>
@@ -84,5 +85,76 @@
                 </li>
             {% endfor %}
         </ul>
+
+        {# hamburger icon #}
+        <a href="#" class="flex lg:hidden" x-on:click="openMobileMenu = ! openMobileMenu">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>icon/menu</title>
+                <g id="icon/menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="fill-black">
+                    <rect id="Rectangle" x="2" y="5" width="20" height="1" rx="0.5" :class="'fill-current ' + customColor"></rect>
+                    <rect id="Rectangle" x="2" y="10" width="20" height="1" rx="0.5" :class="'fill-current ' + customColor"></rect>
+                    <rect id="Rectangle" x="2" y="15" width="20" height="1" rx="0.5" :class="'fill-current ' + customColor"></rect>
+                </g>
+            </svg>
+        </a>
     </nav>
 </header>
+
+{# MobileMenu #}
+<aside
+    class="mobile-menu transform top-0 left-0 w-screen bg-white fixed h-full overflow-auto ease-in-out transition-all duration-500 z-50"
+    x-bind:class="openMobileMenu ? 'translate-x-0' : '-translate-x-full'"
+    >
+    <div class="md:container md:mx-auto px-4 py-8">
+        {# Close button #}
+        <div class="flex justify-end pb-8">
+            <svg x-on:click="openMobileMenu = ! openMobileMenu" class="w-8 h-8" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>icon/close</title>
+                <g id="icon/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="fill-black">
+                    <rect id="Rectangle" :class="'fill-current ' + customColor" transform="translate(12.000000, 12.000000) rotate(-315.000000) translate(-12.000000, -12.000000) " x="2" y="11.5" width="20" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" :class="'fill-current ' + customColor" transform="translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) " x="2" y="11.5" width="20" height="1" rx="0.5"></rect>
+                </g>
+            </svg>
+        </div>
+
+        {# Navigatie #}
+        <ul class="lg:flex gap-12">
+            {% for menuItem in header.commonMainMenu.level(1).all() %}
+                <li>
+                    {# Normal link #}
+                    <div class="relative">
+                        {% if menuItem.commonLinks|length == 0 %}
+                            <a href="{{menuItem.commonLink}}" class="inline-block font-semibold text-lg pb-4" >
+                                {{ menuItem.commonLink.getText()}}
+                            </a>
+                        {% endif %}
+
+                        {# Link with parent #}
+                        {% if menuItem.commonLinks|length > 0 %}
+                            <div class="flex flex-col">
+                                <span class="font-semibold text-lg pb-4">
+                                    {{ menuItem.commonLink.getText()}}
+                                </span>
+
+                                {% for subNavMenuItem in menuItem.commonLinks.all() %}
+                                    <a href="{{ subNavMenuItem.page }}" class="font-semibold text-lg pb-4 ml-4">
+                                        {{ subNavMenuItem.page.getText() }}
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {# Subnav #}
+        <ul class="flex flex-col mt-12">
+            {% for link in header.commonSecondaryLinks.all() %}
+                <li>
+                    <a class="font-normal text-base mb-3 block" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

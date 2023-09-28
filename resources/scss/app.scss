@@ -29,8 +29,12 @@
     h3 {
         @apply font-semibold;
 
-        font-size: 23px;
+        font-size: 21px;
         line-height: 1.25;
+
+        @media (min-width: 768px) {
+            font-size: 23px;
+        }
     }
 
     h4 {
