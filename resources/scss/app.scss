@@ -76,6 +76,13 @@
     strong {
         @apply font-bold;
     }
+
+    .c-content-image {
+        @media (min-width: 768px) {
+            margin-left: -100px;
+            width: calc(100% + 200px) !important;
+        }
+    }
 }
 
 @tailwind components;

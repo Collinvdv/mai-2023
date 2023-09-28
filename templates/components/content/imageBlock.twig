@@ -1,18 +1,13 @@
+
+
 {# ========================================================================== #}
 {# :: Variables #}
 {# ========================================================================== #}
-{% set title = data.commonTitle ?? "" %}
-{% set content = data.commonContent ?? "" %}
+
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="container max-w-4xl mx-auto px-4">
-    <h2 class="">
-        {{ title }}
-    </h2>
-
-    {% include "/components/content/index.twig" with { 
-        content : content
-    } only %}
-</div>
+{% if data.imageField.one() %}
+    <img src="{{data.imageField.one().url}}" class="w-full max-w-none c-content-image">
+{% endif %}

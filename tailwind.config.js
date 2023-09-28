@@ -66,6 +66,7 @@ module.exports = {
         "lg:bg-blue",
         "lg:bg-lavendel",
         "lg:bg-violet",
+        "container-sm"
       ],
     }
   }

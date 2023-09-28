@@ -1,18 +1,14 @@
 {# ========================================================================== #}
-{# :: Variables #}
+{# Inheritance #}
 {# ========================================================================== #}
-{% set title = data.commonTitle ?? "" %}
-{% set content = data.commonContent ?? "" %}
+{% extends "base/layout" %}
 
 {# ========================================================================== #}
-{# :: Component #}
+{# Content #}
 {# ========================================================================== #}
-<div class="container max-w-4xl mx-auto px-4">
-    <h2 class="">
-        {{ title }}
-    </h2>
-
-    {% include "/components/content/index.twig" with { 
-        content : content
-    } only %}
-</div>
+{% block content %}
+     {% cache globally using key "detail-#{entry.slug}" if not craft.app.config.general.devMode  %}
+        {# Dynamic blocks #}
+        {% include "/sections/_index.twig" %}
+    {% endcache %}
+{% endblock %}
