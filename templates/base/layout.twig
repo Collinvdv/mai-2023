@@ -16,6 +16,8 @@
          {% if craft.app.config.env != "production" %}
             <meta name="robots" content="noindex nofollow" />
         {% endif %}
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCirPBw_24U5ZSO0LQJI-DoL6TrFAWICCA&callback=initMap" async defer></script>
     </head>
 	<body x-data="{ openMobileMenu: false }">
 
@@ -41,6 +43,10 @@
             }
 
             {# wysiwyg #}
+            .s-wysiwyg a {
+                text-decoration: underline;
+            }
+
             .s-wysiwyg ul {
                 list-style: none; 
                 margin-top: 0.75em;

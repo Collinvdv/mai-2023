@@ -1,4 +1,4 @@
-dateModified: 1693233335
+dateModified: 1695891404
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -118,6 +118,7 @@ meta:
     e96245eb-37d4-475a-98ca-82ebcd5f62bc: Address # Address
     e2979602-72a9-454e-96d4-e00c447d1ce3: HeroHomepage # HeroHomepage
     eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
+    ec6bd5db-a9d1-4d2e-9f8a-674d0f0361cf: Contact # Contact
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
