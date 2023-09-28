@@ -43,13 +43,13 @@
             {# wysiwyg #}
             .s-wysiwyg ul {
                 list-style: none; 
-                margin-left: 0.5em;
                 margin-top: 0.75em;
             }
 
             .s-wysiwyg ul li {
                 margin-bottom: 0.5em;
-                display: flex;
+                padding-left: 18px;
+                position: relative
             }
             .s-wysiwyg ul li::before {
                 content: "\2022";
@@ -58,6 +58,10 @@
                 width: 1em;
                 margin-right: 0.25em;
                 color: #272839;
+                flex-shrink: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
 
             .s-wysiwyg.t-rose ul li::before {
@@ -78,6 +82,10 @@
 
             .s-wysiwyg.t-violet ul li::before {
                 color: #9D47A3;
+            }
+
+            .s-wysiwyg h1, .s-wysiwyg h2, .s-wysiwyg h3, .s-wysiwyg h4 {
+                margin-bottom: 6px;
             }
         </style>
 	</body>
