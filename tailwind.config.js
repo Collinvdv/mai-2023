@@ -61,7 +61,11 @@ module.exports = {
         "pl-8",
         "pl-12",
         "pl-16",
-        "pb-16"
+        "pb-16",
+        "lg:bg-rose",
+        "lg:bg-blue",
+        "lg:bg-lavendel",
+        "lg:bg-violet",
       ],
     }
   }

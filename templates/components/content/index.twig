@@ -8,14 +8,14 @@
 {# :: Content #}
 {# ========================================================================== #}
 {% if content is not null %}
-    <div class="grid gap-6">
-    {% for block in content.all() %}
-        <div>
-            {% include "/components/content/" ~ block.type.handle ~".twig" with { 
-                data : block,
-                color : color
-            } %}
-        </div>
-    {% endfor %}
+    <div class="grid gap-8">
+        {% for block in content.all() %}
+            <div>
+                {% include "/components/content/" ~ block.type.handle ~".twig" with { 
+                    data : block,
+                    color : color
+                } %}
+            </div>
+        {% endfor %}
     </div>
 {% endif %}
