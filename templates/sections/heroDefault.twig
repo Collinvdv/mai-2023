@@ -136,7 +136,7 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<div class="{{colorBackground}} py-8 lg:py-20 relative overflow-hidden">
+<div class="{{colorBackground}}  {% if (data.commonShowIcons == false and colorBackground == 'bg-white') %} {% else %}py-8 lg:py-20 {%endif%} relative overflow-hidden">
     <div class="container mx-auto">
         {# Shape left #}
         {% if data.commonShowIcons %}

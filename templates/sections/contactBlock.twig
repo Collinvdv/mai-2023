@@ -8,11 +8,11 @@
 {# :: Component #}
 {# ========================================================================== #}
 <div class="container mx-auto px-4">
-    <div class="px-40">
+    <div class="lg:px-40">
         <div class="flex flex-wrap justify-center">
 
             {# Content #}
-            <div class="w-6/12 bg-primary p-12">
+            <div class="w-full lg:w-6/12 bg-primary p-8 lg:p-12 order-2 lg:order-1">
                 <h4 class="mb-2">
                     {{ title }}
                 </h4>
@@ -25,7 +25,7 @@
 
             {# Image #}
             {% if data.commonImage.one() %}
-                <div class="bg-cover bg-center w-full h-56 lg:h-auto lg:min-h-[20rem] lg:w-6/12 rounded-tr-10rem" style="background-image: url('{{ data.commonImage.one().url }}')">
+                <div class="bg-cover order-1 lg:order-2 bg-center w-full h-56 lg:h-auto lg:min-h-[20rem] lg:w-6/12 rounded-tr-10rem" style="background-image: url('{{ data.commonImage.one().url }}')">
                 </div>
             {% endif %}
         </div>
