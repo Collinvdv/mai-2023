@@ -13,9 +13,9 @@
 {# ========================================================================== #}
 <div class="-mt-16 -mb-60 pb-20 relative overflow-hidden">
     <div class="container mx-auto">
-        <div class="flex">
+        <div class="flex flex-wrap">
             {# Image #}
-            <div class="w-7/12 bg-cover rounded-tr-15rem relative overflow-hidden" style="background-image: url('{{data.commonImage.one().url }}')">
+            <div class="w-full h-64  bg-cover  relative overflow-hidden rounded-tr-10rem lg:h-auto lg:w-7/12 lg:rounded-tr-15rem" style="background-image: url('{{data.commonImage.one().url }}')">
                 {% include "/components/shapes/left.twig" with {
                     customClasses: "absolute -left-16 -top-2 w-6/12 pb-24",
                     colors: {
@@ -28,8 +28,8 @@
             </div>
             
             {# Content #}
-            <div class="w-5/12 pt-20 pb-32">
-                <div class="flex flex-col w-8/12 gap-8 mx-auto">
+            <div class="w-full px-4 bg-grey py-8 lg:bg-white lg:w-5/12 lg:px-0 lg:pt-20 lg:pb-32 ">
+                <div class="flex flex-col w-full lg:w-8/12 gap-4 lg:gap-8 mx-auto">
                     <h1>
                         {{ titleMacro.decorative(title) }}
                     </h1>
