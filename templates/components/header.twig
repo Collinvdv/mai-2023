@@ -73,21 +73,29 @@
                                     x-transition:leave-start="opacity-100 translate-y-0"
                                     x-transition:leave-end="opacity-0 translate-y-1"
                                     class="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-                                    <div class="w-screen max-w-lg flex-auto overflow-hidden bg-white text-sm leading-6 shadow-lg">
+                                    <div class="w-screen max-w-[34rem] flex-auto overflow-hidden bg-white text-sm leading-6 shadow-lg">
                                         <div class="pt-4 px-8 pb-12 flex gap-16">
                                             {% for subNavMenuItem in menuItem.columns.all() %}
                                                 <div>
-                                                    <div class="uppercase text-grey-darker mb-2 cursor-pointer">
+                                                    <div class="uppercas mb-2 cursor-pointer text-base uppercase text-grey-darker ">
                                                         {{ subNavMenuItem.commonTitle }}
                                                     </div>
 
-                                                    <div class="flex flex-col gap-4">
+                                                    <div class="flex flex-col gap-2">
                                                         {% for link in subNavMenuItem.commonLinks.all() %}
-                                                            {% include "/components/link.twig" with { 
-                                                                href : link.page,
-                                                                text : link.page.getText(),
-                                                                color: "shade",
-                                                            } %}
+                                                            {% if link.type == "titleBlock" %}
+                                                                <span class="uppercase block text-shade -mb-1 {% if loop.index != 1 %} mt-6 {% endif %}">
+                                                                    {{ link.mxTitle }}
+                                                                </span>
+                                                            {% endif %}
+
+                                                            {% if link.type == "linkBlock" %}
+                                                                {% include "/components/link.twig" with { 
+                                                                    href : link.page,
+                                                                    text : link.page.getText(),
+                                                                    color: "shade",
+                                                                } %}
+                                                            {% endif %}
                                                         {% endfor %}
                                                     </div>
                                                 </div>

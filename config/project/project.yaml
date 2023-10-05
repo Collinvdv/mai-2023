@@ -1,4 +1,4 @@
-dateModified: 1696490974
+dateModified: 1696495425
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -94,6 +94,7 @@ meta:
     a5ed0481-924f-4d21-8870-09b85c31c135: Wysiwyg # Wysiwyg
     a384c360-0211-405c-84b8-af18769cddfe: Title # Title
     a964af9c-e274-426b-86c7-57b05ab2443c: Default # Default
+    aa423c80-617f-4dc6-93bd-cdab09ff4b07: title # title
     aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
     abcc9070-6cf5-479e-a757-26af8478cb2e: Numbers # Numbers
     adae52e8-4cf6-4f0e-ae1d-05059dbf611f: 'Background grey' # Background grey
@@ -131,6 +132,7 @@ meta:
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
     f650ff39-b930-480c-95f1-c651efdaacd6: Default # Default
+    f62465ee-64f8-4666-b7ba-47d87de3cbcc: Title # Title
     fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac: Article # Article
     ff440e52-0b0a-443c-9e55-f189c7170f0c: Hours # Hours
 plugins:

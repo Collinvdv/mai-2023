@@ -54,6 +54,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: adc583d2-65c2-4163-99ea-8cb6887d5fb5 # Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db63fc93-2d5f-4918-8ca1-007c32b80668
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: ab70b1eb-f480-4d3e-aa2b-94e1cd63c227
         userCondition: null
@@ -61,6 +73,9 @@ handle: default
 hasTitleField: false
 name: Default
 section: 1ca3d924-ca88-4ab1-a17f-80eba45b750b # NavColumns
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{commonTitle}'
 titleTranslationKeyFormat: null
