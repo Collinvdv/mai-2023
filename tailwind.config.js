@@ -10,6 +10,7 @@ module.exports = {
       "shade" : "#2BB989",
       "black" : "#272839",
       "grey" : "#E9F3FD",
+      "grey-darker" : "#737377",
       "white" : "#FFFFFF",
       "rose" : "#FFA592", // rose
       "blue" : "#171DA1", // blue

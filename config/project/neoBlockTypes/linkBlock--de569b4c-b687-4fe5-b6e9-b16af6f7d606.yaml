@@ -4,7 +4,7 @@ description: ''
 enabled: true
 field: 92e56108-7d63-4d93-b353-6bfed2351e0d # Main menu
 fieldLayouts:
-  b28ca7d2-0f5d-408b-9523-fc5e7b9d0dde:
+  a7a3be64-b1d7-4532-ace2-1e8fc61ace46:
     tabs:
       -
         elementCondition: null
@@ -33,6 +33,18 @@ fieldLayouts:
             type: craft\fieldlayoutelements\Heading
             uid: d20cd6c6-dfc9-4420-83c4-9103e671d4fd
             userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 729fa632-6c91-475f-9452-4323bf9d276e # columns
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: abc5c519-5890-4fd8-8c66-238c74820529
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: b02ac359-d1ee-4107-a6cb-18305753f0ab # Links
