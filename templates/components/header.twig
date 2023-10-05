@@ -54,8 +54,14 @@
                         {# Link with parent #}
                         {% if menuItem.columns|length > 0 %}
                             <div x-data="{ open: false }" @click.outside="open = false">
-                                <span @click="open = !open">
+                                <span @click="open = !open" class="cursor-pointer flex items-center">
                                     {{ menuItem.commonLink.getText()}}
+
+                                    <div class="pl-2">
+                                        {% include "/components/icons/check-down.twig" with { 
+                                            color : "fill-black"
+                                        } %}
+                                    </div>
                                 </span>
 
                                 <div

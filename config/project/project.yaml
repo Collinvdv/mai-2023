@@ -1,4 +1,4 @@
-dateModified: 1696489005
+dateModified: 1696490974
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -78,7 +78,6 @@ meta:
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5145a7a9-145a-408b-8d6c-bf263d4873e7: Title # Title
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
-    6004ca02-7a95-431c-9468-b71527f5a77a: Vakken # Vakken
     06936d40-6287-4cf0-9565-4ea06bbc5f23: Body # Body
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
@@ -161,7 +160,7 @@ system:
   edition: solo
   live: true
   name: Mai
-  schemaVersion: 4.4.0.4
+  schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
