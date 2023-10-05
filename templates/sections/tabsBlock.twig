@@ -14,14 +14,17 @@
                 {% for tab in tabs %}
                     <li class="flex items-center cursor-pointer" @click="activeTab = {{loop.index}}" :class="activeTab === {{ loop.index }} ? 'bg-black text-white' : 'bg-grey'">
                         <!-- Completed Step -->
-                        <span class="p-2 px-4 text-lg">{{loop.index}}. {{ tab.commonTitle }}</span>
+                        <div class="p-2 text-sm lg:text-lg lg:px-4 flex">
+                            <span>{{loop.index}}</span>
+                            <span :class="activeTab === {{ loop.index }} ? 'block' : 'hidden lg:block'">. {{ tab.commonTitle }}</span>
+                        </div>
 
                         <!-- Arrow separator for lg screens and up -->
                         <svg class="w-6 relative z-20" style="left: -1px" viewBox="0 0 22 40" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px;">
                             <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" :class="activeTab === {{ loop.index }} ? 'fill-black' : 'fill-grey'"/>
                         </svg>
                         <div class="flex -ml-6 {% if loop|length == loop.index  %} bg-white {% endif %}">
-                            <div class="w-2 h-max bg-white" style="height: auto"></div>
+                            <div class="w-2 h-max bg-white right-0 z-10" style="height: auto"></div>
                             <svg class="w-6" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -1px;" :class="getClass({{loop.index}}, {{tabs|length}})">
                                 <path d="M0.195312 0L21.1953 20L0.195312 40V0Z" class="fill-white" />
                             </svg>
@@ -35,13 +38,13 @@
     {# Content #}
     {% if tabs %}
         {% for tab in tabs %}
-            <div class="flex gap-8" :class="{ 'active': activeTab === {{loop.index}} }" x-show.transition.in.opacity.duration.600="activeTab === {{loop.index}}">
+            <div class="flex flex-col gap-6 lg:flex-row lg:gap-8" :class="{ 'active': activeTab === {{loop.index}} }" x-show.transition.in.opacity.duration.600="activeTab === {{loop.index}}">
                 {% if tab.commonImage.one() %}
-                    <div class="bg-cover w-full lg:w-4/12 rounded-tl-10rem" style="background-image: url('{{ tab.commonImage.one().url }}')">
+                    <div class="bg-cover bg-center w-full h-40 rounded-tl-3xl lg:w-4/12 lg:rounded-tl-10rem lg:h-auto" style="background-image: url('{{ tab.commonImage.one().url }}')">
                     </div>
                 {% endif %}
 
-                <div class="w-8/12 py-16">
+                <div class="w-full lg:w-8/12 lg:py-16">
                     <h2 class="mb-6">
                         {{ tab.commonTitle }}
                     </h2>
