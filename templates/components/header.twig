@@ -53,7 +53,7 @@
 
                         {# Link with parent #}
                         {% if menuItem.columns|length > 0 %}
-                            <div x-data="{ open: false }">
+                            <div x-data="{ open: false }" @click.outside="open = false">
                                 <span @click="open = !open">
                                     {{ menuItem.commonLink.getText()}}
                                 </span>
