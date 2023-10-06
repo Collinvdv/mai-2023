@@ -7,19 +7,19 @@
 {# :: Component #}
 {# ========================================================================== #}
 <div class="container mx-auto px-4">
-    <div class="w-9/12 mx-auto">
+    <div class="w-full lg:w-9/12 mx-auto">
         {% for quote in quotes.all() %}
-           <section class="flex">
-                <div class="bg-cover bg-red w-full lg:w-4/12 rounded-br-10rem" style="background-image: url('{{quote.commonImage.one().url }}')">
+           <section class="flex flex-wrap">
+                <div class="bg-cover bg-red w-full lg:w-4/12 rounded-br-10rem h-64 lg:h-auto" style="background-image: url('{{quote.commonImage.one().url }}')">
                 </div>
 
-                <div class="pl-8 lg:w-7/12 relative py-20">
+                <div class="lg:pl-8 lg:w-7/12 relative py-12 lg:py-20">
                     {% include "/components/icons/quotes.twig" with { 
                             color : "fill-primary",
                             customClasses: "w-60 absolute -top-8 -left-1"
                     } only %}
 
-                    <h3 class="font-semibold text-3xl mb-2">
+                    <h3 class="font-semibold text-2xl lgtext-3xl mb-2">
                         {{ quote.commonDescription|striptags }}
                     </h3>
                     <h4 class="font-semibold text-lg">
