@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: album
+name: Album
+propagationMethod: all
+siteSettings:
+  520ae88b-24db-491f-a50d-9ec2cb2dc5b5: # Mai
+    enabledByDefault: true
+    hasUrls: true
+    template: album/_entry
+    uriFormat: 'album/{slug}'
+type: channel

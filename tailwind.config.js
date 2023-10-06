@@ -66,6 +66,7 @@ module.exports = {
         "bg-blue",
         "bg-lavendel",
         "bg-violet",
+        "bg-shade",
         "pl-4",
         "pl-8",
         "pl-12",
@@ -75,7 +76,8 @@ module.exports = {
         "lg:bg-blue",
         "lg:bg-lavendel",
         "lg:bg-violet",
-        "container-sm"
+        "container-sm",
+        "bg-opacity-50"
       ],
     }
   }

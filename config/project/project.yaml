@@ -1,4 +1,4 @@
-dateModified: 1696501648
+dateModified: 1696577129
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -27,6 +27,7 @@ meta:
     1a83051b-5fff-4173-99ff-a16698a69da9: Mail # Mail
     1ca3d924-ca88-4ab1-a17f-80eba45b750b: NavColumns # NavColumns
     2adefcac-ac43-4f9a-a917-f2d784c52b1a: Header # Header
+    02b050d6-0241-4838-874e-64d1972ca179: Album # Album
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
     3a5d43ec-b64e-4797-83a5-cdbb7c79ceb0: hours # hours
@@ -34,6 +35,7 @@ meta:
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
+    4f313438-37e8-461a-9c66-219cbed21a6d: Default # Default
     5dde7fd6-5629-4f13-9298-5d323b2efaae: Link # Link
     6b8353f0-638c-4bdf-be1b-94ec215f6520: 'No spacing top' # No spacing top
     6cd9d586-3fbd-4417-afb6-68147167962b: Title # Title
@@ -115,6 +117,7 @@ meta:
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
     c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
     cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
+    cd61c4a0-e231-485f-ae40-c115cfff9404: Albums # Albums
     ceb21329-439a-4697-8cb3-c475786b9a24: Vakken # Vakken
     d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
     d60168ef-0707-4f4f-9905-178cd9490e6c: vakken # vakken
@@ -132,6 +135,7 @@ meta:
     ec6bd5db-a9d1-4d2e-9f8a-674d0f0361cf: Contact # Contact
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
+    f8a1ee58-abcd-4441-81e7-cb5ce83909b9: Album # Album
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
     f650ff39-b930-480c-95f1-c651efdaacd6: Default # Default
     f62465ee-64f8-4666-b7ba-47d87de3cbcc: Title # Title
