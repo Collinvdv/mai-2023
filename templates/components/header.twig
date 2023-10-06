@@ -126,7 +126,7 @@
 
 {# MobileMenu #}
 <aside
-    class="mobile-menu transform top-0 left-0 w-screen bg-white fixed h-full overflow-auto ease-in-out transition-all duration-500 z-50 -translate-x-full"
+    class="mobile-menu transform top-0 left-0 w-screen bg-white fixed h-full overflow-y-scroll ease-in-out transition-all duration-500 z-50 -translate-x-full"
     x-bind:class="openMobileMenu ? 'translate-x-0' : ''"
     >
     <div class="md:container md:mx-auto px-4 py-8">
@@ -147,24 +147,58 @@
                 <li>
                     {# Normal link #}
                     <div class="relative">
-                        {% if menuItem.commonLinks|length == 0 %}
-                            <a href="{{menuItem.commonLink}}" class="inline-block font-semibold text-lg pb-4" >
+                        {% if menuItem.columns|length == 0 %}
+                            <a href="{{menuItem.commonLink}}" class="inline-block font-semibold text-lg pb-4 cursor-pointer" >
                                 {{ menuItem.commonLink.getText()}}
                             </a>
                         {% endif %}
 
                         {# Link with parent #}
-                        {% if menuItem.commonLinks|length > 0 %}
-                            <div class="flex flex-col">
-                                <span class="font-semibold text-lg pb-4">
+                        {% if menuItem.columns|length > 0 %}
+                            <div x-data="{ open: false }">
+                                <span @click="open = !open" class="flex items-center font-semibold text-lg pb-4 cursor-pointer">
                                     {{ menuItem.commonLink.getText()}}
+
+                                    <div class="pl-2">
+                                        {% include "/components/icons/check-down.twig" with { 
+                                            color : "fill-black"
+                                        } %}
+                                    </div>
                                 </span>
 
-                                {% for subNavMenuItem in menuItem.commonLinks.all() %}
-                                    <a href="{{ subNavMenuItem.page }}" class="font-semibold text-lg pb-4 ml-4">
-                                        {{ subNavMenuItem.page.getText() }}
-                                    </a>
-                                {% endfor %}
+                                <div
+                                    x-show="open"
+                                >
+                                    <div class="">
+                                        <div class="pb-4 flex flex-col">
+                                            {% for subNavMenuItem in menuItem.columns.all() %}
+                                                <div class="pb-4">
+                                                    <div class="mb-2 cursor-pointer text-base uppercase text-grey-darker ">
+                                                        {{ subNavMenuItem.commonTitle }}
+                                                    </div>
+
+                                                    <div class="flex flex-col gap-2">
+                                                        {% for link in subNavMenuItem.commonLinks.all() %}
+                                                            {% if link.type == "titleBlock" %}
+                                                                <span class="uppercase block text-{{link.color ?? 'shade'}} -mb-1 {% if loop.index != 1 %} mt-6 {% endif %}">
+                                                                    {{ link.mxTitle }}
+                                                                </span>
+                                                            {% endif %}
+
+                                                            {% if link.type == "linkBlock" %}
+                                                                {% include "/components/link.twig" with { 
+                                                                    href : link.page,
+                                                                    text : link.page.getText(),
+                                                                    color: link.color ?? "shade",
+                                                                } %}
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         {% endif %}
                     </div>

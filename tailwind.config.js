@@ -77,7 +77,8 @@ module.exports = {
         "lg:bg-lavendel",
         "lg:bg-violet",
         "container-sm",
-        "bg-opacity-50"
+        "bg-opacity-50",
+        "overflow-y-scroll"
       ],
     }
   }
