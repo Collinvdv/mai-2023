@@ -7,7 +7,7 @@
 {# Content #}
 {# ========================================================================== #}
 {% block content %}
-     {% cache globally using key "article-#{entry.slug}" if not craft.app.config.general.devMode  %}
+     {% cache globally using key "evenement-#{entry.slug}" if not craft.app.config.general.devMode  %}
         {# Dynamic blocks #}
         {% include "/sections/_index.twig" %}
     {% endcache %}

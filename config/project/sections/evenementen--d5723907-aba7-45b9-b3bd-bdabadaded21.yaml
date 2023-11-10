@@ -7,6 +7,6 @@ siteSettings:
   520ae88b-24db-491f-a50d-9ec2cb2dc5b5: # Mai
     enabledByDefault: true
     hasUrls: true
-    template: evenementen/_entry
+    template: pages/evenement.twig
     uriFormat: 'evenementen/{slug}'
 type: channel

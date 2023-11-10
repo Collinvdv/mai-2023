@@ -28,8 +28,26 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+        name: Block
         uid: 3e7c9ef9-baf6-477e-a7fd-fa3d1334e83f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06caf31b-71ef-4187-89cb-a22e00eea45c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Body
+        uid: 3c61fc98-484b-4fa1-b9ee-11d7dbe45c42
         userCondition: null
       -
         elementCondition: null
