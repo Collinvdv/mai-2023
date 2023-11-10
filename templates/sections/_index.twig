@@ -7,7 +7,8 @@
     {% set backgroundGray = block.commonBackgroundGray ?? false %}
     {% set noSpacingTop = block.commonNoSpacingTop ?? false %}
     {% set noSpacingBottom = block.commonNoSpacingBottom ?? false %}
-    <div data-slice="{{block.type.handle}}" class="{% if noSpacingTop %} pt-0 {% else %} pt-12 lg:pt-16 {% endif %} {% if noSpacingBottom %} pb-0 {% else %} pb-12 lg:pb-16 {% endif %} {% if backgroundGray%} bg-grey {% endif %}" data-row="{{block.type.handle}}">
+    
+    <div data-slice="{{block.type.handle}}" class="{% if noSpacingTop == "1" %} pt-0 {% else %} pt-12 lg:pt-16 {% endif %} {% if noSpacingBottom %} pb-0 {% else %} pb-12 lg:pb-16 {% endif %} {% if backgroundGray%} bg-grey {% endif %}">
         {% include "/sections/" ~ block.type.handle ~".twig" with { 
             data : block
         } %}
