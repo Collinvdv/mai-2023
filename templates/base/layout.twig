@@ -26,7 +26,7 @@
         {% endfor %}
 
     </head>
-	<body x-data="{ openMobileMenu: false }">
+	<body x-data="{ openMobileMenu: false }" data-devMode="{{ craft.app.config.general.devMode }}">
 
         {# Header #}
         {% include "/components/header.twig" %}
