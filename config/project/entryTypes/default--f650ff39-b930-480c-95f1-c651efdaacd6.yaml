@@ -28,6 +28,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: Content
+        uid: 3e7c9ef9-baf6-477e-a7fd-fa3d1334e83f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             autocapitalize: true
             autocomplete: false
@@ -54,13 +60,28 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: 3e7c9ef9-baf6-477e-a7fd-fa3d1334e83f
+          -
+            elementCondition: null
+            fieldUid: 448a95a7-11b0-4e1d-be6d-de1a71852362 # Seo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 112e0176-9f8f-4bcd-993a-c7957d08de39
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: b8220d42-ee66-4cc7-90bd-974b4a5d5dd2
         userCondition: null
 handle: default
 hasTitleField: false
 name: Default
 section: d5723907-aba7-45b9-b3bd-bdabadaded21 # Evenementen
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{commonTitle}'
 titleTranslationKeyFormat: null

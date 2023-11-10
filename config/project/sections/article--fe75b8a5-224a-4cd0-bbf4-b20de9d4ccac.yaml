@@ -8,5 +8,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: pages/article.twig
-    uriFormat: 'article/{slug}'
+    uriFormat: 'blog/{slug}'
 type: channel

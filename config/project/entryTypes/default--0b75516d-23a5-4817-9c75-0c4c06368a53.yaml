@@ -48,6 +48,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 448a95a7-11b0-4e1d-be6d-de1a71852362 # Seo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 254f9514-c7e3-4d5b-9a61-7880b47f268c
+            userCondition: null
+            warning: null
+            width: 100
         name: Settings
         uid: 03e2a18d-1338-45e8-af3d-86f12bc0489a
         userCondition: null
@@ -55,6 +67,9 @@ handle: default
 hasTitleField: true
 name: Default
 section: 997aca51-52f5-493b-bc04-26485137c93d # Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

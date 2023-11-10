@@ -87,10 +87,31 @@ fieldLayouts:
         name: Body
         uid: 23ca7698-ba26-4736-a7a5-17589e98867c
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 448a95a7-11b0-4e1d-be6d-de1a71852362 # Seo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc87c661-8ccc-4c42-b10b-f9867144bbcc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: ce554ca1-491d-4cb9-95b6-c007abdc68a2
+        userCondition: null
 handle: default
 hasTitleField: false
 name: Default
 section: fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac # Article
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{commonTitle}'
 titleTranslationKeyFormat: null
