@@ -9,5 +9,10 @@
 {# :: Component #}
 {# ========================================================================== #}
 {% if data.imageField.one() %}
-    <img src="{{data.imageField.one().url}}" class="w-full max-w-none c-content-image">
+    <img src="{{data.imageField.one().getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}" class="w-full max-w-none c-content-image">
 {% endif %}

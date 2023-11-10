@@ -14,7 +14,12 @@
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap lg:flex-nowrap">
             {# Image #}
-            <div class="relative w-full h-52 mt-8 rounded-tl-full rounded-tr-full lg:mt-0 lg:h-auto lg:w-5/12 bg-cover lg:rounded-tl-10rem lg:rounded-tr-none" style="background-image: url('{{data.commonImage.one().url }}')">
+            <div class="relative w-full h-52 mt-8 rounded-tl-full rounded-tr-full lg:mt-0 lg:h-auto lg:w-5/12 bg-cover lg:rounded-tl-10rem lg:rounded-tr-none" style="background-image: url('{{data.commonImage.one().getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                 <div class="bg-{{color}} h-2/3 w-screen absolute -z-10 -mx-4 -top-8 lg:hidden"></div>
             </div>
 

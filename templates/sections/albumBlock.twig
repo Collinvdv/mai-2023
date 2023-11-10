@@ -18,7 +18,12 @@
                         <a href="{{ album.commonLink.getUrl() }}" target="_blank">
                             {# Image #}
                             {% if album.commonThumbmnailImage.one() %}
-                                <div class="relative bg-cover w-full h-64 rounded-tr-5rem rounded-bl-5rem flex justify-center items-center py-2 text-white" style="background-image: url('{{ album.commonThumbmnailImage.one().url }}')">
+                                <div class="relative bg-cover w-full h-64 rounded-tr-5rem rounded-bl-5rem flex justify-center items-center py-2 text-white" style="background-image: url('{{ album.commonThumbmnailImage.one().getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                                     <div class="absolute w-full h-full bg-{{ colorMacro.color(loop.index) }} rounded-tr-5rem rounded-bl-5rem opacity-50 z-10 rounded-tr-5re">
                                     </div>
                                     <h4 class="z-20 text-center">

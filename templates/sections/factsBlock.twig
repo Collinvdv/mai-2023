@@ -12,7 +12,12 @@
 
         {# Image #}
         {% if data.commonImage.one() %}
-            <div class="bg-cover bg-center w-full h-56 lg:h-auto lg:min-h-[20rem] lg:w-3/12 rounded-tl-10rem" style="background-image: url('{{ data.commonImage.one().url }}')">
+            <div class="bg-cover bg-center w-full h-56 lg:h-auto lg:min-h-[20rem] lg:w-3/12 rounded-tl-10rem" style="background-image: url('{{ data.commonImage.one().getUrl({
+                width: 960,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
             </div>
         {% endif %}
 

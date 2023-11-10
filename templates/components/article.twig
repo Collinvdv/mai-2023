@@ -10,7 +10,12 @@
 <a href="{{ article.getUrl() }}">
     {# Image #}
     {% if article.commonThumbmnailImage.one() %}
-        <div class="bg-cover w-full h-60 rounded-tr-10rem" style="background-image: url('{{ article.commonThumbmnailImage.one().url }}')">
+        <div class="bg-cover w-full h-60 rounded-tr-10rem" style="background-image: url('{{ article.commonThumbmnailImage.one().getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
         </div>
     {% endif %}
     {# Content #}

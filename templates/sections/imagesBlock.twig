@@ -8,16 +8,36 @@
         {% for image in data.commonImage.all() %}
             <!-- loop over index -->
             {% if loop.index is divisible by 4 %}
-                <div class="bg-cover w-full lg:w-2/12 h-60 lg:rounded-bl-5rem" style="background-image: url('{{image.url }}')">
+                <div class="bg-cover w-full lg:w-2/12 h-60 lg:rounded-bl-5rem" style="background-image: url('{{image.getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                 </div>
             {% elseif loop.index is divisible by 3 %}
-                <div class="bg-cover w-full lg:w-4/12 h-60 rounded-tr-5rem lg:rounded-none" style="background-image: url('{{image.url }}')">
+                <div class="bg-cover w-full lg:w-4/12 h-60 rounded-tr-5rem lg:rounded-none" style="background-image: url('{{image.getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                 </div>
             {% elseif loop.index is divisible by 2 %}
-                <div class="bg-cover w-full lg:w-2/12 h-60 rounded-bl-5rem" style="background-image: url('{{image.url }}')">
+                <div class="bg-cover w-full lg:w-2/12 h-60 rounded-bl-5rem" style="background-image: url('{{image.getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                 </div>
             {% else %}
-                <div class="bg-cover w-full lg:w-4/12 h-60 rounded-tl-5rem" style="background-image: url('{{image.url }}')">
+                <div class="bg-cover w-full lg:w-4/12 h-60 rounded-tl-5rem" style="background-image: url('{{image.getUrl({
+                width: 1200,
+                format: 'webp',
+                quality: 100,
+                mode: 'fit'
+            }) }}')">
                 </div>
             {% endif %}
         {% endfor %}
