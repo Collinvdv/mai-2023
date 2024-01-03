@@ -1,11 +1,11 @@
 {
   "require": {
-    "craftcms/cms": "4.5.6.1",
+    "craftcms/cms": "4.5.14",
     "craftcms/redactor": "3.0.4",
-    "nystudio107/craft-seomatic": "4.0.31",
+    "nystudio107/craft-seomatic": "4.0.37",
     "sebastianlenz/linkfield": "2.1.5",
-    "spicyweb/craft-neo": "3.9.4",
-    "verbb/field-manager": "3.0.7",
+    "spicyweb/craft-neo": "4.0.1",
+    "verbb/field-manager": "3.0.8",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

@@ -1,4 +1,4 @@
-dateModified: 1704266992
+dateModified: 1704292512
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -150,7 +150,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 1GRMXX88V1PNT36DHHEKKU7O
-    schemaVersion: 3.6.2
+    schemaVersion: 4.0.0
   redactor:
     edition: standard
     enabled: true
