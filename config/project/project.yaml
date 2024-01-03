@@ -1,4 +1,4 @@
-dateModified: 1699605443
+dateModified: 1704266992
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -77,6 +77,7 @@ meta:
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     2195a092-edf3-42ca-a72f-31f388846451: LessenTabel # LessenTabel
     2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
+    2992a180-e291-47d9-a354-7771feb481e9: 'Buttons layout' # Buttons layout
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5145a7a9-145a-408b-8d6c-bf263d4873e7: Title # Title
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column

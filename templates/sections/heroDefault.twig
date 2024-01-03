@@ -187,13 +187,22 @@
                 {% endif %}
 
                 {% if secondaryLink.getUrl() %}
-                    <li>
-                        {% include "/components/link.twig" with { 
-                            href : secondaryLink,
-                            text : secondaryLink.getText(),
-                            icon: "arrow-down"
-                        } only %}
-                    </li>
+                    {% if data.commonButtonsLayout == "2Buttons" %}
+                        <li>
+                            {% include "/components/button.twig" with { 
+                                href : secondaryLink,
+                                text : secondaryLink.getText(),
+                            } only %}
+                        </li>
+                    {% else %}
+                        <li>
+                            {% include "/components/link.twig" with { 
+                                href : secondaryLink,
+                                text : secondaryLink.getText(),
+                                icon: "arrow-down"
+                            } only %}
+                        </li>
+                    {% endif %}
                 {% endif %}
             </ul>
         </div>

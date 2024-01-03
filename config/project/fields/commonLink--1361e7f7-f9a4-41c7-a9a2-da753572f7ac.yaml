@@ -7,7 +7,7 @@ name: Link
 searchable: false
 settings:
   allowCustomText: true
-  allowTarget: false
+  allowTarget: true
   autoNoReferrer: false
   customTextMaxLength: 0
   customTextRequired: false

@@ -1,0 +1,35 @@
+columnSuffix: uahdmzfw
+contentColumnType: string(15)
+fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
+handle: commonButtonsLayout
+instructions: null
+name: 'Buttons layout'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1 button and 1 link'
+        -
+          - value
+          - 1ButtonAnd1Link
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '2 buttons'
+        -
+          - value
+          - 2Buttons
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
