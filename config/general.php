@@ -16,6 +16,8 @@ return GeneralConfig::create()
     ->defaultWeekStartDay(1)
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
+    // Maximum upload file size
+    ->maxUploadFileSize(20485760)
     // Enable Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
     ->devMode(App::env('DEV_MODE') ?? false)
     // Preload Single entries as Twig variables
