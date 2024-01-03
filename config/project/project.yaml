@@ -1,4 +1,4 @@
-dateModified: 1704292512
+dateModified: 1704295795
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -155,6 +155,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  redirect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.5
   seomatic:
     edition: standard
     enabled: true
