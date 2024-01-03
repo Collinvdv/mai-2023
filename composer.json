@@ -2,7 +2,7 @@
   "require": {
     "craftcms/cms": "4.5.14",
     "craftcms/redactor": "3.0.4",
-    "dolphiq/redirect": "2.0.0",
+    "dolphiq/redirect": "2.0.1",
     "nystudio107/craft-seomatic": "4.0.37",
     "sebastianlenz/linkfield": "2.1.5",
     "spicyweb/craft-neo": "4.0.1",
