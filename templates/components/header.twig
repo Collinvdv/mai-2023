@@ -33,14 +33,14 @@
     {# Logo #}
     <a href="/">
         {% include "/components/logos/logo.twig" with {
-            customClass: 'w-56 lg:w-96'
+            customClass: 'w-56 lg:w-80 xl:w-96'
         } %}
     </a>
 
     {# Menu #}
     <nav>
         {# desktop menu #}
-        <ul class="hidden lg:flex gap-12">
+        <ul class="ml-2 hidden lg:flex lg:gap-8 xl:gap-12">
             {% for menuItem in header.commonMainMenu.level(1).all() %}
                 <li>
                     {# Normal link #}
