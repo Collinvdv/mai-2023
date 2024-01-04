@@ -1,4 +1,4 @@
-dateModified: 1704295795
+dateModified: 1704384267
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -133,12 +133,14 @@ meta:
     e2979602-72a9-454e-96d4-e00c447d1ce3: HeroHomepage # HeroHomepage
     eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
     ec6bd5db-a9d1-4d2e-9f8a-674d0f0361cf: Contact # Contact
+    ecad1f76-7b66-495c-adfe-89082ed0496a: Datetime # Datetime
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
     f8a1ee58-abcd-4441-81e7-cb5ce83909b9: Album # Album
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
     f650ff39-b930-480c-95f1-c651efdaacd6: Default # Default
     f62465ee-64f8-4666-b7ba-47d87de3cbcc: Title # Title
+    fba2aaec-e621-4e22-b80d-9a27c18f12df: Timer # Timer
     fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac: Article # Article
     ff440e52-0b0a-443c-9e55-f189c7170f0c: Hours # Hours
 plugins:

@@ -1,0 +1,83 @@
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div x-data="countdown()" x-init="init()">
+    <div class="flex gap-2 flex-col md:flex-row">
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="years > 0">
+            <span x-text="years"></span> 
+            <span class="text-sm pl-1" x-show="years > 1"> jaren </span>
+            <span class="text-sm pl-1" x-show="years == 1"> jaar </span>
+        </div>
+
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="months > 0">
+            <span x-text="months"></span> 
+            <span class="text-sm pl-1" x-show="months > 1"> maanden </span>
+            <span class="text-sm pl-1" x-show="months == 1"> maand </span>
+        </div>
+
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="days > 0">
+            <span x-text="days"></span> 
+            <span class="text-sm pl-1" x-show="days > 1"> dagen </span>
+            <span class="text-sm pl-1" x-show="days == 1"> dag </span>
+        </div>
+
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="hours > 0">
+            <span x-text="hours"></span> 
+            <span class="text-sm pl-1" x-show="hours > 1"> uren </span>
+            <span class="text-sm pl-1" x-show="hours == 1"> uur </span>
+        </div>
+
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="minutes > 0">
+            <span x-text="minutes"></span> 
+            <span class="text-sm pl-1" x-show="minutes > 1"> minuten </span>
+            <span class="text-sm pl-1" x-show="minutes == 1"> minuut </span>
+        </div>
+
+        <div class="flex bg-white border-t-2 border-violet text-violet px-3 py-2 justify-center md:justify-start" x-show="seconds > 0">
+            <span x-text="seconds"></span>
+            <span class="text-sm pl-1" x-show="seconds > 1"> seconden </span>
+            <span class="text-sm pl-1" x-show="seconds == 1"> seconde </span>
+        </div>
+    </div>
+</div>
+
+<script>
+    function countdown() {
+        return {
+            years: 0,
+            months: 0,
+            days: 0,
+            hours: 0,
+            minutes: 0,
+            seconds: 0,
+            targetDate: new Date('{{ data.datetimeField|atom }}'), // Set your target date here
+            init() {
+                this.updateCountdown();
+                setInterval(() => {
+                    this.updateCountdown();
+                }, 1000);
+            },
+            updateCountdown() {
+                const now = new Date();
+                const diff = this.targetDate - now;
+
+                if (diff <= 0) {
+                    clearInterval(this.interval);
+                    return;
+                }
+
+                // Calculate years, months, days, hours, minutes, and seconds
+                this.years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+                let remainder = diff % (1000 * 60 * 60 * 24 * 365);
+                this.months = Math.floor(remainder / (1000 * 60 * 60 * 24 * 30));
+                remainder = remainder % (1000 * 60 * 60 * 24 * 30);
+                this.days = Math.floor(remainder / (1000 * 60 * 60 * 24));
+                this.hours = Math.floor((remainder / (1000 * 60 * 60)) % 24);
+                this.minutes = Math.floor((remainder / 1000 / 60) % 60);
+                this.seconds = Math.floor((remainder / 1000) % 60);
+            }
+        };
+    }
+</script>
+

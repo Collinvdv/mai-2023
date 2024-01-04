@@ -1,0 +1,44 @@
+field: 9b271a30-441e-4349-8015-e145efbaf982 # Content
+fieldLayouts:
+  d350ab30-8ed0-4a5d-9620-0aa13176b384:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ecad1f76-7b66-495c-adfe-89082ed0496a # Datetime
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e0b9754-60cb-4e3e-aef4-96e0391383f1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fa6d9c0d-c717-481e-91a4-f66ad54d6373
+        userCondition: null
+fields:
+  ecad1f76-7b66-495c-adfe-89082ed0496a: # Datetime
+    columnSuffix: duhrmxsm
+    contentColumnType: datetime
+    fieldGroup: null
+    handle: datetimeField
+    instructions: null
+    name: Datetime
+    searchable: false
+    settings:
+      max: null
+      min: null
+      minuteIncrement: 30
+      showDate: true
+      showTime: true
+      showTimeZone: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Date
+handle: timerBlock
+name: Timer
+sortOrder: 6
