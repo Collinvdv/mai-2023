@@ -154,6 +154,7 @@ group: 238fe600-4471-43e3-865f-f2c7e82ec2ba # Hero
 groupChildBlockTypes: true
 handle: heroDefault
 icon: null
+iconFilename: ''
 ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0

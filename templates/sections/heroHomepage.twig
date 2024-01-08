@@ -34,7 +34,7 @@
             
             {# Content #}
             <div class="w-full px-4 bg-grey py-8 lg:bg-white lg:w-5/12 lg:px-0 lg:pt-20 lg:pb-32 ">
-                <div class="flex flex-col w-full lg:w-8/12 gap-4 lg:gap-8 mx-auto">
+                <div class="flex flex-col w-full lg:w-9/12 gap-4 lg:gap-8 mx-auto">
                     <h1>
                         {{ titleMacro.decorative(title) }}
                     </h1>
@@ -44,18 +44,28 @@
                     </div>
 
                     {# Button #}
-                    <div class="flex gap-8" >
+                    <div class="flex gap-4" >
                         {% include "/components/button.twig" with { 
                             href : data.commonLink,
                             text : data.commonLink.getText(),
                             color: "primary"
                         } %}
 
-                        {% include "/components/link.twig" with { 
-                            href : data.commonSecondaryLink,
-                            text : data.commonSecondaryLink.getText(),
-                            color: "primary"
-                        } %}
+                         {% if data.commonSecondaryLink.getUrl() %}
+                            {% if data.commonButtonsLayout == "2Buttons" %}
+                                {% include "/components/button.twig" with { 
+                                    href : data.commonSecondaryLink,
+                                    text :data.commonSecondaryLink.getText(),
+                                    color: "primary"
+                                } only %}
+                            {% else %}
+                                {% include "/components/link.twig" with { 
+                                    href : data.commonSecondaryLink,
+                                    text : data.commonSecondaryLink.getText(),
+                                    icon: "arrow-down"
+                                } only %}
+                            {% endif %}
+                        {% endif %}
                     </div>
 
                 </div>

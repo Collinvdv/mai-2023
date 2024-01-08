@@ -4,7 +4,7 @@ description: ''
 enabled: true
 field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
 fieldLayouts:
-  f0ed090a-78fc-4133-a692-5c3ab8d3e7a0:
+  22a9dc98-bfe1-446b-bc8e-a2a121d34a95:
     tabs:
       -
         elementCondition: null
@@ -69,6 +69,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 2992a180-e291-47d9-a354-7771feb481e9 # Buttons layout
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55ee55a6-1d33-4838-9e02-f95ac84c988e
+            userCondition: null
+            warning: null
+            width: 100
         name: General
         uid: 9ee2ca9f-a3fa-4ba2-bbb0-a9f3572c96ac
         userCondition: null
@@ -76,6 +88,7 @@ group: 238fe600-4471-43e3-865f-f2c7e82ec2ba # Hero
 groupChildBlockTypes: true
 handle: heroHomepage
 icon: null
+iconFilename: ''
 ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0

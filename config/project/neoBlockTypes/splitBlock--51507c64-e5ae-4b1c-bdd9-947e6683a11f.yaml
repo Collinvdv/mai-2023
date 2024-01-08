@@ -94,6 +94,7 @@ group: 06936d40-6287-4cf0-9565-4ea06bbc5f23 # Body
 groupChildBlockTypes: true
 handle: splitBlock
 icon: null
+iconFilename: ''
 ignorePermissions: true
 maxBlocks: 0
 maxChildBlocks: 0
