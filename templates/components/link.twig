@@ -6,11 +6,13 @@
 {% set isSmall = isSmall ?? false %}
 {% set color = color ?? "black" %}
 {% set icon = icon ?? "arrow-right" %}
+{% set download = download ?? false %}
+{% set customClasses = customClasses ?? "" %}
 
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a class="c-link flex items-center cursor-pointer" href="{{href}}"  {% if href.getLinkAttributes() is defined %} {{ href.getLinkAttributes() }} {% endif %}>
+<a class="c-link flex items-center cursor-pointer {{customClasses}}" href="{{href}}"  {% if href.getLinkAttributes() is defined %} {{ href.getLinkAttributes() }} {% endif %} {% if download %} download {% endif %}>
     <span class="mr-2 border-b-1 border-b-{{color}} {% if isSmall %} text-sm {% endif %}">
         {{ text | raw }}
     </span>

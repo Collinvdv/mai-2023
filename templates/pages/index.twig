@@ -7,6 +7,7 @@
 {# Content #}
 {# ========================================================================== #}
 {% block content %}
+    {% include "/components/styleguide.twig" %}
      {% cache globally using key "detail-#{entry.slug}" if not craft.app.config.general.devMode  %}
         {# Dynamic blocks #}
         {% include "/sections/_index.twig" %}

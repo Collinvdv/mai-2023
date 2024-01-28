@@ -1,0 +1,323 @@
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="container mx-auto px-4">
+    <h1>
+        Styleguide
+    </h1>
+
+    <div class="mt-8">
+        <h2>
+            Fonts:
+        </h2>
+
+        <div class="flex gap-16 mt-4">
+            <div class="w-full">
+                <h3>
+                    Schibsted Grotesk
+                </h3>
+                <p class="my-2">
+                    Used for website titles, headings and body text.
+                </p>
+                {% include "/components/link.twig" with { 
+                    href : "https://fonts.google.com/specimen/Schibsted+Grotesk",
+                    text : "Google font",
+                } %}
+            </div>
+
+            <div class="w-full">
+                <h3>
+                    Century Gothic
+                </h3>
+                <p class="my-2">
+                    Used for presentations (is a system font)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-16">
+        <h2>
+            Colors:
+        </h2>
+
+        <div class="flex gap-2 mt-4">
+            <div class="w-full">
+                <div class="bg-primary p-4 cursor-pointer" onclick="copyToClipboard('#ACEAD5')">
+                    #ACEAD5
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-shade p-4 text-white cursor-pointer" onclick="copyToClipboard('#2BB989')">
+                    #2BB989
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-black p-4 text-white cursor-pointer" onclick="copyToClipboard('#272839')">
+                    #272839
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-rose p-4 text-white cursor-pointer" onclick="copyToClipboard('#F15A5A')">
+                    #F15A5A
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-blue p-4 text-white cursor-pointer" onclick="copyToClipboard('#ACEAD5')">
+                    #171DA1
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-lavendel p-4 text-white cursor-pointer" onclick="copyToClipboard('#171DA1')">
+                    #CEC4F7
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-violet p-4 text-white cursor-pointer" onclick="copyToClipboard('#9D47A3')">
+                    #9D47A3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-16">
+        <h2 class="mb-4">
+            Afbeeldingen:
+        </h2>
+
+        <div class="flex gap-2 mb-2">
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/m_svg.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/m_svg.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/m_png.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/a_svg.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/a_svg.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/a_png.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/i_svg.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/i_svg.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/i_png.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center border-2 border-black p-4">
+
+                <img src="./styleguide/o_svg.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/o_svg.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/o_png.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+        </div>
+
+        <div class="flex gap-2 mb-2">
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/economy.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/economy.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/economy.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/heart.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/heart.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/heart.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/food.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/food.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/food.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center border-2 border-black p-4">
+
+                <img src="./styleguide/shapes_2.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/shapes_2.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/shapes_2.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+        </div>
+
+        <div class="flex gap-2 mb-2">
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/logo_full.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_full.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_full.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/logo_small.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_small.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_small.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+            <div class="w-3/12 flex flex-col justify-center gap-2 border-2 border-black p-4">
+
+                <img src="./styleguide/logo_white.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_white.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_white.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+            <div class="w-3/12 flex flex-col justify-center border-2 border-black p-4">
+
+                <img src="./styleguide/logo_black.svg" class="h-32 mx-auto mb-4"/>
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_black.svg",
+                    text : "download svg",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+                {% include "/components/link.twig" with { 
+                    href : "./styleguide/logo_black.png",
+                    text : "download png",
+                    customClasses: "mx-auto",
+                    download: true
+                } %}
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    function copyToClipboard(color) {
+            navigator.clipboard.writeText(color).then(() => {
+                console.log(`Copied: ${color}`);
+            });
+        }
+</script>
