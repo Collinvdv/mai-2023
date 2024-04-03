@@ -150,7 +150,7 @@
         <div class="px-4 flex flex-col items-center w-full  text-center gap-6 mx-auto lg:w-8/12">
             <div class="flex flex-col gap-2 items-center">
                 {% if data.commonImage.one() %}
-                    <img class="w-48 mb-4" src="{{ data.commonImage.one().getUrl({
+                    <img class="lg:w-80 mb-4" src="{{ data.commonImage.one().getUrl({
                         width: 960,
                         format: 'webp',
                         quality: 80,
