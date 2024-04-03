@@ -6,7 +6,9 @@
 {% set links = data.commonLinks ?? "" %} 
 
 {% set articles = data.commonArticles ?? "" %} 
-{% set evenementen = craft.entries.section('evenementen').all() %}
+{% set currentDate = now|date('Y-m-d') %}
+{% set evenementen = craft.entries.section('evenementen').commonDate('>=' ~ now|date('c')).orderBy('commonDate').all() %}
+
 
 {% import "/macros/color" as colorMacro %}
 {% import "/macros/title" as titleMacro %}
