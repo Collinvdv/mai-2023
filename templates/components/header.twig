@@ -21,7 +21,7 @@
         <ul class="flex justify-end gap-6">
             {% for link in header.commonSecondaryLinks.all() %}
                 <li>
-                    <a class="font-normal text-sm" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                    <a class="font-normal text-sm" href="{{ link.page }}" target="{{ link.page.getTarget() }}">{{ link.page.getText() }}</a>
                 </li>
             {% endfor %}
         </ul>
