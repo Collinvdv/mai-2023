@@ -23,17 +23,6 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:bbdd6a96-72b4-4202-9064-22f8072dd476' # Images
   restrictedLocationSubpath: null
-  selectionCondition:
-    __assoc__:
-      -
-        - elementType
-        - craft\elements\Asset
-      -
-        - fieldContext
-        - global
-      -
-        - class
-        - craft\elements\conditions\assets\AssetCondition
   selectionLabel: null
   showSiteMenu: false
   showUnpermittedFiles: false

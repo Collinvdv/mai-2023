@@ -23,17 +23,6 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:77447950-c8b4-43fe-b1cf-a08e5a9c48f6' # Icons
   restrictedLocationSubpath: null
-  selectionCondition:
-    __assoc__:
-      -
-        - elementType
-        - craft\elements\Asset
-      -
-        - fieldContext
-        - global
-      -
-        - class
-        - craft\elements\conditions\assets\AssetCondition
   selectionLabel: null
   showSiteMenu: true
   showUnpermittedFiles: false

@@ -1,4 +1,4 @@
-dateModified: 1712146451
+dateModified: 1753972504
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -18,6 +18,10 @@ fs:
       path: $BASE_PATH
     type: craft\fs\Local
     url: $BASE_URL_PATH
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     0a6ae889-cd44-4836-90c7-7eb4a7137ec5: 'No spacing bottom' # No spacing bottom
@@ -30,7 +34,6 @@ meta:
     02b050d6-0241-4838-874e-64d1972ca179: Album # Album
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
-    3a5d43ec-b64e-4797-83a5-cdbb7c79ceb0: hours # hours
     3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: Link # Link
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
@@ -38,7 +41,6 @@ meta:
     4f313438-37e8-461a-9c66-219cbed21a6d: Default # Default
     5dde7fd6-5629-4f13-9298-5d323b2efaae: Link # Link
     6b8353f0-638c-4bdf-be1b-94ec215f6520: 'No spacing top' # No spacing top
-    6cd9d586-3fbd-4417-afb6-68147167962b: Title # Title
     7c8c2534-a381-4af5-918e-321a356324fa: Articles # Articles
     07c3457b-b52b-4825-82ad-7c77be131f59: Default # Default
     7ee58765-d756-46d9-be82-807891c1c3e6: Link # Link
@@ -49,7 +51,6 @@ meta:
     9b271a30-441e-4349-8015-e145efbaf982: Content # Content
     9c5572d3-e72a-41ae-82ec-437424864aa3: Leerkrachten # Leerkrachten
     11aa3d74-6507-4456-9814-266b32e421a3: Phone # Phone
-    26a49e9f-6351-40e2-93ee-b7f4cf73da89: Link # Link
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
     55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
     79f2f6d9-11d4-45d2-87f2-a1e7079ede77: 'Secondary Links' # Secondary Links
@@ -79,7 +80,6 @@ meta:
     2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
     2992a180-e291-47d9-a354-7771feb481e9: 'Buttons layout' # Buttons layout
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
-    5145a7a9-145a-408b-8d6c-bf263d4873e7: Title # Title
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
     06936d40-6287-4cf0-9565-4ea06bbc5f23: Body # Body
     7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
@@ -87,16 +87,12 @@ meta:
     51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
     121613a3-afc2-46f2-aeae-6c2145dce302: Images # Images
     928188f5-5f18-49f8-8686-a8909488ee22: Homepage # Homepage
-    6496731e-59f6-4c71-84a8-fc1ebf0bf15b: title # title
-    7683426a-5be3-44a1-9d69-0a33d91639f6: image # image
     28023629-b0b2-49a4-be67-febf5922699b: Leerkracht # Leerkracht
     38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
     46596497-ad0a-43bf-a0ae-c753c8deebd8: Styleguide # Styleguide
-    68886762-2ceb-4ba5-9770-7e610ea3057d: link # link
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
     a3cd6bc3-592b-4058-8f6d-8cb76699417c: Link # Link
     a5ed0481-924f-4d21-8870-09b85c31c135: Wysiwyg # Wysiwyg
-    a384c360-0211-405c-84b8-af18769cddfe: Title # Title
     a964af9c-e274-426b-86c7-57b05ab2443c: Default # Default
     aa423c80-617f-4dc6-93bd-cdab09ff4b07: title # title
     aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
@@ -114,7 +110,6 @@ meta:
     bc4fe5f1-a266-4485-a8a2-7e3356d1b1cd: Tab # Tab
     be60d0fb-a29d-431e-8119-1a9c478c85bf: Color # Color
     c55ccb24-d933-47a8-bad8-09f6949a6012: 'Thumbmnail Image' # Thumbmnail Image
-    c272cfac-7225-4f41-a793-5e73839c8417: Link # Link
     c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
     c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
     cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
@@ -129,10 +124,8 @@ meta:
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e1ef80ef-31d4-47a1-a64c-c9c653b24257: Introduction # Introduction
     e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
-    e845a24d-cbc6-4874-b009-b9ee49321c49: vak # vak
     e96245eb-37d4-475a-98ca-82ebcd5f62bc: Address # Address
     e2979602-72a9-454e-96d4-e00c447d1ce3: HeroHomepage # HeroHomepage
-    eaf12de2-cf40-42f6-b9b7-d9bc7155cfe3: text # text
     ec6bd5db-a9d1-4d2e-9f8a-674d0f0361cf: Contact # Contact
     ecad1f76-7b66-495c-adfe-89082ed0496a: Datetime # Datetime
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
@@ -166,7 +159,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: BRQMNXAZARKFKTHY80NYUSCY
-    schemaVersion: 3.0.12
+    schemaVersion: 3.0.13
   typedlinkfield:
     edition: standard
     enabled: true
@@ -175,7 +168,7 @@ system:
   edition: solo
   live: true
   name: Mai
-  schemaVersion: 4.5.3.0
+  schemaVersion: 4.15.0.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

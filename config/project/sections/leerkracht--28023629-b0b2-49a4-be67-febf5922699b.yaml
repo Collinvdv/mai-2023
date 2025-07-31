@@ -6,9 +6,9 @@ propagationMethod: all
 siteSettings:
   520ae88b-24db-491f-a50d-9ec2cb2dc5b5: # Mai
     enabledByDefault: true
-    hasUrls: true
-    template: leerkracht/_entry
-    uriFormat: 'leerkracht/{slug}'
+    hasUrls: false
+    template: null
+    uriFormat: null
 structure:
   maxLevels: null
   uid: 1dc92c5f-6862-404c-a350-b8a72da624f7
