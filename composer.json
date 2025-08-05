@@ -5,8 +5,8 @@
     "dolphiq/redirect": "2.0.1",
     "nystudio107/craft-seomatic": "^4.1.0",
     "sebastianlenz/linkfield": "2.1.5",
-    "spicyweb/craft-neo": "4.0.1",
-    "verbb/field-manager": "3.0.8",
+    "spicyweb/craft-neo": "4.4.3",
+    "verbb/field-manager": "3.0.9",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
