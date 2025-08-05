@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: a964af9c-e274-426b-86c7-57b05ab2443c # Default
 handle: leerkracht
+maxAuthors: 1
 name: Leerkracht
 propagationMethod: all
 siteSettings:

@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: 07c3457b-b52b-4825-82ad-7c77be131f59 # Default
 handle: tab
+maxAuthors: 1
 name: Tab
 propagationMethod: all
 siteSettings:

@@ -1,0 +1,40 @@
+columnSuffix: ylzhumup
+handle: wysiwygField
+instructions: null
+name: 'Content - Wysiwyg - Wysiwyg'
+searchable: false
+settings:
+  errorMessage: 'Unable to find component class ''craft\ckeditor\Field''.'
+  expectedType: craft\ckeditor\Field
+  settings:
+    __assoc__:
+      0:
+        - availableTransforms
+        - ''
+      1:
+        - availableVolumes
+        - '*'
+      2:
+        - ckeConfig
+        - 954a0594-9557-4cc8-bc11-354692af5b75 # Simple
+      3:
+        - columnType
+        - text
+      4:
+        - defaultTransform
+        - ''
+      5:
+        - enableSourceEditingForNonAdmins
+        - false
+      7:
+        - purifyHtml
+        - true
+      8:
+        - showUnpermittedFiles
+        - false
+      9:
+        - showUnpermittedVolumes
+        - false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MissingField

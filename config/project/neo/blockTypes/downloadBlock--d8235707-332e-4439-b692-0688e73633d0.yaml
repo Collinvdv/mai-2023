@@ -1,0 +1,94 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  195bb441-ab8b-424e-bc1b-c3d2d6e52f6a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ee1b836-70a3-4e0d-ad1a-0b304305d783
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 23561e8d-57f6-44d1-9d42-faa1d1e0d9a5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1361e7f7-f9a4-41c7-a9a2-da753572f7ac # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e4d5973a-d1f8-4f02-897e-aa147ef84ddb
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: dc0c4f69-bade-4542-a30a-4274a7193c1f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0a6ae889-cd44-4836-90c7-7eb4a7137ec5 # No spacing bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75e266bb-fd39-41f6-951d-203fa308756b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58464ad0-b829-4667-84ec-c723db89c5a5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: ac1bd1cf-15d8-4d00-8bf3-32f35d2c42ce
+        userCondition: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23
+groupChildBlockTypes: true
+handle: downloadBlock
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Download
+topLevel: true

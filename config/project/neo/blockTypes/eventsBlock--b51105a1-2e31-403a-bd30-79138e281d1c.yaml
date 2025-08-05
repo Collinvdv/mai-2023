@@ -1,0 +1,118 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  55f433aa-019a-4cf6-b6d4-9abe1c2e44c9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe304dc1-513f-4431-9497-a1cc66773076
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 497bf133-da9a-480b-8776-1b622fd6e2d7 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a77f6fc-1a28-4649-b64f-68e8355e7657
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b02ac359-d1ee-4107-a6cb-18305753f0ab # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ecd8874d-ff9b-409a-94e8-460abf366563
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7c8c2534-a381-4af5-918e-321a356324fa # Articles
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 46b17fe9-4668-4368-8d36-75300010b000
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dd04dccc-75d1-4a21-84a0-990e892a1977
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66015861-1ded-4028-a15a-715cbc9765fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a6ae889-cd44-4836-90c7-7eb4a7137ec5 # No spacing bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3fd6c061-0311-4f9d-8757-c6f4f25cd6ca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b68cc1a-b8ba-4df8-9f46-bb2610f8d69f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 5220f590-e70e-4ac7-b926-d6957c3c7fa6
+        userCondition: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23
+groupChildBlockTypes: true
+handle: eventsBlock
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Events
+topLevel: true

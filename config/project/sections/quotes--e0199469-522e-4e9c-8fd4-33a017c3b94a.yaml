@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: 3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2 # Default
 handle: quotes
+maxAuthors: 1
 name: Quotes
 propagationMethod: all
 siteSettings:

@@ -1,0 +1,74 @@
+color: null
+description: null
+fieldLayouts:
+  1f6c37b2-9174-4151-aff4-5852133793d5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 38587038-2595-4982-aa29-d71c2cfe7a49
+            handle: commonIcon
+            includeInCards: false
+            instructions: null
+            label: Icon
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3410b461-08f8-4570-8ecb-50f5f3f23d2d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 85defccc-d047-4c0f-b17d-5a1c382cde52
+            handle: commonTitle
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8017973-d072-4f82-960c-6135d33ba49a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: aac60a40-7152-4a58-aa77-a339451ff4bd
+            handle: commonSubtitle
+            includeInCards: false
+            instructions: null
+            label: Subtitle
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06c2f328-dcda-4428-9fba-ba8ec822584c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 282e08de-73d8-4ddb-a8cb-96f124541714
+        userCondition: null
+handle: numberBlock
+hasTitleField: false
+icon: null
+name: Number
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -187,7 +187,7 @@
                     <li>
                         {% include "/components/button.twig" with { 
                             href :link,
-                            text : link.getText(),
+                            text : link.text,
                             color: buttonBackground,
                         }
                             only
@@ -200,14 +200,14 @@
                         <li>
                             {% include "/components/button.twig" with { 
                                 href : secondaryLink,
-                                text : secondaryLink.getText(),
+                                text : secondaryLink.text,
                             } only %}
                         </li>
                     {% else %}
                         <li>
                             {% include "/components/link.twig" with { 
                                 href : secondaryLink,
-                                text : secondaryLink.getText(),
+                                text : secondaryLink.text,
                                 icon: "arrow-down"
                             } only %}
                         </li>

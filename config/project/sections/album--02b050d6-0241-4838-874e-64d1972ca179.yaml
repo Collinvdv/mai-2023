@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: 4f313438-37e8-461a-9c66-219cbed21a6d # Default
 handle: album
+maxAuthors: 1
 name: Album
 propagationMethod: all
 siteSettings:

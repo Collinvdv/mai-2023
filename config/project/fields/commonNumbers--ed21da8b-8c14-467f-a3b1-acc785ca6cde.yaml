@@ -1,16 +1,18 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
 handle: commonNumbers
 instructions: null
 name: Numbers
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_commonnumbers}}'
-  maxBlocks: 0
-  minBlocks: 0
+  entryTypes:
+    -
+      uid: e403b4c4-8fa5-44c8-842e-7c89e678f7e7
+  maxEntries: 0
+  minEntries: 0
   propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

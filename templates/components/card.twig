@@ -30,7 +30,7 @@
                 <li>
                     {% include "/components/link.twig" with { 
                         href : link.page,
-                        text : link.page.getText(),
+                        text : link.page.label ?? "",
                         color : card.commonColor,
                     } %}
                 </li>

@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: 649ea460-26ca-49d6-9270-7345c048c93a # Default
 handle: cards
+maxAuthors: 1
 name: Cards
 propagationMethod: all
 siteSettings:

@@ -10,6 +10,6 @@
 {# ========================================================================== #}
 {% include "/components/link.twig" with { 
     href : link,
-    text : link.getText(),
+    text : link.label ?? "",
     color: "shade"
 } %}

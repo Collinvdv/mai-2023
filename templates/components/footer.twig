@@ -40,7 +40,7 @@
                                 <ul class="grid gap-1 lg:gap-3">
                                     {% for link in column.commonLinks.all() %}
                                         <li>
-                                            <a class="font-normal underline text-sm" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                                            <a class="font-normal underline text-sm" href="{{ link.page }}">{{ link.page.label ?? "" }}</a>
                                         </li>
                                     {% endfor %}
                                 </ul>
@@ -60,7 +60,7 @@
                 <ul class="flex gap-6">
                     {% for link in footer.commonSecondaryLinks.all() %}
                         <li>
-                            <a class="font-normal underline text-sm" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                            <a class="font-normal underline text-sm" href="{{ link.page }}">{{ link.page.label ?? "" }}</a>
                         </li>
                     {% endfor %}
                 </ul>

@@ -1,4 +1,4 @@
-dateModified: 1754394554
+dateModified: 1754398530
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -26,7 +26,6 @@ meta:
   __names__:
     0a6ae889-cd44-4836-90c7-7eb4a7137ec5: 'No spacing bottom' # No spacing bottom
     0b75516d-23a5-4817-9c75-0c4c06368a53: Default # Default
-    0d3e4baf-1dfc-4231-b10d-9547b2b862af: Vakken # Vakken
     1a42c531-e28e-400c-bc5c-f8f24aabdc55: Footer # Footer
     1a83051b-5fff-4173-99ff-a16698a69da9: Mail # Mail
     1ca3d924-ca88-4ab1-a17f-80eba45b750b: NavColumns # NavColumns
@@ -34,110 +33,65 @@ meta:
     02b050d6-0241-4838-874e-64d1972ca179: Album # Album
     2c59abdd-6aa5-45e6-9849-e4bb69aa2a35: Cards # Cards
     2de925e3-f1b3-474f-aa3a-8917dc160d67: Body # Body
-    3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: Link # Link
+    3ae527fa-59b2-4c00-91d8-f4f595d8e1f5: 'Content - Link - Link' # Content - Link - Link
     3be7c2c3-8be2-4ae0-bcf1-e5987edd1214: Mai # Mai
     3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
     4f313438-37e8-461a-9c66-219cbed21a6d: Default # Default
-    5dde7fd6-5629-4f13-9298-5d323b2efaae: Link # Link
     6b8353f0-638c-4bdf-be1b-94ec215f6520: 'No spacing top' # No spacing top
     7c8c2534-a381-4af5-918e-321a356324fa: Articles # Articles
     07c3457b-b52b-4825-82ad-7c77be131f59: Default # Default
-    7ee58765-d756-46d9-be82-807891c1c3e6: Link # Link
-    8c903cee-b722-4e34-b825-4c974efd8306: Quotes # Quotes
-    8caa61ef-cdad-4867-ac16-04d13e285be4: Text # Text
-    8db3fc5a-318e-4c7d-98ab-73b3392beef2: Cta # Cta
-    8f009697-7260-4f23-b273-bd8c5d7e6239: Column # Column
     9b271a30-441e-4349-8015-e145efbaf982: Content # Content
-    9c5572d3-e72a-41ae-82ec-437424864aa3: Leerkrachten # Leerkrachten
     11aa3d74-6507-4456-9814-266b32e421a3: Phone # Phone
     42def604-6800-4588-8a73-5991539a3e96: Title # Title
-    55ca2b04-e644-4417-896c-e6f387111f47: Link # Link
     79f2f6d9-11d4-45d2-87f2-a1e7079ede77: 'Secondary Links' # Secondary Links
-    85defccc-d047-4c0f-b17d-5a1c382cde52: Title # Title
-    86dda1ef-f360-49f3-b7da-0333fab4a018: Cards # Cards
     91da989b-aca3-4a36-a126-0f3223887bd4: Icon # Icon
     92e56108-7d63-4d93-b353-6bfed2351e0d: 'Main menu' # Main menu
-    143ea218-89d4-4deb-b0d1-752d1c16e021: Color # Color
     168fa8bd-abcd-4636-9c11-529f65ec0c83: 'Show icons' # Show icons
     174b291e-740f-4a34-a49c-d7b3dd2a07b8: 'Secondary link' # Secondary link
-    238fe600-4471-43e3-865f-f2c7e82ec2ba: Hero # Hero
     356fedab-a40b-492a-aeb5-a14c954d468a: Cards # Cards
     409f2f02-3965-4be8-bd7b-92b48cfe34ea: Date # Date
-    441d1f23-8b51-4b02-9f4a-4d56a9f269ae: Image # Image
     448a95a7-11b0-4e1d-be6d-de1a71852362: Seo # Seo
-    456fe963-8095-43f7-9ac7-004950cdb04c: Title # Title
     476a6690-2335-460e-86cd-296e06c0a0cd: Default # Default
     497bf133-da9a-480b-8776-1b622fd6e2d7: Description # Description
     520ae88b-24db-491f-a50d-9ec2cb2dc5b5: Mai # Mai
     649ea460-26ca-49d6-9270-7345c048c93a: Default # Default
-    696b4fe9-5225-4cc6-8855-b52d7e464051: HeroSplit # HeroSplit
     729fa632-6c91-475f-9452-4323bf9d276e: columns # columns
-    856b199c-bf0a-411e-8602-8d7987c7261d: Leerkrachten # Leerkrachten
     954a0594-9557-4cc8-bc11-354692af5b75: Simple # Simple
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
-    2195a092-edf3-42ca-a72f-31f388846451: LessenTabel # LessenTabel
-    2572cc6b-3efd-4c06-ab90-e518fdb0c8e2: HeroDefault # HeroDefault
     2992a180-e291-47d9-a354-7771feb481e9: 'Buttons layout' # Buttons layout
     3008fa68-cbfa-4a59-aaa7-c3ebdd0452d2: Default # Default
     5994f1c4-513f-444d-98dd-a5a111b1b594: 'Footer column' # Footer column
-    06936d40-6287-4cf0-9565-4ea06bbc5f23: Body # Body
-    7588a71d-ca00-4f47-aff6-6663ee33ffd3: Link # Link
+    7588a71d-ca00-4f47-aff6-6663ee33ffd3: 'Links - Link - Link' # Links - Link - Link
     7629cf40-77cf-48c0-9273-b94cc0e10261: Homepage # Homepage
-    51507c64-e5ae-4b1c-bdd9-947e6683a11f: Split # Split
-    121613a3-afc2-46f2-aeae-6c2145dce302: Images # Images
     928188f5-5f18-49f8-8686-a8909488ee22: Homepage # Homepage
     28023629-b0b2-49a4-be67-febf5922699b: Leerkracht # Leerkracht
-    38587038-2595-4982-aa29-d71c2cfe7a49: Icon # Icon
-    46596497-ad0a-43bf-a0ae-c753c8deebd8: Styleguide # Styleguide
     77447950-c8b4-43fe-b1cf-a08e5a9c48f6: Icons # Icons
-    a3cd6bc3-592b-4058-8f6d-8cb76699417c: Link # Link
-    a5ed0481-924f-4d21-8870-09b85c31c135: Wysiwyg # Wysiwyg
+    a3cd6bc3-592b-4058-8f6d-8cb76699417c: 'Secondary Links - Link - Link' # Secondary Links - Link - Link
     a964af9c-e274-426b-86c7-57b05ab2443c: Default # Default
-    aa423c80-617f-4dc6-93bd-cdab09ff4b07: title # title
-    aac60a40-7152-4a58-aa77-a339451ff4bd: Subtitle # Subtitle
-    abcc9070-6cf5-479e-a757-26af8478cb2e: Numbers # Numbers
     adae52e8-4cf6-4f0e-ae1d-05059dbf611f: 'Background grey' # Background grey
     adc583d2-65c2-4163-99ea-8cb6887d5fb5: Color # Color
     b02ac359-d1ee-4107-a6cb-18305753f0ab: Links # Links
-    b02c6922-dfa1-4396-abfe-a3692bc842b0: Common # Common
-    b8d4dab5-2511-4436-a3ea-05cbbb1ab90e: Blogs # Blogs
     b8fabbb6-11e1-4a0a-b9a6-baae1db3524a: Tags # Tags
     b34da8dd-bc1c-4a58-bec8-6905e3ef312b: Default # Default
-    b51105a1-2e31-403a-bd30-79138e281d1c: Events # Events
     b83928a4-434a-4d7f-adbc-cf32a3af65aa: tags # tags
     bbdd6a96-72b4-4202-9064-22f8072dd476: Images # Images
     bc4fe5f1-a266-4485-a8a2-7e3356d1b1cd: Tab # Tab
-    be60d0fb-a29d-431e-8119-1a9c478c85bf: Color # Color
     c55ccb24-d933-47a8-bad8-09f6949a6012: 'Thumbmnail Image' # Thumbmnail Image
-    c508f4a0-5d4e-4e2a-9bd5-278ef4d3c32e: Facts # Facts
-    c36481a9-cb36-44da-ae17-ac62ecfcbb95: Tabs # Tabs
-    cbbe5a93-cae2-4865-b19d-2421361d2d58: Wysiwyg # Wysiwyg
     cd61c4a0-e231-485f-ae40-c115cfff9404: Albums # Albums
     ceb21329-439a-4697-8cb3-c475786b9a24: Vakken # Vakken
-    d7e5facb-1764-45e8-adf6-9ba20f28fb29: Image # Image
     d60168ef-0707-4f4f-9905-178cd9490e6c: vakken # vakken
     d5723907-aba7-45b9-b3bd-bdabadaded21: Evenementen # Evenementen
-    d8235707-332e-4439-b692-0688e73633d0: Download # Download
     daf4a979-115d-4d8d-aa10-8c448cbc2876: Default # Default
-    de569b4c-b687-4fe5-b6e9-b16af6f7d606: Link # Link
     e0199469-522e-4e9c-8fd4-33a017c3b94a: Quotes # Quotes
     e1ef80ef-31d4-47a1-a64c-c9c653b24257: Introduction # Introduction
-    e403b4c4-8fa5-44c8-842e-7c89e678f7e7: Number # Number
     e96245eb-37d4-475a-98ca-82ebcd5f62bc: Address # Address
-    e2979602-72a9-454e-96d4-e00c447d1ce3: HeroHomepage # HeroHomepage
-    ec6bd5db-a9d1-4d2e-9f8a-674d0f0361cf: Contact # Contact
-    ecad1f76-7b66-495c-adfe-89082ed0496a: Datetime # Datetime
     ed8dd9c1-2fa2-4da3-bdd1-a1d2488582b8: Quotes # Quotes
     ed21da8b-8c14-467f-a3b1-acc785ca6cde: Numbers # Numbers
-    f8a1ee58-abcd-4441-81e7-cb5ce83909b9: Album # Album
     f9c35266-6925-4ac5-b80c-3adc5631e970: Subtitle # Subtitle
     f650ff39-b930-480c-95f1-c651efdaacd6: Default # Default
-    f62465ee-64f8-4666-b7ba-47d87de3cbcc: Title # Title
-    fba2aaec-e621-4e22-b80d-9a27c18f12df: Timer # Timer
     fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac: Article # Article
-    ff440e52-0b0a-443c-9e55-f189c7170f0c: Hours # Hours
 plugins:
   ckeditor:
     edition: standard
@@ -151,7 +105,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 1GRMXX88V1PNT36DHHEKKU7O
-    schemaVersion: 4.0.0
+    schemaVersion: 5.1.0.1
   redactor:
     edition: standard
     enabled: true
@@ -173,7 +127,7 @@ system:
   edition: solo
   live: true
   name: Mai
-  schemaVersion: 4.15.0.0
+  schemaVersion: 5.8.0.3
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

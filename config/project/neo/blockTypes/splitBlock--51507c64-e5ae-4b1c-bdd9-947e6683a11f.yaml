@@ -1,0 +1,106 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 2de925e3-f1b3-474f-aa3a-8917dc160d67 # Body
+fieldLayouts:
+  f0f5130c-f8c2-42e5-8dd3-f4668e22056c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42def604-6800-4588-8a73-5991539a3e96 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30d0faa0-055d-466f-aaf5-6f75fec0c2cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b271a30-441e-4349-8015-e145efbaf982 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 744a3b4d-fde8-43b7-8c2f-6d31aca1684d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 035bdca3-2f77-4b49-b9c0-7296757111e8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: adc583d2-65c2-4163-99ea-8cb6887d5fb5 # Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e741217-a787-4f2f-bb1a-cadd23b78b3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: adae52e8-4cf6-4f0e-ae1d-05059dbf611f # Background grey
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8c2c940-7361-487d-bd01-dbb82e480f9b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a6ae889-cd44-4836-90c7-7eb4a7137ec5 # No spacing bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebda2874-fdac-4976-a73d-7821839a61aa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b8353f0-638c-4bdf-be1b-94ec215f6520 # No spacing top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9edddb99-74aa-4d48-b062-fe0c464a10a5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: ec302706-6b7f-46b2-b275-39ff4f65bfd2
+        userCondition: null
+group: 06936d40-6287-4cf0-9565-4ea06bbc5f23
+groupChildBlockTypes: true
+handle: splitBlock
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Split
+topLevel: true

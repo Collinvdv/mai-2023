@@ -1,0 +1,88 @@
+columnSuffix: kepubmgy
+handle: color2
+instructions: null
+name: 'Links - Title - Color'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - rose
+        -
+          - value
+          - rose
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - violet
+        -
+          - value
+          - violet
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - lavendel
+        -
+          - value
+          - lavendel
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - blue
+        -
+          - value
+          - blue
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - green
+        -
+          - value
+          - green
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - black
+        -
+          - value
+          - black
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - white
+        -
+          - value
+          - white
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

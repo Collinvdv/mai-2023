@@ -1,0 +1,74 @@
+color: null
+description: null
+fieldLayouts:
+  53d7b82f-9f88-4144-8f1c-6df2e73eb55f:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 456fe963-8095-43f7-9ac7-004950cdb04c
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 354c7547-6994-45ad-8475-0e09c8d13919
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: ff440e52-0b0a-443c-9e55-f189c7170f0c
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Hours
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68994a10-fde3-4061-9b81-c2f5e668ea41
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0d3e4baf-1dfc-4231-b10d-9547b2b862af
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Vakken
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 465247e4-7dd7-456b-9b92-643b3a3cb92c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1c08e99f-d363-4f85-ac44-674a466a509c
+        userCondition: null
+handle: courseBlock
+hasTitleField: false
+icon: null
+name: LessenTabel
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

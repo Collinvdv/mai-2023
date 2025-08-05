@@ -47,21 +47,21 @@
                     <div class="flex gap-4" >
                         {% include "/components/button.twig" with { 
                             href : data.commonLink,
-                            text : data.commonLink.getText(),
+                            text : data.commonLink.label ?? "",
                             color: "primary"
                         } %}
 
-                         {% if data.commonSecondaryLink.getUrl() %}
+                         {% if data.commonSecondaryLink %}
                             {% if data.commonButtonsLayout == "2Buttons" %}
                                 {% include "/components/button.twig" with { 
                                     href : data.commonSecondaryLink,
-                                    text :data.commonSecondaryLink.getText(),
+                                    text :data.commonSecondaryLink.text,
                                     color: "primary"
                                 } only %}
                             {% else %}
                                 {% include "/components/link.twig" with { 
                                     href : data.commonSecondaryLink,
-                                    text : data.commonSecondaryLink.getText(),
+                                    text : data.commonSecondaryLink.text,
                                     icon: "arrow-down"
                                 } only %}
                             {% endif %}

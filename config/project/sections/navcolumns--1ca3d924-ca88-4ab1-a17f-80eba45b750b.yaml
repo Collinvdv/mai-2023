@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: daf4a979-115d-4d8d-aa10-8c448cbc2876 # Default
 handle: navcolumns
+maxAuthors: 1
 name: NavColumns
 propagationMethod: all
 siteSettings:

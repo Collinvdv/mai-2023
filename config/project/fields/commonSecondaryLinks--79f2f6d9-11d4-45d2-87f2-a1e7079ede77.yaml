@@ -1,16 +1,19 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: b02c6922-dfa1-4396-abfe-a3692bc842b0 # Common
 handle: commonSecondaryLinks
 instructions: null
 name: 'Secondary Links'
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_commonsecondarylinks}}'
-  maxBlocks: null
-  minBlocks: null
+  entryTypes:
+    -
+      handle: linkBlock
+      uid: 5dde7fd6-5629-4f13-9298-5d323b2efaae
+  maxEntries: null
+  minEntries: null
   propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

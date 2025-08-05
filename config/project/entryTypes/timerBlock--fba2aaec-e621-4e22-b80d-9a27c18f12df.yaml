@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  d350ab30-8ed0-4a5d-9620-0aa13176b384:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: ecad1f76-7b66-495c-adfe-89082ed0496a
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Datetime
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e0b9754-60cb-4e3e-aef4-96e0391383f1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fa6d9c0d-c717-481e-91a4-f66ad54d6373
+        userCondition: null
+handle: timerBlock
+hasTitleField: false
+icon: null
+name: Timer
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

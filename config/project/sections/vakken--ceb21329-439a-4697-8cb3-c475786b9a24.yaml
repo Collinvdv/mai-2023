@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: 476a6690-2335-460e-86cd-296e06c0a0cd # Default
 handle: vakken
+maxAuthors: 1
 name: Vakken
 propagationMethod: all
 siteSettings:

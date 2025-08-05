@@ -9,7 +9,7 @@
 
     {% include "/components/link.twig" with { 
         href : header.commonLink,
-        text : header.commonLink.getText(),
+        text : header.commonLink.label ,
         color: "white",
         isSmall: true
     } %}
@@ -21,7 +21,8 @@
         <ul class="flex justify-end gap-6">
             {% for link in header.commonSecondaryLinks.all() %}
                 <li>
-                    <a class="font-normal text-sm" href="{{ link.page }}" target="{{ link.page.getTarget() }}">{{ link.page.getText() }}</a>
+                {# @todo add label {{ link.page.label ?? "" }} #}
+                    <a class="font-normal text-sm" href="{{ link }}"></a>
                 </li>
             {% endfor %}
         </ul>
@@ -47,7 +48,7 @@
                     <div class="relative">
                         {% if menuItem.columns|length == 0 %}
                             <a href="{{menuItem.commonLink}}" >
-                                {{ menuItem.commonLink.getText()}}
+                                {{ menuItem.commonLink.label ?? ""}}
                             </a>
                         {% endif %}
 
@@ -55,7 +56,7 @@
                         {% if menuItem.columns|length > 0 %}
                             <div x-data="{ open: false }" @click.outside="open = false">
                                 <span @click="open = !open" class="cursor-pointer flex items-center">
-                                    {{ menuItem.commonLink.getText()}}
+                                    {{ menuItem.commonLink.label ?? ""}}
 
                                     <div class="pl-2">
                                         {% include "/components/icons/check-down.twig" with { 
@@ -92,7 +93,7 @@
                                                             {% if link.type == "linkBlock" %}
                                                                 {% include "/components/link.twig" with { 
                                                                     href : link.page,
-                                                                    text : link.page.getText(),
+                                                                    text : link.page.label ?? "",
                                                                     color: link.color ?? "shade",
                                                                 } %}
                                                             {% endif %}
@@ -149,7 +150,7 @@
                     <div class="relative">
                         {% if menuItem.columns|length == 0 %}
                             <a href="{{menuItem.commonLink}}" class="inline-block font-semibold text-lg pb-4 cursor-pointer" >
-                                {{ menuItem.commonLink.getText()}}
+                                {{ menuItem.commonLink.label ?? ""}}
                             </a>
                         {% endif %}
 
@@ -157,7 +158,7 @@
                         {% if menuItem.columns|length > 0 %}
                             <div x-data="{ open: false }">
                                 <span @click="open = !open" class="flex items-center font-semibold text-lg pb-4 cursor-pointer">
-                                    {{ menuItem.commonLink.getText()}}
+                                    {{ menuItem.commonLink.label ?? ""}}
 
                                     <div class="pl-2">
                                         {% include "/components/icons/check-down.twig" with { 
@@ -188,7 +189,7 @@
                                                             {% if link.type == "linkBlock" %}
                                                                 {% include "/components/link.twig" with { 
                                                                     href : link.page,
-                                                                    text : link.page.getText(),
+                                                                    text : link.page.label ?? "",
                                                                     color: link.color ?? "shade",
                                                                 } %}
                                                             {% endif %}
@@ -210,7 +211,7 @@
         <ul class="flex flex-col mt-12">
             {% for link in header.commonSecondaryLinks.all() %}
                 <li>
-                    <a class="font-normal text-base mb-3 block" href="{{ link.page }}">{{ link.page.getText() }}</a>
+                    <a class="font-normal text-base mb-3 block" href="{{ link.page }}">{{ link.page.label ?? "" }}</a>
                 </li>
             {% endfor %}
         </ul>
