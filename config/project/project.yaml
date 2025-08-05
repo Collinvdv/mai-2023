@@ -1,4 +1,4 @@
-dateModified: 1753972504
+dateModified: 1754394554
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -74,6 +74,7 @@ meta:
     696b4fe9-5225-4cc6-8855-b52d7e464051: HeroSplit # HeroSplit
     729fa632-6c91-475f-9452-4323bf9d276e: columns # columns
     856b199c-bf0a-411e-8602-8d7987c7261d: Leerkrachten # Leerkrachten
+    954a0594-9557-4cc8-bc11-354692af5b75: Simple # Simple
     997aca51-52f5-493b-bc04-26485137c93d: Pages # Pages
     1361e7f7-f9a4-41c7-a9a2-da753572f7ac: Link # Link
     2195a092-edf3-42ca-a72f-31f388846451: LessenTabel # LessenTabel
@@ -138,6 +139,10 @@ meta:
     fe75b8a5-224a-4cd0-bbf4-b20de9d4ccac: Article # Article
     ff440e52-0b0a-443c-9e55-f189c7170f0c: Hours # Hours
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   field-manager:
     edition: standard
     enabled: true

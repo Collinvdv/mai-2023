@@ -1,0 +1,18 @@
+{
+  "toolbar": {
+    "items": [
+      "bold",
+      "italic",
+      "|",
+      "link",
+      "|",
+      "bulletedList",
+      "numberedList",
+      "|",
+      "undo",
+      "redo"
+    ]
+  },
+  "language": "en",
+  "removePlugins": ["MediaEmbedToolbar"]
+}
