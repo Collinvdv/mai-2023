@@ -4,11 +4,29 @@ instructions: null
 name: Link
 searchable: false
 settings:
+  advancedFields:
+    - target
   fullGraphqlData: true
   maxLength: 255
   showLabelField: true
   typeSettings:
     __assoc__:
+      -
+        - asset
+        -
+          __assoc__:
+            -
+              - sources
+              - '*'
+            -
+              - allowedKinds
+              - '*'
+            -
+              - showUnpermittedVolumes
+              - ''
+            -
+              - showUnpermittedFiles
+              - ''
       -
         - entry
         -
@@ -38,6 +56,7 @@ settings:
   types:
     - entry
     - url
+    - asset
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Link

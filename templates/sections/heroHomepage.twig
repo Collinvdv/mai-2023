@@ -55,13 +55,13 @@
                             {% if data.commonButtonsLayout == "2Buttons" %}
                                 {% include "/components/button.twig" with { 
                                     href : data.commonSecondaryLink,
-                                    text :data.commonSecondaryLink.text,
+                                    text :data.commonSecondaryLink.label ?? "",
                                     color: "primary"
                                 } only %}
                             {% else %}
                                 {% include "/components/link.twig" with { 
                                     href : data.commonSecondaryLink,
-                                    text : data.commonSecondaryLink.text,
+                                    text : data.commonSecondaryLink.label ?? "",
                                     icon: "arrow-down"
                                 } only %}
                             {% endif %}

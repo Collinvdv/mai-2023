@@ -183,7 +183,7 @@
 
             {# Buttons #}
             <ul class="flex gap-8 items-center">
-                {% if link.getUrl() %}
+                {% if link %}
                     <li>
                         {% include "/components/button.twig" with { 
                             href :link,
@@ -195,7 +195,7 @@
                     </li>
                 {% endif %}
 
-                {% if secondaryLink.getUrl() %}
+                {% if secondaryLink %}
                     {% if data.commonButtonsLayout == "2Buttons" %}
                         <li>
                             {% include "/components/button.twig" with { 

@@ -1,5 +1,6 @@
 {
   "require": {
+    "craftcms/ckeditor": "4.9.0",
     "craftcms/cms": "^5.0.0",
     "nystudio107/craft-seomatic": "^5.0.0",
     "spicyweb/craft-neo": "^5.0.0",

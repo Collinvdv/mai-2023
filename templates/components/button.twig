@@ -11,7 +11,7 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-<a class="relative py-3 px-6 cursor-pointer bg-{{color}} group flex items-center" {% if type == "asset" %} download {% endif %}  href="{{href}}"  {% if href.getLinkAttributes() is defined %} {{ href.getLinkAttributes() }} {% endif %}>
+<a class="relative py-3 px-6 cursor-pointer bg-{{color}} group flex items-center" {% if type == "asset" %} download {% endif %}  href="{{href}}" {% if href.target %}target="{{ href.target }}" {% endif %}>
     <span class=" {% if isSmall %} text-sm {% endif %} relative z-30">
         {{ text | raw }}
     </span>

@@ -8,7 +8,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: null
+            dateAdded: '2025-08-05T13:25:40+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: a3cd6bc3-592b-4058-8f6d-8cb76699417c # Secondary Links - Link - Link

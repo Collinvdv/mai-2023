@@ -4,9 +4,11 @@ instructions: null
 name: 'Secondary Links - Link - Link'
 searchable: false
 settings:
+  advancedFields:
+    - target
   fullGraphqlData: true
   maxLength: 255
-  showLabelField: false
+  showLabelField: true
   typeSettings:
     __assoc__:
       -
@@ -35,9 +37,26 @@ settings:
             -
               - allowCustomSchemes
               - ''
+      -
+        - asset
+        -
+          __assoc__:
+            -
+              - sources
+              - '*'
+            -
+              - allowedKinds
+              - '*'
+            -
+              - showUnpermittedVolumes
+              - ''
+            -
+              - showUnpermittedFiles
+              - ''
   types:
     - entry
     - url
+    - asset
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Link

@@ -23,11 +23,11 @@
 
             {# Buttons #}
             <ul class="flex gap-8 items-center">
-                {% if link and link.text %}
+                {% if link and link.label %}
                     <li>
                         {% include "/components/button.twig" with { 
                             href :link,
-                            text : link.text,
+                            text : link.label,
                             type: link.getType(),
                             color: "primary",
                             icon: "download"

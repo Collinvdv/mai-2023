@@ -8,7 +8,7 @@ settings:
   entryTypes:
     -
       handle: linkBlock
-      uid: 5dde7fd6-5629-4f13-9298-5d323b2efaae
+      uid: 5dde7fd6-5629-4f13-9298-5d323b2efaae # Link
   maxEntries: null
   minEntries: null
   propagationKeyFormat: null

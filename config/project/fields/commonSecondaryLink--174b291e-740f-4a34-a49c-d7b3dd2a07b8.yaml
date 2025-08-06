@@ -37,9 +37,26 @@ settings:
             -
               - allowCustomSchemes
               - ''
+      -
+        - asset
+        -
+          __assoc__:
+            -
+              - sources
+              - '*'
+            -
+              - allowedKinds
+              - '*'
+            -
+              - showUnpermittedVolumes
+              - ''
+            -
+              - showUnpermittedFiles
+              - ''
   types:
     - entry
     - url
+    - asset
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Link

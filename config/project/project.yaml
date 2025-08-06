@@ -1,4 +1,4 @@
-dateModified: 1754398530
+dateModified: 1754474900
 email:
   fromEmail: info@collinvandervorst.be
   fromName: Mai
@@ -38,6 +38,7 @@ meta:
     3f7ef950-8dc3-4a77-b807-2dbb0168bcf1: Tabs # Tabs
     3fed10c6-640f-4012-aff1-a5a914e2e3ad: Image # Image
     4f313438-37e8-461a-9c66-219cbed21a6d: Default # Default
+    5dde7fd6-5629-4f13-9298-5d323b2efaae: Link # Link
     6b8353f0-638c-4bdf-be1b-94ec215f6520: 'No spacing top' # No spacing top
     7c8c2534-a381-4af5-918e-321a356324fa: Articles # Articles
     07c3457b-b52b-4825-82ad-7c77be131f59: Default # Default
