@@ -5,6 +5,9 @@
       "italic",
       "|",
       "link",
+      "craftAsset",
+      "|",
+      "insertImage",
       "|",
       "bulletedList",
       "numberedList",
@@ -14,5 +17,12 @@
     ]
   },
   "language": "en",
-  "removePlugins": ["MediaEmbedToolbar"]
+  "image": {
+    "toolbar": [
+      "imageTextAlternative",
+      "imageStyle:inline",
+      "imageStyle:block",
+      "imageStyle:side"
+    ]
+  }
 }

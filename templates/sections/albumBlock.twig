@@ -15,7 +15,7 @@
             <ul class="grid lg:grid-cols-3 w-full gap-12">
                 {% for album in albums %}
                     <li class=" w-full transition ease-in-out transform cursor-pointer md:hover:translate-y-4">
-                        <a href="{{ album.commonLink.getUrl() }}" target="_blank">
+                        <a href="{{ album.commonLink }}" target="_blank">
                             {# Image #}
                             {% if album.commonThumbmnailImage.one() %}
                                 <div class="relative bg-cover w-full h-64 rounded-tr-5rem rounded-bl-5rem flex justify-center items-center py-2 text-white" style="background-image: url('{{ album.commonThumbmnailImage.one().getUrl({

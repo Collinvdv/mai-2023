@@ -186,9 +186,10 @@
                 {% if link %}
                     <li>
                         {% include "/components/button.twig" with { 
-                            href :link,
-                            text : link.text,
+                            text : link.label,
                             color: buttonBackground,
+                            href : link,
+
                         }
                             only
                         %}

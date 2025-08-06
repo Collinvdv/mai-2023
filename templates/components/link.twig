@@ -12,8 +12,7 @@
 {# ========================================================================== #}
 {# :: Component #}
 {# ========================================================================== #}
-{# @todo {% if href.target %}target="{{ href.target }}" {% endif %} #}
-<a class="c-link flex items-center cursor-pointer {{customClasses}}" href="{{href}}" {% if download %} download {% endif %} >
+<a class="c-link flex items-center cursor-pointer {{customClasses}}" href="{{href}}" {% if download %} download {% endif %} {% if href.target is defined %}target="{{ href.target }}" {% endif %} >
     <span class="mr-2 border-b-1 border-b-{{color}} {% if isSmall %} text-sm {% endif %}">
         {{ text | raw }}
     </span>

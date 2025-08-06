@@ -12,3 +12,6 @@ toolbar:
   - bold
   - italic
   - link
+  - insertImage
+  - codeBlock
+  - sourceEditing
